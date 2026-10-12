@@ -2,9 +2,13 @@
 import type { Book } from "../lib/books";
 interface Props { book: Book; eager?: boolean; }
 const { book, eager = false } = Astro.props;
+const crop = book.data.coverCrop;
+const cropStyle = crop
+  ? `object-fit:fill;max-width:none;width:${10000 / (100 - crop.left - crop.right)}%;height:${10000 / (100 - crop.top - crop.bottom)}%;left:${-100 * crop.left / (100 - crop.left - crop.right)}%;top:${-100 * crop.top / (100 - crop.top - crop.bottom)}%;`
+  : undefined;
 const hue = [...book.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 70 + 145;
 ---
 <div class="cover" style={`--cover-hue:${hue}`}>
   <div class="cover-fallback" aria-hidden="true"><span class="cover-rule">THE PERSONAL LIBRARY</span><strong>{book.data.title}</strong><span>{book.data.author}</span></div>
-  {book.data.cover && <img src={book.data.cover} alt={`Cover of ${book.data.title}`} width="300" height="450" loading={eager ? "eager" : "lazy"} decoding="async" referrerpolicy="no-referrer" />}
+  {book.data.cover && <img style={cropStyle} src={book.data.cover} alt={`Cover of ${book.data.title}`} width="300" height="450" loading={eager ? "eager" : "lazy"} decoding="async" referrerpolicy="no-referrer" />}
 </div>

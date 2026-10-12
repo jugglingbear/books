@@ -56,6 +56,8 @@ descriptionStatus: "reviewed"
 - Keep short fiction, anthologies, adaptations, and genuinely different versions distinguishable.
 - Merge alternate narrations and multi-disc tracks when they represent the same work.
 - Prefer verified US print covers. Never assume a cover is American solely from its language or an ISBN prefix.
+- Optional `coverCrop` records top/right/bottom/left crop percentages (0–40) for packaging borders.
+- Prefer clean artwork; verify any crop keeps the full title and author visible at card and detail sizes.
 - Store a cover's exact edition source; use the designed fallback when a reliable matching image cannot be found.
 - Do not fabricate bibliographic fields. Unknown years stay `null`; unavailable URLs stay empty.
 - Write original descriptions about premise and themes, without plot resolutions or spoilers from previous volumes.

@@ -14,6 +14,12 @@ const books = defineCollection({
     listened: z.boolean().default(false),
     audioSources: z.array(z.enum(["Audible", "GraphicAudio"])).default([]),
     cover: z.url().or(z.literal("")).default(""),
+    coverCrop: z.object({
+      top: z.number().min(0).max(40),
+      right: z.number().min(0).max(40),
+      bottom: z.number().min(0).max(40),
+      left: z.number().min(0).max(40),
+    }).optional(),
     coverSource: z.url().or(z.literal("")).default(""),
     coverRegion: z.string().default(""),
     source: z.url().or(z.literal("")).default(""),
