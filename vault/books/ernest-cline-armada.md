@@ -3,7 +3,7 @@ title: "Armada"
 author: "Ernest Cline"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"

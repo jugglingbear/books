@@ -1,9 +1,9 @@
 ---
 title: "Ready Player One"
 author: "Ernest Cline"
-series: ""
-order: null
-read: null
+series: "Ready Player"
+order: 1
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
