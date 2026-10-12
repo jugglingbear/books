@@ -14,3 +14,23 @@ const featured = ["The Name of the Wind", "The Way of Kings", "The Night Circus"
   <div class="stats-bar wrap"><div><strong>{books.length}</strong><span>titles collected</span></div><div><strong>{authors.length}</strong><span>author credits</span></div><a href={`${base}/series/`}><strong>{series.length + universes.length}</strong><span>series & universes ↗</span></a><div class="stats-note"><span class="tiny-dot"></span>A growing library, one story at a time.</div></div>
   <div class="wrap"><Library books={books}/></div>
 </Layout>
+
+<script>
+  import { sampleBooks } from "../lib/catalog.mjs";
+  // Reuse rendered covers so edition-specific cropping and fallback artwork stay consistent.
+  const candidates = [...document.querySelectorAll<HTMLAnchorElement>("[data-library] .book-cover-link")]
+    .filter((link) => link.querySelector("img"));
+  const slots = [...document.querySelectorAll<HTMLAnchorElement>(".hero-book")];
+  sampleBooks(candidates, slots.length).forEach((source, index) => {
+    const slot = slots[index];
+    const cover = source.querySelector(".cover")!.cloneNode(true) as HTMLElement;
+    const image = cover.querySelector<HTMLImageElement>("img")!;
+    image.loading = "eager";
+    image.hidden = false;
+    image.addEventListener("error", () => { image.hidden = true; });
+    slot.href = source.href;
+    slot.setAttribute("aria-label", source.getAttribute("aria-label")!);
+    slot.replaceChildren(cover);
+    if (image.complete && image.naturalWidth === 0) image.hidden = true;
+  });
+</script>

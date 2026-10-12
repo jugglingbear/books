@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { compareTitles, matchesQuery, matchesShelf, matchesStatus, shelfGenres, statusLabel } from "../src/lib/catalog.mjs";
+import { compareTitles, matchesQuery, matchesShelf, matchesStatus, shelfGenres, statusLabel, sampleBooks } from "../src/lib/catalog.mjs";
 
 test("search combines title, author and series words and ignores punctuation", () => {
   const text = "The Wise Man’s Fear Patrick Rothfuss The Kingkiller Chronicle";
@@ -57,4 +57,13 @@ test("changing to Cosmere excludes stale Dystopian genre while retaining compati
   assert.equal(cosmere.has("Fantasy"), true);
   assert.equal(cosmere.has("Science Fiction"), true);
   assert.equal(shelfGenres(books, "").has("Dystopian"), true);
+});
+
+test("featured books are sampled without duplicates or changing catalog order", () => {
+  const books = ["one", "two", "three", "four"];
+  assert.deepEqual(sampleBooks(books, 3, () => 0), ["one", "two", "three"]);
+  assert.deepEqual(sampleBooks(books, 3, () => 0.99), ["four", "three", "two"]);
+  assert.deepEqual(books, ["one", "two", "three", "four"]);
+  assert.deepEqual(sampleBooks([], 3), []);
+  assert.deepEqual(sampleBooks(["one"], 3), ["one"]);
 });

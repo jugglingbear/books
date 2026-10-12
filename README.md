@@ -81,7 +81,9 @@ Book records contain editable `genres` lists. These are broad editorial shelf ca
 multiple genres. Genre selection combines with the other filters and is preserved in the search URL.
 Book and series titles sort A–Z ignoring leading “A,” “An,” and “The,” with numeric volume ordering.
 Displayed titles stay unchanged; author sorting uses the displayed author credit.
-Series pages default to series order. The three hero books are fixed featured selections.
+Series pages default to series order.
+The three hero books are randomly selected without duplicates from books with covers on each page load.
+Without JavaScript, three fixed featured selections remain visible.
 
 ## Shared universes
 

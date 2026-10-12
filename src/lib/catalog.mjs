@@ -44,3 +44,14 @@ export function shelfGenres(books, selection) {
   return new Set(books.filter((book) => matchesShelf(book.series, book.universe, selection))
     .flatMap((book) => book.genres));
 }
+
+/** Sample without replacement, leaving the collection and its ordering unchanged. */
+export function sampleBooks(items, count, random = Math.random) {
+  const pool = [...items];
+  const selected = [];
+  while (selected.length < count && pool.length) {
+    const index = Math.floor(random() * pool.length);
+    selected.push(pool.splice(index, 1)[0]);
+  }
+  return selected;
+}
