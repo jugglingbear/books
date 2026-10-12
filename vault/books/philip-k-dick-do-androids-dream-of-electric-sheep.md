@@ -1,5 +1,5 @@
 ---
-title: "Do Androids Dream of Electric Sheep"
+title: "Do Androids Dream of Electric Sheep?"
 author: "Philip K. Dick"
 series: ""
 order: null
@@ -7,8 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6475177-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL24201837M"
+cover: "https://images.penguinrandomhouse.com/cover/9780345404473"
+coverSource: "https://www.penguinrandomhouse.com/books/40617/do-androids-dream-of-electric-sheep-by-philip-k-dick/"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2172356W"
 year: null
