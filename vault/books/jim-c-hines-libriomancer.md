@@ -3,7 +3,7 @@ title: "Libriomancer"
 author: "Jim C. Hines"
 series: "Magic Ex Libris"
 order: 1
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

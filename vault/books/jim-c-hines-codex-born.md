@@ -3,7 +3,7 @@ title: "Codex Born"
 author: "Jim C. Hines"
 series: "Magic Ex Libris"
 order: 2
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
