@@ -3,7 +3,7 @@ title: "The Night Circus"
 author: "Erin Morgenstern"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
