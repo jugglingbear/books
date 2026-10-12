@@ -7,11 +7,11 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-bigfoot-on-campus.png"
+cover: "/covers/custom/jim-butcher-bigfoot-on-campus-reviewed.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
-source: ""
+source: "https://www.jim-butcher.com/books/dresden/side-jobs"
 year: null
 descriptionStatus: "reviewed"
 ---

@@ -82,6 +82,11 @@ in the completion report; keep unsupported optional fields empty or `null` rathe
    specific title and search limitation. Do not silently assign a collection cover to a story. Generate custom art only
    when explicitly requested; save it in `public/covers/custom/` and set `coverCredit: "Custom AI-generated artwork"`.
    Custom artwork has no official edition source or region.
+6. Before generating custom artwork, verify the individual story's opening premise from author/publisher material,
+   consulting reliable secondary summaries only for gaps. Use established settings or restrained symbolic objects.
+   Check character identity, clothing, physical details, location, and period; omit uncertain details rather than guess.
+   Exclude culprit identities, hidden abilities, special weapons, resolutions, and spoilers for preceding books.
+   Inspect the finished image for unrequested objects or symbols that imply unsupported story content.
 
 ## Validate and finish
 

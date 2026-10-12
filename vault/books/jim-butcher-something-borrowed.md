@@ -11,7 +11,7 @@ cover: "/covers/custom/jim-butcher-something-borrowed.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
-source: ""
+source: "https://www.jim-butcher.com/books/dresden/side-jobs"
 year: null
 descriptionStatus: "reviewed"
 ---

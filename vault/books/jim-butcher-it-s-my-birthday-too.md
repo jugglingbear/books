@@ -7,13 +7,14 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-it-s-my-birthday-too.png"
+cover: "/covers/custom/jim-butcher-it-s-my-birthday-too-reviewed.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
-source: ""
+source: "https://www.jim-butcher.com/books/dresden/side-jobs"
 year: null
 descriptionStatus: "reviewed"
 ---
 
-A birthday visit becomes complicated by trouble in a place where Harry hoped to spend a quiet evening.
+Harry and Molly set out to deliver a birthday present to Thomas, but a visit to a closed shopping mall becomes
+anything but routine.
