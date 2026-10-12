@@ -3,7 +3,7 @@ title: "The Five Love Languages"
 author: "Gary Chapman"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 genres: ["Nonfiction", "Self-Help"]
 kind: "Book"
