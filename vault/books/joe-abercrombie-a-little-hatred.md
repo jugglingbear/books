@@ -3,7 +3,7 @@ title: "A Little Hatred"
 author: "Joe Abercrombie"
 series: "Age of Madness"
 order: 1.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

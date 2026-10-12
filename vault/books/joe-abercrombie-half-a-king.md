@@ -3,7 +3,7 @@ title: "Half a King"
 author: "Joe Abercrombie"
 series: "Shattered Sea"
 order: 1.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

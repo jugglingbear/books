@@ -3,7 +3,7 @@ title: "The Trouble with Peace"
 author: "Joe Abercrombie"
 series: "Age of Madness"
 order: 2.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

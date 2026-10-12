@@ -3,7 +3,7 @@ title: "Last Argument Of Kings"
 author: "Joe Abercrombie"
 series: "The First Law"
 order: 3.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

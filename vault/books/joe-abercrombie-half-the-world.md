@@ -3,7 +3,7 @@ title: "Half the World"
 author: "Joe Abercrombie"
 series: "Shattered Sea"
 order: 2.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

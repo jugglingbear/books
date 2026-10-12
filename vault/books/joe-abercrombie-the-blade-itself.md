@@ -3,7 +3,7 @@ title: "The Blade Itself"
 author: "Joe Abercrombie"
 series: "The First Law"
 order: 1.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

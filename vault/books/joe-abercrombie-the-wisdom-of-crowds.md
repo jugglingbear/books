@@ -3,7 +3,7 @@ title: "The Wisdom of Crowds"
 author: "Joe Abercrombie"
 series: "Age of Madness"
 order: 3.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

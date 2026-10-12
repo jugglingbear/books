@@ -3,7 +3,7 @@ title: "Sharp Ends"
 author: "Joe Abercrombie"
 series: "The First Law"
 order: 7.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Collection"

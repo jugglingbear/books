@@ -3,7 +3,7 @@ title: "The Heroes"
 author: "Joe Abercrombie"
 series: "The First Law"
 order: 5.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
