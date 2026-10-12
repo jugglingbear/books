@@ -3,7 +3,7 @@ title: "New Moon"
 author: "Stephenie Meyer"
 series: "Twilight"
 order: 2.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"

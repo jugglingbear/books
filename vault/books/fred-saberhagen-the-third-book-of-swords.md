@@ -3,7 +3,7 @@ title: "The Third Book of Swords"
 author: "Fred Saberhagen"
 series: "Books of Swords"
 order: 3.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

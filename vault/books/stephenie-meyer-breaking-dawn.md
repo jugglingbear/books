@@ -3,7 +3,7 @@ title: "Breaking Dawn"
 author: "Stephenie Meyer"
 series: "Twilight"
 order: 4.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"

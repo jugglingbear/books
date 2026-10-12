@@ -3,7 +3,7 @@ title: "Sightblinder's Story"
 author: "Fred Saberhagen"
 series: "Books of Swords"
 order: 5.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
