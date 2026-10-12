@@ -23,10 +23,9 @@ to show both badges. Set an explicit `false` only when that status is known. The
 catalog; visitors cannot change the owner's reading history. New photo imports default to unread (`read: false`) and
 not listened (`listened: false`) unless confirmed otherwise, while preserving any existing recorded history.
 
-Audiobook editions use small Audible and GraphicAudio badges. Record known sources with
-`audioSources: ["Audible", "GraphicAudio"]`; omit the field or use `[]` when unconfirmed. A book can have both
-editions. Source badges are independent of read/listened status. Initial GraphicAudio labels come from explicit
-folder names; an unmarked recording is not assumed to be Audible.
+Known audiobook edition sources are retained as optional catalog metadata in `audioSources`, but are not displayed
+on the site. Reading and listening badges remain independent of the edition source. Existing source metadata is
+preserved so the display can be restored later if desired.
 
 See [catalog guidance](.github/copilot-instructions.md) and the [import notes](docs/import.md) before adding records.
 

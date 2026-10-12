@@ -2,7 +2,6 @@
 import { render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import Cover from "../../components/Cover.astro";
-import AudioSources from "../../components/AudioSources.astro";
 import Status from "../../components/Status.astro";
 import BookCard from "../../components/BookCard.astro";
 import { catalog, inSeries, seriesUrl, universeUrl, base } from "../../lib/books";
@@ -24,7 +23,6 @@ const { Content } = await render(book);
       {universe && <p class="detail-series"><a href={universeUrl(universe)}>Shared universe · {universe.data.title} ↗</a></p>}
       {relatedUniverse && <p class="detail-series"><a href={universeUrl(relatedUniverse)}>Related draft (non-canon) · {relatedUniverse.data.title} ↗</a></p>}
       <Status read={book.data.read} listened={book.data.listened}/>
-      <AudioSources sources={book.data.audioSources}/>
       <p class="genre-tags">{book.data.genres.map((genre) => <a href={`${base}/?genre=${encodeURIComponent(genre)}`}>{genre}</a>)}</p>
       <div class="synopsis"><span class="eyebrow">ABOUT THIS BOOK · SPOILER-FREE</span><div class="prose"><Content/></div></div>
       <div class="reading-record"><h2>On my shelf</h2><p><strong>Listening</strong><span>{book.data.listened ? "Listened" : "Not recorded"}</span></p><p><strong>Reading</strong><span>{book.data.read === true ? "Read" : book.data.read === false ? "Not read" : "Not recorded yet"}</span></p></div>

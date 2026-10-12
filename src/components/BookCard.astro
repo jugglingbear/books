@@ -1,6 +1,5 @@
 ---
 import Cover from "./Cover.astro";
-import AudioSources from "./AudioSources.astro";
 import Status from "./Status.astro";
 import { bookUrl, type Book } from "../lib/books";
 interface Props { book: Book; }
@@ -13,6 +12,5 @@ const { book } = Astro.props;
     <h3><a href={bookUrl(book)}>{book.data.title}</a></h3>
     <p class="author">{book.data.author}</p>
     <Status read={book.data.read} listened={book.data.listened}/>
-      <AudioSources sources={book.data.audioSources}/>
   </div>
 </article>
