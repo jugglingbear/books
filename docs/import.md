@@ -46,6 +46,8 @@ later-volume descriptions avoid naming plot outcomes from earlier volumes.
 ## Metadata and cover sources
 
 Public [Open Library metadata](https://openlibrary.org/developers/api) supplies work references and cover editions.
+Missing covers are also researched through author and publisher sites, GraphicAudio, US Apple Books listings,
+and edition galleries. A US storefront alone does not confirm that artwork belongs to a US print edition.
 Edition locations are used to prefer US covers, with other English editions and typographic jackets as fallbacks.
 Translated work titles, subtitles, and volume numbers need explicit reconciliation; approximate matches alone are
 not sufficient evidence that a cover depicts the right volume.
