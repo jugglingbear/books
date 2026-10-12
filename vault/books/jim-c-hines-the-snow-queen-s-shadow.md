@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.jimchines.com/wp-content/uploads/2014/03/Snow-Queen-Lg-300x480.jpg"
+coverFit: "contain"
+coverSource: "https://www.jimchines.com/project/princesses/"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL16684140W"
 year: null
 descriptionStatus: "reviewed"

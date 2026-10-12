@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.jimchines.com/wp-content/uploads/2014/03/Mermaid-Lg-300x487.jpg"
+coverFit: "contain"
+coverSource: "https://www.jimchines.com/project/princesses/"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15542527W"
 year: null
 descriptionStatus: "reviewed"

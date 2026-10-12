@@ -7,9 +7,10 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1594619899i/54433225.jpg"
+coverFit: "contain"
+coverSource: "https://www.goodreads.com/book/show/54433225-the-way-of-kings-prime"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL36711731W"
 year: null
 descriptionStatus: "reviewed"

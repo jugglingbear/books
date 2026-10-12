@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://images4.penguinrandomhouse.com/cover/9780345455871"
+coverFit: "contain"
+coverSource: "https://www.penguinrandomhouse.com/books/174347/caine-black-knife-by-matthew-stover/"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL2727026W"
 year: null
 descriptionStatus: "reviewed"

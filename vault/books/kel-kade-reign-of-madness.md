@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://kelkade.com/wp-content/uploads/2019/01/slider-book-2.jpg"
+coverFit: "contain"
+coverSource: "https://kelkade.com/"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL28401546W"
 year: null
 descriptionStatus: "reviewed"

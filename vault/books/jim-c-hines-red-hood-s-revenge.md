@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.jimchines.com/wp-content/uploads/2014/03/Red-Hood-Lg-300x483.jpg"
+coverFit: "contain"
+coverSource: "https://www.jimchines.com/project/princesses/"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL14908209W"
 year: null
 descriptionStatus: "reviewed"

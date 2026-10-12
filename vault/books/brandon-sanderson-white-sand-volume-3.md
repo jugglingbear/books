@@ -8,9 +8,10 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648813443.jpg"
+coverFit: "contain"
+coverSource: "https://www.graphicaudio.net/white-sand-volume-three.html"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL46019589W"
 year: null
 descriptionStatus: "reviewed"

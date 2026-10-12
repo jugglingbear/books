@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/60/48/78/604878fc-ca90-7c84-7bed-d98d8847bce0/9781515976127.jpg/600x600bb.jpg"
+coverFit: "contain"
+coverSource: "https://books.apple.com/us/audiobook/super-powereds-year-1-super-powereds/id1653174580?uo=4"
+coverRegion: "Region unconfirmed"
 source: ""
 year: null
 descriptionStatus: "reviewed"

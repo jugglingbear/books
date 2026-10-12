@@ -8,9 +8,10 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/b5/0c/31/b50c3199-b99c-3e54-81a9-cae1d3009434/9781429914567.jpg/600x600bb.jpg"
+coverFit: "contain"
+coverSource: "https://books.apple.com/us/book/mistborn/id386002824?uo=4"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL5738148W"
 year: null
 descriptionStatus: "reviewed"

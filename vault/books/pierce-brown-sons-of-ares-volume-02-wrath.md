@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/r/e/red_rising_sons_of_ares_volume_2_wrath_3.jpg"
+coverFit: "contain"
+coverSource: "https://www.graphicaudio.net/red-rising-sons-of-ares-volume-2-wrath.html"
+coverRegion: "Region unconfirmed"
 source: ""
 year: null
 descriptionStatus: "reviewed"

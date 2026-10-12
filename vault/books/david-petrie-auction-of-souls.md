@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy", "LitRPG"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595563320i/54654914.jpg"
+coverFit: "contain"
+coverSource: "https://www.goodreads.com/series/263041-pixel-dust"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL36727520W"
 year: null
 descriptionStatus: "reviewed"

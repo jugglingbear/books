@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.publishersweekly.com/cover/9780765324603"
+coverFit: "contain"
+coverSource: "https://www.publishersweekly.com/978-0-7653-2460-3"
+coverRegion: "Region unconfirmed"
 source: ""
 year: null
 descriptionStatus: "reviewed"

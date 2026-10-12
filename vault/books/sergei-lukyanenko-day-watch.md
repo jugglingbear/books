@@ -7,9 +7,10 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://www.publishersweekly.com/cover/9781401360207"
+coverFit: "contain"
+coverSource: "https://www.publishersweekly.com/9781401360207"
+coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL12095985W"
 year: null
 descriptionStatus: "reviewed"
