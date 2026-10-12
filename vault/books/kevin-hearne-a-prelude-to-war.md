@@ -7,10 +7,11 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
+cover: "/covers/kevin-hearne-a-prelude-to-war.png"
+coverCredit: "Custom AI-generated artwork"
+coverSource: "https://kevinhearne.com/books/a-prelude-to-war/"
 coverRegion: ""
-source: ""
+source: "https://kevinhearne.com/books/a-prelude-to-war/"
 year: null
 descriptionStatus: "reviewed"
 ---

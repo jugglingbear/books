@@ -7,10 +7,11 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
+cover: "/covers/kevin-hearne-the-bogeyman-of-boora-bog.png"
+coverCredit: "Custom AI-generated artwork"
+coverSource: "https://kevinhearne.com/books/besieged/"
 coverRegion: ""
-source: ""
+source: "https://kevinhearne.com/books/besieged/"
 year: null
 descriptionStatus: "reviewed"
 ---

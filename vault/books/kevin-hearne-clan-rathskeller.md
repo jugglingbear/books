@@ -7,10 +7,11 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
+cover: "/covers/kevin-hearne-clan-rathskeller.png"
+coverCredit: "Custom AI-generated artwork"
+coverSource: "https://kevinhearne.com/wp-content/uploads/2012/07/ClanRathskeller.pdf"
 coverRegion: ""
-source: ""
+source: "https://kevinhearne.com/wp-content/uploads/2012/07/ClanRathskeller.pdf"
 year: null
 descriptionStatus: "reviewed"
 ---

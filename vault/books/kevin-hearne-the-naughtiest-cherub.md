@@ -7,10 +7,11 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
+cover: "/covers/kevin-hearne-the-naughtiest-cherub.png"
+coverCredit: "Custom AI-generated artwork"
+coverSource: "https://kevinhearne.com/books/first-dangle-and-other-stories/"
 coverRegion: ""
-source: ""
+source: "https://kevinhearne.com/books/first-dangle-and-other-stories/"
 year: null
 descriptionStatus: "reviewed"
 ---

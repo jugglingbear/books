@@ -7,8 +7,9 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
-coverSource: ""
+cover: "/covers/kevin-hearne-a-test-of-mettle.png"
+coverCredit: "Custom AI-generated artwork"
+coverSource: "https://kevinhearne.com/books/two-tales-of-the-iron-druid-chronicles/"
 coverRegion: ""
 source: "https://openlibrary.org/works/OL45587232W"
 year: null
