@@ -19,7 +19,8 @@ listened: true
 
 `null` means reading history has not been recorded. Set `read: true` when a book has been read; leave `listened: true`
 to show both badges. Set an explicit `false` only when that status is known. The public site is a view of the committed
-catalog; visitors cannot change the owner's reading history.
+catalog; visitors cannot change the owner's reading history. New photo imports default to unread (`read: false`) and
+not listened (`listened: false`) unless confirmed otherwise, while preserving any existing recorded history.
 
 Audiobook editions use small Audible and GraphicAudio badges. Record known sources with
 `audioSources: ["Audible", "GraphicAudio"]`; omit the field or use `[]` when unconfirmed. A book can have both
@@ -27,6 +28,12 @@ editions. Source badges are independent of read/listened status. Initial Graphic
 folder names; an unmarked recording is not assumed to be Audible.
 
 See [catalog guidance](.github/copilot-instructions.md) and the [import notes](docs/import.md) before adding records.
+
+## Add books from photos
+
+Give the assistant photos of covers or readable spines and ask to add them. Include reading or listening status when
+it differs from the defaults above. The [photo-import procedure](docs/photo-import.md) covers identification, duplicate
+checks, online cover and metadata research, spoiler-free descriptions, series notes, and validation.
 
 ## Develop locally
 

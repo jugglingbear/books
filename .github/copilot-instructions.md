@@ -45,9 +45,11 @@ descriptionStatus: "reviewed"
 ```
 
 - Keep stable filenames: existing IDs are used in URLs and the import audit.
-- `read: null` means not recorded. Do not convert unknown reading history to `false`.
+- `read: null` means historical reading status was not recorded; preserve it when enriching an existing record.
+- New photo additions use `read: false` unless the owner says read; follow [photo import](../docs/photo-import.md).
 - Reading and listening are independent. `read: true` and `listened: true` displays both badges.
-- Imported audiobooks are listened, per the owner's explicit statement. Do not infer reading from ebook sidecar files.
+- The initial Dropbox audiobook inventory is listened, per the owner's explicit statement. This does not extend to
+  future photo additions. Do not infer reading from ebook sidecar files.
 - `audioSources` lists known Audible and/or GraphicAudio editions; empty or omitted means unconfirmed.
 - Preserve multiple edition sources when merging narrations. Never infer Audible from the absence of GraphicAudio.
 - `genres` is a nonempty list of broad editorial categories; use existing labels and allow multiple genres.
@@ -71,7 +73,10 @@ The site derives each series' book list from book records. Update introductions 
 
 ## Import and Reconciliation
 
-When asked to sync or import:
+For photographs, use [the photo-import procedure](../docs/photo-import.md), including its status defaults, metadata,
+cover research, and duplicate checks. The filenames-only steps below apply to Dropbox inventory imports.
+
+When asked to sync or import a filenames-only inventory:
 
 1. Read filenames and directory names only unless the user explicitly asks for audio metadata.
 2. Build candidate identities without changing files in Dropbox.

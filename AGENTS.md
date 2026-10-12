@@ -23,6 +23,8 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 - `src/` contains the static Astro UI and browser-side search.
 - `.github/workflows/deploy-pages.yml` builds and deploys to the `/books/` GitHub Pages project path.
 - Read `.github/copilot-instructions.md` before editing the catalog or importing more books.
+- For book photographs, follow [the photo-import procedure](docs/photo-import.md). New photo additions default to
+  `read: false` and `listened: false` unless the owner confirms otherwise; preserve existing recorded statuses.
 - Preserve recorded read/listened values, manual metadata corrections, and descriptions when enriching records.
 - Do not open audio content or embedded metadata during a filenames-only inventory. Online-only reads may download audio.
 - Keep descriptions premise-focused. Never reveal resolutions, surprise identities, or earlier-volume outcomes.
