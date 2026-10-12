@@ -1,0 +1,32 @@
+---
+import "../styles/global.css";
+import Icon from "../components/Icon.astro";
+import { base } from "../lib/books";
+interface Props { title?: string; description?: string; active?: string; }
+const { title = "Books · A personal library", description = "A personal collection of books read, stories heard, and worlds explored.", active = "books" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{title}</title><meta name="description" content={description}/><meta name="theme-color" content="#f6f4ed"/>
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml"/>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href={`${base}/`}><span class="brand-icon"><Icon name="book"/></span>books<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation"><a href={`${base}/`} aria-current={active === "books" ? "page" : undefined}>The library</a><a href={`${base}/series/`} aria-current={active === "series" ? "page" : undefined}>Series</a><a href={`${base}/about/`} aria-current={active === "about" ? "page" : undefined}>About</a></nav>
+      <span class="header-note">A PERSONAL COLLECTION</span>
+    </div></header>
+    <main id="main"><slot/></main>
+    <footer class="site-footer"><a class="footer-brand" href={`${base}/`}>books.</a><span>Different formats. Same love of a good story.</span><a href="https://github.com/jugglingbear/books">The open notebook ↗</a></footer>
+    <script>
+      document.querySelectorAll<HTMLImageElement>(".cover img").forEach((image) => {
+        const fail = () => { image.hidden = true; };
+        image.addEventListener("error", fail);
+        if (image.complete && image.naturalWidth === 0) fail();
+      });
+    </script>
+  </body>
+</html>

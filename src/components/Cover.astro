@@ -1,0 +1,10 @@
+---
+import type { Book } from "../lib/books";
+interface Props { book: Book; eager?: boolean; }
+const { book, eager = false } = Astro.props;
+const hue = [...book.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 70 + 145;
+---
+<div class="cover" style={`--cover-hue:${hue}`}>
+  <div class="cover-fallback" aria-hidden="true"><span class="cover-rule">THE PERSONAL LIBRARY</span><strong>{book.data.title}</strong><span>{book.data.author}</span></div>
+  {book.data.cover && <img src={book.data.cover} alt={`Cover of ${book.data.title}`} width="300" height="450" loading={eager ? "eager" : "lazy"} decoding="async" referrerpolicy="no-referrer" />}
+</div>

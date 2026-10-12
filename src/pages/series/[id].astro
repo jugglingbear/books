@@ -1,0 +1,12 @@
+---
+import { render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import Library from "../../components/Library.astro";
+import { catalog, inSeries, base } from "../../lib/books";
+export async function getStaticPaths() { const { series } = await catalog(); return series.map((item) => ({ params: { id: item.id }, props: { series: item } })); }
+const { series } = Astro.props;
+const { books } = await catalog();
+const items = inSeries(books, series.data.title);
+const { Content } = await render(series);
+---
+<Layout title={`${series.data.title} · Books`} active="series"><div class="wrap"><section class="series-hero"><a class="back-link" href={`${base}/series/`}>← All series</a><span class="eyebrow">A WORLD IN {items.length} {items.length === 1 ? "TITLE" : "TITLES"}</span><h1>{series.data.title}</h1><p class="detail-author">{series.data.author}</p><div class="prose"><Content/></div><p class="source-note">Titles in my library, including side stories and collections. This is not necessarily the complete series.</p></section><Library books={items} showFilters={false}/></div></Layout>

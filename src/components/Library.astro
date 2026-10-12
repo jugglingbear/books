@@ -1,0 +1,103 @@
+---
+import BookCard from "./BookCard.astro";
+import Icon from "./Icon.astro";
+import type { Book } from "../lib/books";
+interface Props { books: Book[]; showFilters?: boolean; }
+const { books, showFilters = true } = Astro.props;
+const authors = [...new Set(books.map((book) => book.data.author))].sort();
+const series = [...new Set(books.map((book) => book.data.series).filter(Boolean))].sort();
+---
+<section class="library" id="library" data-library>
+  <div class="library-heading"><div><span class="eyebrow">THE COLLECTION</span><h2>A shelf for every story.</h2></div><p><span data-count>{books.length}</span> titles on the shelf</p></div>
+  <form class="search-tools" role="search" onsubmit="return false">
+    <label class="search-box"><Icon name="search"/><span class="sr-only">Search by title, author, or series</span><input type="search" name="q" placeholder="Find a book, author, or series…" autocomplete="off"/><kbd aria-hidden="true">/</kbd></label>
+    {showFilters && <><label class="filter-select"><span class="sr-only">Filter by author</span><select name="author"><option value="">All authors</option>{authors.map((name) => <option>{name}</option>)}</select></label><label class="filter-select"><span class="sr-only">Filter by series</span><select name="series"><option value="">All series</option><option value="__standalone">Standalone</option>{series.map((name) => <option>{name}</option>)}</select></label></>}
+    <label class="filter-select"><span class="sr-only">Sort books</span><select name="sort"><option value="title">Title, A–Z</option><option value="author">Author, A–Z</option>{!showFilters && <option value="order" selected>Series order</option>}</select></label>
+  </form>
+  <div class="filter-row"><div class="status-filters" role="group" aria-label="Filter by reading format"><button type="button" data-status="all" aria-pressed="true">All books</button><button type="button" data-status="listened" aria-pressed="false"><Icon name="headphones"/>Listened</button><button type="button" data-status="read" aria-pressed="false"><Icon name="book"/>Read</button><button type="button" data-status="both" aria-pressed="false">Both</button></div><button type="button" class="clear-filters" data-clear>Reset filters</button></div>
+  <p class="sr-only" role="status" aria-live="polite" data-announcement></p>
+  <div class="book-grid">{books.map((book) => <BookCard book={book}/>)}</div>
+  <div class="empty-state" hidden><Icon name="book"/><h3>No books on this shelf yet.</h3><p>Try another search or reset your filters. Reading history hasn’t been filled in yet.</p><button type="button" data-reset>Show all books</button></div>
+  <div class="pagination" hidden><button type="button" data-prev>← Previous</button><span data-page></span><button type="button" data-next>Next →</button></div>
+  <noscript><p class="notice">All titles are shown below. Enable JavaScript to search and filter, or use your browser’s Find command.</p></noscript>
+</section>
+<script>
+  import { matchesQuery, matchesStatus } from "../lib/catalog.mjs";
+  const root = document.querySelector<HTMLElement>("[data-library]");
+  if (root) {
+    const cards = [...root.querySelectorAll<HTMLElement>("[data-book]")];
+    const originalOrder = new Map(cards.map((card, index) => [card, index]));
+    const form = root.querySelector<HTMLFormElement>("form")!;
+    const search = form.elements.namedItem("q") as HTMLInputElement;
+    const author = form.elements.namedItem("author") as HTMLSelectElement | null;
+    const series = form.elements.namedItem("series") as HTMLSelectElement | null;
+    const sort = form.elements.namedItem("sort") as HTMLSelectElement;
+    const pagination = root.querySelector<HTMLElement>(".pagination")!;
+    const previous = root.querySelector<HTMLButtonElement>("[data-prev]")!;
+    const next = root.querySelector<HTMLButtonElement>("[data-next]")!;
+    const statusButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-status]")];
+    const pageSize = 36;
+    let page = 1;
+    let status = "all";
+    function restore() {
+      const params = new URLSearchParams(location.search);
+      search.value = params.get("q") || "";
+      if (author) author.value = params.get("author") || "";
+      if (series) series.value = params.get("series") || "";
+      status = ["all", "read", "listened", "both"].includes(params.get("status") || "") ? params.get("status")! : "all";
+      if (params.has("sort") && [...sort.options].some((o) => o.value === params.get("sort"))) sort.value = params.get("sort")!;
+      page = Math.max(1, Number(params.get("page")) || 1);
+    }
+    function update(writeUrl = true) {
+      const matching = cards.filter((card) => {
+        const d = card.dataset;
+        const text = `${d.title} ${d.author} ${d.series}`;
+        return matchesQuery(text, search.value) && (!author?.value || matchesQuery(d.author || "", author.value))
+          && (!series?.value || (series.value === "__standalone" ? !d.series : series.value === d.series))
+          && matchesStatus(d.read === "true", d.listened === "true", status);
+      });
+      matching.sort((a, b) => sort.value === "order" ? originalOrder.get(a)! - originalOrder.get(b)!
+        : (sort.value === "author" ? a.dataset.author!.localeCompare(b.dataset.author!) : 0)
+          || a.dataset.title!.localeCompare(b.dataset.title!, "en", { numeric: true }));
+      const pages = Math.max(1, Math.ceil(matching.length / pageSize));
+      page = Math.min(Math.floor(page), pages);
+      cards.forEach((card) => { card.hidden = true; });
+      const grid = root!.querySelector(".book-grid")!;
+      matching.slice((page - 1) * pageSize, page * pageSize).forEach((card) => { card.hidden = false; grid.append(card); });
+      root!.querySelector("[data-count]")!.textContent = String(matching.length);
+      root!.querySelector("[data-announcement]")!.textContent = `${matching.length} titles found. Page ${page} of ${pages}.`;
+      root!.querySelector<HTMLElement>(".empty-state")!.hidden = matching.length > 0;
+      pagination.hidden = pages <= 1;
+      previous.disabled = page === 1;
+      next.disabled = page === pages;
+      root!.querySelector("[data-page]")!.textContent = `${page} / ${pages}`;
+      statusButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.status === status)));
+      if (writeUrl) {
+        const params = new URLSearchParams();
+        if (search.value) params.set("q", search.value);
+        if (author?.value) params.set("author", author.value);
+        if (series?.value) params.set("series", series.value);
+        if (status !== "all") params.set("status", status);
+        if (sort.value !== "title") params.set("sort", sort.value);
+        if (page > 1) params.set("page", String(page));
+        history.replaceState(null, "", `${location.pathname}${params.size ? `?${params}` : ""}`);
+      }
+    }
+    function reset() { form.reset(); status = "all"; page = 1; update(); }
+    form.addEventListener("input", () => { page = 1; update(); });
+    statusButtons.forEach((button) => button.addEventListener("click", () => { status = button.dataset.status!; page = 1; update(); }));
+    root.querySelector("[data-clear]")!.addEventListener("click", reset);
+    root.querySelector("[data-reset]")!.addEventListener("click", reset);
+    function turnPage(delta: number) { page += delta; update(); root!.scrollIntoView({ block: "start" }); }
+    previous.addEventListener("click", () => turnPage(-1));
+    next.addEventListener("click", () => turnPage(1));
+    addEventListener("popstate", () => { restore(); update(false); });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "/" && !event.metaKey && !event.ctrlKey && !(event.target instanceof HTMLInputElement)
+        && !(event.target instanceof HTMLTextAreaElement) && !(event.target instanceof HTMLSelectElement)) {
+        event.preventDefault(); search.focus();
+      }
+    });
+    restore(); update(false);
+  }
+</script>

@@ -1,0 +1,30 @@
+---
+import { render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import Cover from "../../components/Cover.astro";
+import AudioSources from "../../components/AudioSources.astro";
+import Status from "../../components/Status.astro";
+import BookCard from "../../components/BookCard.astro";
+import { catalog, inSeries, seriesUrl, base } from "../../lib/books";
+export async function getStaticPaths() { const { books } = await catalog(); return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
+const { book } = Astro.props;
+const { books, series } = await catalog();
+const collection = series.find((item) => item.data.title === book.data.series);
+const related = collection ? inSeries(books, collection.data.title).filter((item) => item.id !== book.id).slice(0, 6) : [];
+const { Content } = await render(book);
+---
+<Layout title={`${book.data.title} · Books`}>
+  <div class="wrap detail-wrap"><a class="back-link" href={`${base}/`}>← Back to the library</a>
+    <div class="book-detail"><div class="detail-cover"><Cover book={book} eager/></div><div class="detail-copy">
+      <span class="eyebrow">{book.data.kind}{book.data.year ? ` · ${book.data.year}` : ""}</span>
+      <h1>{book.data.title}</h1><a class="detail-author" href={`${base}/?author=${encodeURIComponent(book.data.author)}`}>{book.data.author}</a>
+      {collection && <p class="detail-series"><a href={seriesUrl(collection)}>{collection.data.title} ↗</a></p>}
+      <Status read={book.data.read} listened={book.data.listened}/>
+      <AudioSources sources={book.data.audioSources}/>
+      <div class="synopsis"><span class="eyebrow">ABOUT THIS BOOK · SPOILER-FREE</span><div class="prose"><Content/></div></div>
+      <div class="reading-record"><h2>On my shelf</h2><p><strong>Listening</strong><span>{book.data.listened ? "Listened" : "Not recorded"}</span></p><p><strong>Reading</strong><span>{book.data.read === true ? "Read" : book.data.read === false ? "Not read" : "Not recorded yet"}</span></p></div>
+      {(book.data.source || book.data.coverSource) && <p class="source-note">{book.data.source && <a href={book.data.source}>Book reference ↗</a>}{book.data.coverSource && <a href={book.data.coverSource}>Cover edition ↗</a>}{book.data.coverRegion === "US" && <span>US edition cover</span>}</p>}
+    </div></div>
+    {related.length > 0 && <section class="related"><div class="library-heading"><h2>More from this world.</h2>{collection && <a class="text-link" href={seriesUrl(collection)}>Explore the series →</a>}</div><div class="book-grid">{related.map((item) => <BookCard book={item}/>)}</div></section>}
+  </div>
+</Layout>

@@ -1,0 +1,10 @@
+---
+import Icon from "./Icon.astro";
+import { statusLabel } from "../lib/catalog.mjs";
+interface Props { read: boolean | null; listened: boolean; }
+const { read, listened } = Astro.props;
+---
+<span class:list={["status", { both: read && listened }]}>
+  {read && <Icon name="book" />}{listened && <Icon name="headphones" />}
+  {statusLabel(read, listened)}
+</span>

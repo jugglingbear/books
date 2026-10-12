@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Library from "../components/Library.astro";
+import Cover from "../components/Cover.astro";
+import { catalog, bookUrl, base } from "../lib/books";
+const { books, series, authors } = await catalog();
+const featured = ["The Name of the Wind", "The Way of Kings", "The Night Circus"].map((title) => books.find((book) => book.data.title === title)).filter((book) => book !== undefined);
+---
+<Layout>
+  <section class="hero wrap">
+    <div class="hero-copy"><span class="eyebrow"><span class="tiny-dot"></span> A LIFE IN STORIES</span><h1>Between the pages.<br/><em>Beyond the headphones.</em></h1><p>A personal library of worlds wandered, voices heard,<br class="desktop-break"/> and stories that stay.</p><a class="text-link" href="#library">Browse the collection <span>↓</span></a></div>
+    <div class="hero-books" aria-label="A few stories from the collection">{featured.map((book, index) => <a class={`hero-book hero-book-${index}`} href={bookUrl(book)} aria-label={book.data.title}><Cover book={book} eager/></a>)}<span class="hero-caption">GOOD STORIES. EVERY FORMAT.</span></div>
+  </section>
+  <div class="stats-bar wrap"><div><strong>{books.length}</strong><span>titles collected</span></div><div><strong>{authors.length}</strong><span>author credits</span></div><a href={`${base}/series/`}><strong>{series.length}</strong><span>series to explore ↗</span></a><div class="stats-note"><span class="tiny-dot"></span>A growing library, one story at a time.</div></div>
+  <div class="wrap"><Library books={books}/></div>
+</Layout>

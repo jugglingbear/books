@@ -1,0 +1,19 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Cover from "../../components/Cover.astro";
+import { catalog, inSeries, seriesUrl } from "../../lib/books";
+const { books, series } = await catalog();
+---
+<Layout title="Series · Books" active="series"><div class="wrap series-index"><span class="eyebrow">WORLDS TO RETURN TO</span><h1>One story is<br/><em>only the beginning.</em></h1><p class="intro">Explore {series.length} series, one spoiler-free introduction at a time.</p><label class="series-search search-box"><span class="sr-only">Find a series or author</span><input type="search" placeholder="Find a series or author…" data-series-search/></label><p class="sr-only" role="status" data-series-count></p>
+<div class="series-grid">{series.map((item) => { const items = inSeries(books, item.data.title); return <a class="series-card" href={seriesUrl(item)} data-series-card data-search={`${item.data.title} ${item.data.author}`}><div class="series-covers">{items.slice(0, 3).map((book) => <Cover book={book}/>)}</div><div class="series-card-copy"><span class="eyebrow">{items.length} {items.length === 1 ? "TITLE" : "TITLES"} IN THE LIBRARY</span><h2>{item.data.title}</h2><p>{item.data.author}</p><span class="text-link">Enter this world →</span></div></a>; })}</div><p data-series-empty hidden>No series match that search.</p></div></Layout>
+<script>
+  import { matchesQuery } from "../../lib/catalog.mjs";
+  const input = document.querySelector<HTMLInputElement>("[data-series-search]")!;
+  const cards = [...document.querySelectorAll<HTMLElement>("[data-series-card]")];
+  input.addEventListener("input", () => {
+    let count = 0;
+    cards.forEach((card) => { card.hidden = !matchesQuery(card.dataset.search!, input.value); if (!card.hidden) count++; });
+    document.querySelector("[data-series-count]")!.textContent = `${count} series found`;
+    document.querySelector<HTMLElement>("[data-series-empty]")!.hidden = count > 0;
+  });
+</script>
