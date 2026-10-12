@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15261418-L.jpg?default=false"
+cover: "/covers/stephenie-meyer-breaking-dawn.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15261418-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24709839M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5720022W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10678356-L.jpg?default=false"
+cover: "/covers/john-scalzi-head-on.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10678356-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26949280M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL19345264W"

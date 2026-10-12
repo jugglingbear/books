@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6957533-L.jpg?default=false"
+cover: "/covers/orson-scott-card-red-prophet.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6957533-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24943617M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49553W"

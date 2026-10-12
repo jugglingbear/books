@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6561853-L.jpg?default=false"
+cover: "/covers/orson-scott-card-seventh-son.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6561853-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23245189M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49558W"

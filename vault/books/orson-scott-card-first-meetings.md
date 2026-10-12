@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Collection"
-cover: "https://covers.openlibrary.org/b/id/524355-L.jpg?default=false"
+cover: "/covers/orson-scott-card-first-meetings.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/524355-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3688907M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49503W"

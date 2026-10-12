@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15246940-L.jpg?default=false"
+cover: "/covers/c-s-lewis-the-horse-and-his-boy.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15246940-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24747112M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL71058W"

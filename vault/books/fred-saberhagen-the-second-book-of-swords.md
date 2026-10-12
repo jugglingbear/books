@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6560786-L.jpg?default=false"
+cover: "/covers/fred-saberhagen-the-second-book-of-swords.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6560786-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2884660M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL100113W"

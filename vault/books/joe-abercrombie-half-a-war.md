@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14543413-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-half-a-war.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14543413-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27289127M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17323204W"

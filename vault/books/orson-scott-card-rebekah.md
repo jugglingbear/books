@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10653392-L.jpg?default=false"
+cover: "/covers/orson-scott-card-rebekah.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10653392-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3939127M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL49551W"

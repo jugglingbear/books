@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648812965.jpg"
+cover: "/covers/brandon-sanderson-secret-history-the-eleventh-metal-and-allomancer-jak-and-the-pits-of-eltania.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648812965.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/mistborn-secret-history-the-eleventh-metal-and-allomancer-jak-and-the-pits-of-eltania.html"
 coverRegion: "Region unconfirmed"

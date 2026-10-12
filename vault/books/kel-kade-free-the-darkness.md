@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://kelkade.com/wp-content/uploads/2019/01/slider-book-1.jpg"
+cover: "/covers/kel-kade-free-the-darkness.jpg"
+coverOriginal: "https://kelkade.com/wp-content/uploads/2019/01/slider-book-1.jpg"
 coverFit: "contain"
 coverSource: "https://kelkade.com/"
 coverRegion: "Region unconfirmed"

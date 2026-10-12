@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7276393-L.jpg?default=false"
+cover: "/covers/veronica-roth-allegiant.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7276393-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25432922M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16808471W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b3/9d/df/b39ddf17-eccd-37d1-f07f-d45afb373a6c/9780463741719.jpg/600x600bb.jpg"
+cover: "/covers/richard-roberts-please-don-t-tell-my-parents-i-ve-got-a-nemesis.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b3/9d/df/b39ddf17-eccd-37d1-f07f-d45afb373a6c/9780463741719.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/please-dont-tell-my-parents-i-have-a-nemesis/id1486861877?uo=4"
 coverRegion: "Region unconfirmed"

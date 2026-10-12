@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-something-borrowed.png"
+cover: "/covers/jim-butcher-something-borrowed.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12819578-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-oathbringer.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12819578-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26421466M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL17834026W"

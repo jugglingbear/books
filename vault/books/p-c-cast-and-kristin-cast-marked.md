@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13077037-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-marked.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13077037-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL17955219M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5805254W"

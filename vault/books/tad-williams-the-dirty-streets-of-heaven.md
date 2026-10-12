@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9340144-L.jpg?default=false"
+cover: "/covers/tad-williams-the-dirty-streets-of-heaven.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9340144-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27951963M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17431062W"

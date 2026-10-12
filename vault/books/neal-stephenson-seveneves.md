@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12373919-L.jpg?default=false"
+cover: "/covers/neal-stephenson-seveneves.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12373919-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35671156M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL17829905W"

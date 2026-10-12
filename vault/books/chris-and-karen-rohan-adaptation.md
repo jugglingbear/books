@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648796524_2.jpg"
+cover: "/covers/chris-and-karen-rohan-adaptation.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648796524_2.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/playing-gods-2-adaptation.html"
 coverRegion: "Region unconfirmed"

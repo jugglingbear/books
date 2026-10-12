@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15163096-L.jpg?default=false"
+cover: "/covers/e-l-james-fifty-shades-of-grey.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15163096-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL61147291M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL16336633W"

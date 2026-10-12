@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/07/b3/7607b30a-f49c-ce14-a3b6-99a7bec98643/9781515982982.jpg/600x600bb.jpg"
+cover: "/covers/drew-hayes-chilling-reflections.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/07/b3/7607b30a-f49c-ce14-a3b6-99a7bec98643/9781515982982.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/audiobook/chilling-reflections-villains-code/id1764593422?uo=4"
 coverRegion: "Region unconfirmed"

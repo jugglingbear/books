@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15244814-L.jpg?default=false"
+cover: "/covers/j-k-rowling-harry-potter-and-the-half-blood-prince.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15244814-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL34155314M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL82565W"

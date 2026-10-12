@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648813429.jpg"
+cover: "/covers/brandon-sanderson-white-sand-volume-2.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648813429.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/white-sand-volume-two.html"
 coverRegion: "Region unconfirmed"

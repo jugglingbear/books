@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13107092-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-hunted.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13107092-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23058992M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5805250W"

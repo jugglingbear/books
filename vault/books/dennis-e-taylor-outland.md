@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10497438-L.jpg?default=false"
+cover: "/covers/dennis-e-taylor-outland.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10497438-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL30764456M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL22798857W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11975516-L.jpg?default=false"
+cover: "/covers/scott-meyer-an-unwelcome-quest.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11975516-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27238942M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20058935W"

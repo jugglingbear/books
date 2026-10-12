@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10067367-L.jpg?default=false"
+cover: "/covers/terry-goodkind-phantom.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10067367-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL20945420M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010501W"

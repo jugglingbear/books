@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6308474-L.jpg?default=false"
+cover: "/covers/jim-butcher-first-lord-s-fury.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6308474-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24073864M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14973274W"

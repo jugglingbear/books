@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14651776-L.jpg?default=false"
+cover: "/covers/stephen-king-song-of-susannah.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14651776-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3314094M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL149200W"

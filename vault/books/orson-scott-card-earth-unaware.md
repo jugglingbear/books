@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9317144-L.jpg?default=false"
+cover: "/covers/orson-scott-card-earth-unaware.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9317144-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25270578M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16585661W"

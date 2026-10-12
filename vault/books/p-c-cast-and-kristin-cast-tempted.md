@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13105597-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-tempted.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13105597-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27128745M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL14909414W"

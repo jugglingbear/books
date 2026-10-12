@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12518396-L.jpg?default=false"
+cover: "/covers/patrick-rothfuss-the-wise-man-s-fear.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12518396-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24586431M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8479869W"

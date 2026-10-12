@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14811808-L.jpg?default=false"
+cover: "/covers/maxime-j-durand-the-perfect-run.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14811808-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL53582651M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL39374486W"

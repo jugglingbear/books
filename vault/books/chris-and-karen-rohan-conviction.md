@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/p/l/playing_gods_4_conviction.jpg"
+cover: "/covers/chris-and-karen-rohan-conviction.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/p/l/playing_gods_4_conviction.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/playing-gods-4-conviction.html"
 coverRegion: "Region unconfirmed"

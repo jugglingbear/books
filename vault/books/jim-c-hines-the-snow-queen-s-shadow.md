@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.jimchines.com/wp-content/uploads/2014/03/Snow-Queen-Lg-300x480.jpg"
+cover: "/covers/jim-c-hines-the-snow-queen-s-shadow.jpg"
+coverOriginal: "https://www.jimchines.com/wp-content/uploads/2014/03/Snow-Queen-Lg-300x480.jpg"
 coverFit: "contain"
 coverSource: "https://www.jimchines.com/project/princesses/"
 coverRegion: "Region unconfirmed"

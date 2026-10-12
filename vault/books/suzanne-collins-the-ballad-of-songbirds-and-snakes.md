@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13342995-L.jpg?default=false"
+cover: "/covers/suzanne-collins-the-ballad-of-songbirds-and-snakes.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13342995-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46234252M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL20716197W"

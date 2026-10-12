@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13766889-L.jpg?default=false"
+cover: "/covers/scott-meyer-out-of-spite-out-of-mind.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13766889-L.jpg?default=false"
 coverCrop: { top: 13.6, right: 6.5, bottom: 2.2, left: 0.4 }
 coverSource: "https://openlibrary.org/books/OL47302258M"
 coverRegion: "Region unconfirmed"

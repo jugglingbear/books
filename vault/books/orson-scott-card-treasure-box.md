@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6731982-L.jpg?default=false"
+cover: "/covers/orson-scott-card-treasure-box.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6731982-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL978981M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49527W"

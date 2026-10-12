@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14543439-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-the-wisdom-of-crowds.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14543439-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35879237M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL24375655W"

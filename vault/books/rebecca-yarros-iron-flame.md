@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15169924-L.jpg?default=false"
+cover: "/covers/rebecca-yarros-iron-flame.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15169924-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL61306022M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL34028551W"

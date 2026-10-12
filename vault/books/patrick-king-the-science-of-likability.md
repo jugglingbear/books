@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction", "Self-Help"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10452954-L.jpg?default=false"
+cover: "/covers/patrick-king-the-science-of-likability.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10452954-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL30392696M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20047636W"

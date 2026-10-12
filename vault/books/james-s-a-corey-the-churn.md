@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Short fiction"
-cover: "https://covers.openlibrary.org/b/id/11295288-L.jpg?default=false"
+cover: "/covers/james-s-a-corey-the-churn.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11295288-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32667444M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL24622302W"

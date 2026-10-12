@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658081-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-the-alloy-of-law.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658081-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25280450M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16597059W"

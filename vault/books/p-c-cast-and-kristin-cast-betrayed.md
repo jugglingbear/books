@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10557077-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-betrayed.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10557077-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31880846M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL14957436W"

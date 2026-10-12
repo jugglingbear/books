@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6543636-L.jpg?default=false"
+cover: "/covers/bill-bryson-neither-here-nor-there.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6543636-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24215078M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL74125W"

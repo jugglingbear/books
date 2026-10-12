@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.hachette.co.uk/wp-content/uploads/2019/01/hbg-title-the-good-the-bad-and-the-uncanny-4.jpg"
+cover: "/covers/simon-r-green-the-good-the-bad-the-uncanny.jpg"
+coverOriginal: "https://www.hachette.co.uk/wp-content/uploads/2019/01/hbg-title-the-good-the-bad-and-the-uncanny-4.jpg"
 coverFit: "contain"
 coverSource: "https://www.hachette.co.uk/titles/simon-green/the-good-the-bad-and-the-uncanny/9781848669437/"
 coverRegion: "Region unconfirmed"

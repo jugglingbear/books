@@ -65,7 +65,9 @@ descriptionStatus: "reviewed"
 - Optional `coverFit: "contain"` preserves square or unusually proportioned artwork without clipping the title.
 - Optional `coverCrop` records top/right/bottom/left crop percentages (0–40) for packaging borders.
 - Prefer clean artwork; verify any crop keeps the full title and author visible at card and detail sizes.
-- Store a cover's exact edition source; use the designed fallback when a reliable matching image cannot be found.
+- Store all active cover images in `public/covers/<book-id>.<extension>` and use local `/covers/` paths in `cover`.
+- Preserve the original image URL in `coverOriginal` and exact edition page in `coverSource`. Verify downloaded files
+  are valid images, not HTML errors or tiny service placeholders. Use the fallback when no reliable image is available.
 - Do not fabricate bibliographic fields. Unknown years stay `null`; unavailable URLs stay empty.
 - Write original descriptions about premise and themes, without plot resolutions or spoilers from previous volumes.
 - A collection's description may describe its scope. Do not represent the collection as one of its individual stories.

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11952978-L.jpg?default=false"
+cover: "/covers/drew-hayes-corpies.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11952978-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL33327516M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL25063288W"

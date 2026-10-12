@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "LitRPG"]
 kind: "Book"
-cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565323369l/51066720.jpg"
+cover: "/covers/david-petrie-pyramid-game.jpg"
+coverOriginal: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565323369l/51066720.jpg"
 coverFit: "contain"
 coverSource: "https://www.goodreads.com/series/263041-pixel-dust"
 coverRegion: "Region unconfirmed"

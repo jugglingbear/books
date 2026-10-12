@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8580474-L.jpg?default=false"
+cover: "/covers/terry-goodkind-the-first-confessor.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8580474-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26979303M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19766494W"

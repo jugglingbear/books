@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror"]
 kind: "Collection"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648796364.jpg"
+cover: "/covers/hunter-shea-one-size-eats-all.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781648796364.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/one-size-eats-all-rattus-new-yorkus-jurassic-florida-and-the-devil-s-fingers.html"
 coverRegion: "Region unconfirmed"

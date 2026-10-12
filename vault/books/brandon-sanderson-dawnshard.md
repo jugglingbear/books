@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15103651-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-dawnshard.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15103651-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL50566780M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL24139894W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7029831-L.jpg?default=false"
+cover: "/covers/stephen-king-the-little-sisters-of-eluria.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7029831-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25200120M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL16502946W"

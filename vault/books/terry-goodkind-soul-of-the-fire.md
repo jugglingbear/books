@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/183646-L.jpg?default=false"
+cover: "/covers/terry-goodkind-soul-of-the-fire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/183646-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL390149M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010448W"

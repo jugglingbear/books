@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-even-hand-reviewed.png"
+cover: "/covers/jim-butcher-even-hand.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

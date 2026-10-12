@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13519998-L.jpg?default=false"
+cover: "/covers/simon-r-green-the-best-thing-you-can-steal.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13519998-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL36266683M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL24235966W"

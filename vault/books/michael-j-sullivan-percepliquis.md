@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312541516i/12174312.jpg"
+cover: "/covers/michael-j-sullivan-percepliquis.jpg"
+coverOriginal: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312541516i/12174312.jpg"
 coverFit: "contain"
 coverSource: "https://www.goodreads.com/series/96465-the-riyria-revelations"
 coverRegion: "Region unconfirmed"

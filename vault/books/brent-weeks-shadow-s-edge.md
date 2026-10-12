@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12377649-L.jpg?default=false"
+cover: "/covers/brent-weeks-shadow-s-edge.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12377649-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL33409432M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15015334W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6640534-L.jpg?default=false"
+cover: "/covers/james-clavell-shogun.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6640534-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24388950M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2918756W"

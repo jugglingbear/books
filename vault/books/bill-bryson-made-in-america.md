@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6807121-L.jpg?default=false"
+cover: "/covers/bill-bryson-made-in-america.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6807121-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24753374M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL74122W"

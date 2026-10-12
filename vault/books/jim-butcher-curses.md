@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-curses.png"
+cover: "/covers/jim-butcher-curses.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

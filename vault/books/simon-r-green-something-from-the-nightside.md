@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/284091-L.jpg?default=false"
+cover: "/covers/simon-r-green-something-from-the-nightside.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/284091-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3388463M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL3578605W"

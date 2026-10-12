@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9105535-L.jpg?default=false"
+cover: "/covers/lev-grossman-the-magician-king.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9105535-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27662770M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19660532W"

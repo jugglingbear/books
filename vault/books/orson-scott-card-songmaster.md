@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14480241-L.jpg?default=false"
+cover: "/covers/orson-scott-card-songmaster.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14480241-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3567407M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49532W"

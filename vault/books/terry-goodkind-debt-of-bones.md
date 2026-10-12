@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/380037-L.jpg?default=false"
+cover: "/covers/terry-goodkind-debt-of-bones.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/380037-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3970454M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010478W"

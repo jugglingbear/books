@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10864405-L.jpg?default=false"
+cover: "/covers/scott-meyer-fight-and-flight.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10864405-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32222677M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19660659W"

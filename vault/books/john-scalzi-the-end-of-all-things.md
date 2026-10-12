@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8737398-L.jpg?default=false"
+cover: "/covers/john-scalzi-the-end-of-all-things.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8737398-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27097456M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19912869W"

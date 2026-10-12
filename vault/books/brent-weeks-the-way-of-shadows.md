@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12377657-L.jpg?default=false"
+cover: "/covers/brent-weeks-the-way-of-shadows.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12377657-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24295817M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15015332W"

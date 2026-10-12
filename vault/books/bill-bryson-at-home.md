@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14553501-L.jpg?default=false"
+cover: "/covers/bill-bryson-at-home.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14553501-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL50366988M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15100470W"

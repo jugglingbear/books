@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6948004-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-awakened.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6948004-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24998862M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15550516W"

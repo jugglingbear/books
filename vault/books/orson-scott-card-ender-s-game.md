@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/524774-L.jpg?default=false"
+cover: "/covers/orson-scott-card-ender-s-game.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/524774-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL8053711M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49488W"

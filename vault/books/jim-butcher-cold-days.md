@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10989815-L.jpg?default=false"
+cover: "/covers/jim-butcher-cold-days.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10989815-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27138222M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL17383102W"

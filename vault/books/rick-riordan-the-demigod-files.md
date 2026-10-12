@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13011300-L.jpg?default=false"
+cover: "/covers/rick-riordan-the-demigod-files.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13011300-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23740916M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14955039W"

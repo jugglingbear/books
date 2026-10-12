@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14637004-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-yumi-and-the-nightmare-painter.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14637004-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL42777186M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL31146657W"

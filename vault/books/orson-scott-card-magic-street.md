@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10176104-L.jpg?default=false"
+cover: "/covers/orson-scott-card-magic-street.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10176104-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27072143M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49649W"

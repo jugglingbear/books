@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6676339-L.jpg?default=false"
+cover: "/covers/simon-r-green-a-hard-day-s-knight.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6676339-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24495235M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15538720W"

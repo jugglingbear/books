@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10657496-L.jpg?default=false"
+cover: "/covers/orson-scott-card-the-lost-gate.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10657496-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26152216M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15598528W"

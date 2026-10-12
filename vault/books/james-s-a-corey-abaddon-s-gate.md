@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11295171-L.jpg?default=false"
+cover: "/covers/james-s-a-corey-abaddon-s-gate.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11295171-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32667355M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17074648W"

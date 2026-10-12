@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8524126-L.jpg?default=false"
+cover: "/covers/anne-rice-the-tale-of-the-body-thief.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8524126-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1744212M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77842W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6404347-L.jpg?default=false"
+cover: "/covers/scott-lynch-the-lies-of-locke-lamora.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6404347-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24276345M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8369445W"

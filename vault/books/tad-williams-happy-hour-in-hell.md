@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10398433-L.jpg?default=false"
+cover: "/covers/tad-williams-happy-hour-in-hell.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10398433-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL29564178M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17052085W"

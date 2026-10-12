@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Short fiction"
-cover: "https://covers.openlibrary.org/b/id/7992541-L.jpg?default=false"
+cover: "/covers/james-s-a-corey-the-vital-abyss.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7992541-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26318311M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL17716923W"

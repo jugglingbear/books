@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9210173-L.jpg?default=false"
+cover: "/covers/dennis-e-taylor-the-singularity-trap.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9210173-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27813963M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20568212W"

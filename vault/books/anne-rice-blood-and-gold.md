@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6406232-L.jpg?default=false"
+cover: "/covers/anne-rice-blood-and-gold.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6406232-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24258325M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77795W"

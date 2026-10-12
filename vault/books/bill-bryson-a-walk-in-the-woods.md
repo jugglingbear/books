@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6574169-L.jpg?default=false"
+cover: "/covers/bill-bryson-a-walk-in-the-woods.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6574169-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24223222M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL74123W"

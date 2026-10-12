@@ -8,7 +8,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15248313-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-the-fires-of-december.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15248313-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL62486032M"
 coverRegion: "Region unconfirmed"
 source: "https://us.macmillan.com/books/9781250462657/thefiresofdecember/"

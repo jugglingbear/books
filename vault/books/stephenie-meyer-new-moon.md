@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15261414-L.jpg?default=false"
+cover: "/covers/stephenie-meyer-new-moon.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15261414-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL9836585M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5720027W"

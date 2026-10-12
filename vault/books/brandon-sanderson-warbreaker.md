@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15206417-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-warbreaker.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15206417-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24088391M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5738149W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "LitRPG"]
 kind: "Book"
-cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595563320i/54654914.jpg"
+cover: "/covers/david-petrie-auction-of-souls.jpg"
+coverOriginal: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595563320i/54654914.jpg"
 coverFit: "contain"
 coverSource: "https://www.goodreads.com/series/263041-pixel-dust"
 coverRegion: "Region unconfirmed"

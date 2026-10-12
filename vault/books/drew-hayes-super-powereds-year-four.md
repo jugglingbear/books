@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8669629-L.jpg?default=false"
+cover: "/covers/drew-hayes-super-powereds-year-four.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8669629-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27051766M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19864143W"

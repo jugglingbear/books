@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14851972-L.jpg?default=false"
+cover: "/covers/orson-scott-card-heartfire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14851972-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL344090M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49515W"

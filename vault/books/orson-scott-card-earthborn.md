@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6963381-L.jpg?default=false"
+cover: "/covers/orson-scott-card-earthborn.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6963381-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1273749M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49474W"

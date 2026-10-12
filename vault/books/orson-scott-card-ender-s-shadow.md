@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14612740-L.jpg?default=false"
+cover: "/covers/orson-scott-card-ender-s-shadow.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14612740-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL42672M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49496W"

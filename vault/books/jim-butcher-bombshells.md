@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-bombshells-reviewed.png"
+cover: "/covers/jim-butcher-bombshells.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

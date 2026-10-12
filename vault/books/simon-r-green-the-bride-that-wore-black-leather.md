@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7265623-L.jpg?default=false"
+cover: "/covers/simon-r-green-the-bride-that-wore-black-leather.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7265623-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25078353M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16215457W"

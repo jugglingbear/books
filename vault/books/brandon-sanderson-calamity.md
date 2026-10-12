@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658509-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-calamity.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658509-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27096923M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17615005W"

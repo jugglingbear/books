@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13765694-L.jpg?default=false"
+cover: "/covers/richelle-mead-blood-promise.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13765694-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23191836M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8488884W"

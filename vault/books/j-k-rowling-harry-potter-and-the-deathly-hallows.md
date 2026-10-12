@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15156771-L.jpg?default=false"
+cover: "/covers/j-k-rowling-harry-potter-and-the-deathly-hallows.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15156771-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL39794425M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL82586W"

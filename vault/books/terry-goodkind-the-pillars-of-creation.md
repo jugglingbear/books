@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/27/03/de/2703de57-6483-65db-a5f3-13fc52d658f8/9781429934893.jpg/600x600bb.jpg"
+cover: "/covers/terry-goodkind-the-pillars-of-creation.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/27/03/de/2703de57-6483-65db-a5f3-13fc52d658f8/9781429934893.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/the-pillars-of-creation/id403947146?uo=4"
 coverRegion: "Region unconfirmed"

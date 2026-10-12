@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6449070-L.jpg?default=false"
+cover: "/covers/sergei-lukyanenko-last-watch.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6449070-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24324632M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8053274W"

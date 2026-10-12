@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Thriller", "Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6949746-L.jpg?default=false"
+cover: "/covers/orson-scott-card-invasive-procedures.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6949746-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24950341M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14928565W"

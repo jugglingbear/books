@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/183022-L.jpg?default=false"
+cover: "/covers/terry-goodkind-faith-of-the-fallen.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/183022-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL6782486M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010452W"

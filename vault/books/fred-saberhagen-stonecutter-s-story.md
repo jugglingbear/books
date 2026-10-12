@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7229770-L.jpg?default=false"
+cover: "/covers/fred-saberhagen-stonecutter-s-story.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7229770-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2410185M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL100109W"

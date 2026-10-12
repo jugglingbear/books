@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12485175-L.jpg?default=false"
+cover: "/covers/andrzej-sapkowski-blood-of-elves.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12485175-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24255147M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2577486W"

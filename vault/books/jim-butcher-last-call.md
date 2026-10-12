@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-last-call.png"
+cover: "/covers/jim-butcher-last-call.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

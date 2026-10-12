@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9315019-L.jpg?default=false"
+cover: "/covers/orson-scott-card-the-crystal-city.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9315019-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3688941M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49647W"

@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8350457-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-skyward.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8350457-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26664276M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL18191919W"

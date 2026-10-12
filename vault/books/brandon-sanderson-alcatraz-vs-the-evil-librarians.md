@@ -7,7 +7,8 @@ read: false
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658114-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-alcatraz-vs-the-evil-librarians.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658114-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL53422860M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL5738144W"

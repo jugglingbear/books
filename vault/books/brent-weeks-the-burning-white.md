@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12824629-L.jpg?default=false"
+cover: "/covers/brent-weeks-the-burning-white.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12824629-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL29461182M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20464583W"

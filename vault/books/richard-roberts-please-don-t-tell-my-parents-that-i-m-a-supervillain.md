@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11541749-L.jpg?default=false"
+cover: "/covers/richard-roberts-please-don-t-tell-my-parents-that-i-m-a-supervillain.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11541749-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32916895M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19913522W"

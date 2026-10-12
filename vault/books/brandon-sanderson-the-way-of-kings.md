@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8890435-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-the-way-of-kings.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8890435-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24383834M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15358691W"

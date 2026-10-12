@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10653174-L.jpg?default=false"
+cover: "/covers/michael-crichton-dragon-teeth.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10653174-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27231026M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17881779W"

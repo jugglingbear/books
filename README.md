@@ -98,14 +98,19 @@ counts and filtering. Verify membership using author/publisher references; never
 
 ## Covers and descriptions
 
-Cover URLs point to public image services and have an exact source link where available. US editions are preferred
+All active cover images live together in `public/covers/`, named by book ID. Catalog `cover` fields use local
+`/covers/filename.ext` paths; `coverOriginal` preserves the downloaded image URL and `coverSource` its edition page.
+The build copies these assets into `dist/covers/`; edit originals in `public/`, never generated files in `dist/`.
+US editions are preferred
 when their publication location supports that designation. Missing or failed images have a typographic fallback.
 Use `coverFit: "contain"` for square audiobook artwork or other covers whose full image should stay visible.
-Owner-requested custom artwork lives in `public/covers/custom/`, with `/covers/custom/filename.png` in `cover`.
+Owner-requested custom artwork uses the same `public/covers/` directory. Archived earlier variants remain in
+`public/covers/custom/` and are not used by catalog records.
 Set `coverCredit: "Custom AI-generated artwork"`; detail pages display this credit. Leave edition fields empty.
 Descriptions are original, short, and focused on setup and themes rather than plot outcomes.
 
-The catalog and build do not make metadata API requests. Visitors fetch only the cover images and optional web fonts;
+The catalog and build do not make metadata API requests. Cover images are served with the site;
+optional web fonts may be fetched externally;
 search stays entirely in the browser. Cover copyright remains with the respective rights holders. Book references
 and cover-edition links appear on detail pages.
 

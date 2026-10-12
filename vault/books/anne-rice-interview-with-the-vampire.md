@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12452409-L.jpg?default=false"
+cover: "/covers/anne-rice-interview-with-the-vampire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12452409-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35717139M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77826W"

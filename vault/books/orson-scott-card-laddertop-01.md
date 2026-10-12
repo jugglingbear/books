@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://www.publishersweekly.com/cover/9780765324603"
+cover: "/covers/orson-scott-card-laddertop-01.jpg"
+coverOriginal: "https://www.publishersweekly.com/cover/9780765324603"
 coverFit: "contain"
 coverSource: "https://www.publishersweekly.com/978-0-7653-2460-3"
 coverRegion: "Region unconfirmed"

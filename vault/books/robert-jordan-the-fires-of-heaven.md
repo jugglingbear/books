@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11441493-L.jpg?default=false"
+cover: "/covers/robert-jordan-the-fires-of-heaven.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11441493-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23277161M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL7924172W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10620747-L.jpg?default=false"
+cover: "/covers/orson-scott-card-pathfinder.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10620747-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24466550M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15505449W"

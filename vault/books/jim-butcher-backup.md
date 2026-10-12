@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.jim-butcher.com/pics/products/Backup_Novella_28-120.jpg"
+cover: "/covers/jim-butcher-backup.jpg"
+coverOriginal: "https://www.jim-butcher.com/pics/products/Backup_Novella_28-120.jpg"
 coverFit: "contain"
 coverSource: "https://www.jim-butcher.com/store/?ptype=Novella"
 coverRegion: "Region unconfirmed"

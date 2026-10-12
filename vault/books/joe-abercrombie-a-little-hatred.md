@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14441774-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-a-little-hatred.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14441774-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL49799638M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL20131274W"

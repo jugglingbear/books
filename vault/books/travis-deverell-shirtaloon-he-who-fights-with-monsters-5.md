@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "LitRPG"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12819133-L.jpg?default=false"
+cover: "/covers/travis-deverell-shirtaloon-he-who-fights-with-monsters-5.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12819133-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL38606411M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL28199716W"

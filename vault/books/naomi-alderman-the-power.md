@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14508414-L.jpg?default=false"
+cover: "/covers/naomi-alderman-the-power.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14508414-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL29409545M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17607742W"

@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15148800-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-mitosis.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15148800-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27097623M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL19913036W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/3367015-L.jpg?default=false"
+cover: "/covers/john-scalzi-the-ghost-brigades.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/3367015-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL17855261M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5734645W"

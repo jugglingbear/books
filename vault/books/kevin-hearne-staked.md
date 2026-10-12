@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/3b/07/45/3b074520-b00e-c2cd-422a-c1b0bbeea33e/9780345548528.d.jpg/600x600bb.jpg"
+cover: "/covers/kevin-hearne-staked.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/3b/07/45/3b074520-b00e-c2cd-422a-c1b0bbeea33e/9780345548528.d.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/staked/id1006359524?uo=4"
 coverRegion: "Region unconfirmed"

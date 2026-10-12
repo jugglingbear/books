@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15240017-L.jpg?default=false"
+cover: "/covers/robert-jordan-the-gathering-storm.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15240017-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23688472M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL1946681W"

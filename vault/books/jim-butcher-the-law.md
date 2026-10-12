@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Short fiction"
-cover: "https://covers.openlibrary.org/b/id/15245348-L.jpg?default=false"
+cover: "/covers/jim-butcher-the-law.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15245348-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL62083802M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL45587260W"

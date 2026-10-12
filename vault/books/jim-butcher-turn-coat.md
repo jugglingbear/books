@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6422690-L.jpg?default=false"
+cover: "/covers/jim-butcher-turn-coat.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6422690-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24273008M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL11967338W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8776589-L.jpg?default=false"
+cover: "/covers/robin-hobb-assassin-s-fate.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8776589-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27302575M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL19098683W"

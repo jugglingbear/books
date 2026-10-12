@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6620904-L.jpg?default=false"
+cover: "/covers/orson-scott-card-the-call-of-earth.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6620904-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24375705M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49458W"

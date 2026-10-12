@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-vignette-reviewed.png"
+cover: "/covers/jim-butcher-vignette.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

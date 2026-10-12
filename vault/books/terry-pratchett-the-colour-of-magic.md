@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/38430-L.jpg?default=false"
+cover: "/covers/terry-pratchett-the-colour-of-magic.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/38430-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3423907M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL453657W"

@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-it-s-my-birthday-too-reviewed.png"
+cover: "/covers/jim-butcher-it-s-my-birthday-too.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

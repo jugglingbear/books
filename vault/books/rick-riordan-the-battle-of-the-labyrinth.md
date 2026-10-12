@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14641005-L.jpg?default=false"
+cover: "/covers/rick-riordan-the-battle-of-the-labyrinth.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14641005-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL52252582M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL492640W"

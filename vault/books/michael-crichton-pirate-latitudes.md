@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6400300-L.jpg?default=false"
+cover: "/covers/michael-crichton-pirate-latitudes.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6400300-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24252578M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14950539W"

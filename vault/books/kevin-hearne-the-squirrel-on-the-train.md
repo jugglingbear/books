@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14520550-L.jpg?default=false"
+cover: "/covers/kevin-hearne-the-squirrel-on-the-train.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14520550-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26942132M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19729029W"

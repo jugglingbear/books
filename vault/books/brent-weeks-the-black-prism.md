@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9126892-L.jpg?default=false"
+cover: "/covers/brent-weeks-the-black-prism.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9126892-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27687310M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15317896W"

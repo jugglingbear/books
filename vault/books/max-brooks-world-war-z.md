@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10655817-L.jpg?default=false"
+cover: "/covers/max-brooks-world-war-z.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10655817-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31980521M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5969057W"

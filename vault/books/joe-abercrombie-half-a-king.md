@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12179768-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-half-a-king.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12179768-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27161796M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17112232W"

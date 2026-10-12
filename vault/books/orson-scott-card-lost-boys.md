@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10135428-L.jpg?default=false"
+cover: "/covers/orson-scott-card-lost-boys.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10135428-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1722068M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49665W"

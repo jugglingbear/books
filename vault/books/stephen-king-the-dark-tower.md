@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14651789-L.jpg?default=false"
+cover: "/covers/stephen-king-the-dark-tower.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14651789-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23118295M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL81600W"

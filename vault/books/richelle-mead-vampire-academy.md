@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6397562-L.jpg?default=false"
+cover: "/covers/richelle-mead-vampire-academy.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6397562-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24250138M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8488892W"

@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6398285-L.jpg?default=false"
+cover: "/covers/peter-v-brett-the-desert-spear.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6398285-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24250783M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14981238W"

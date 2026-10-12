@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/284189-L.jpg?default=false"
+cover: "/covers/jim-butcher-furies-of-calderon.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/284189-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3304151M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5685116W"

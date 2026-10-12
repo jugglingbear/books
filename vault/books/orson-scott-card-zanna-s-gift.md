@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8452707-L.jpg?default=false"
+cover: "/covers/orson-scott-card-zanna-s-gift.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8452707-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26797352M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19339899W"

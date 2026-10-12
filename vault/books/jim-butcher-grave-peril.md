@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/295022-L.jpg?default=false"
+cover: "/covers/jim-butcher-grave-peril.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/295022-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3666364M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5961784W"

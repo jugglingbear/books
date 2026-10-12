@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6610143-L.jpg?default=false"
+cover: "/covers/simon-r-green-agents-of-light-darkness.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6610143-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3388460M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL3578501W"

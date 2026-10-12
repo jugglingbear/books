@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8564469-L.jpg?default=false"
+cover: "/covers/anne-rice-the-queen-of-the-damned.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8564469-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24940735M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77828W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10391516-L.jpg?default=false"
+cover: "/covers/ernest-cline-ready-player-one.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10391516-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25357114M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15936512W"

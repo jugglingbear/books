@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7584698-L.jpg?default=false"
+cover: "/covers/michael-j-sullivan-nyphron-rising.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7584698-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26025055M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17441209W"

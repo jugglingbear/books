@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6901175-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-last-argument-of-kings.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6901175-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24981613M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8400952W"

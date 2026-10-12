@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13147054-L.jpg?default=false"
+cover: "/covers/michael-crichton-eaters-of-the-dead.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13147054-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46523467M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL46873W"

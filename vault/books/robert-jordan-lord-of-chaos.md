@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/182398-L.jpg?default=false"
+cover: "/covers/robert-jordan-lord-of-chaos.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/182398-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1105059M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL7924208W"

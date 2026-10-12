@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9326658-L.jpg?default=false"
+cover: "/covers/j-k-rowling-fantastic-beasts-and-where-to-find-them.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9326658-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25545284M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL13716952W"

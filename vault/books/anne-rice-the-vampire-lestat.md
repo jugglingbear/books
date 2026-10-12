@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12452506-L.jpg?default=false"
+cover: "/covers/anne-rice-the-vampire-lestat.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12452506-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35717198M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77813W"

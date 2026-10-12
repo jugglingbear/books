@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/e7/2c/9d/e72c9d58-078f-c03c-c404-6b4ef67b7fc4/9781101633533.d.jpg/600x600bb.jpg"
+cover: "/covers/lev-grossman-the-magician-s-land.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/e7/2c/9d/e72c9d58-078f-c03c-c404-6b4ef67b7fc4/9781101633533.d.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/the-magicians-land/id731080421?uo=4"
 coverRegion: "Region unconfirmed"

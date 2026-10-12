@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10703229-L.jpg?default=false"
+cover: "/covers/anne-rice-blackwood-farm.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10703229-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23246837M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77819W"

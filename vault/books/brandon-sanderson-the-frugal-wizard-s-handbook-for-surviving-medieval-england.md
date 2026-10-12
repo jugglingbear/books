@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14558172-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-the-frugal-wizard-s-handbook-for-surviving-medieval-england.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14558172-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46057198M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL29190967W"

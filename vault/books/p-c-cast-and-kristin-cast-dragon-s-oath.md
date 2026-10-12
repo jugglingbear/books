@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9257595-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-dragon-s-oath.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9257595-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25109214M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16298458W"

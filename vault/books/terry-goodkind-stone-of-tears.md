@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/182448-L.jpg?default=false"
+cover: "/covers/terry-goodkind-stone-of-tears.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/182448-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL794502M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010453W"

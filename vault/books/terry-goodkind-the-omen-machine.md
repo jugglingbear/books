@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10117155-L.jpg?default=false"
+cover: "/covers/terry-goodkind-the-omen-machine.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10117155-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL28180325M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15598561W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15140753-L.jpg?default=false"
+cover: "/covers/mark-lawrence-holy-sister.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15140753-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL37299359M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20097592W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14847912-L.jpg?default=false"
+cover: "/covers/suzanne-collins-sunrise-on-the-reaping.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14847912-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL57572489M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL43426400W"

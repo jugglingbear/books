@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://images2.penguinrandomhouse.com/cover/9780345421456"
+cover: "/covers/matthew-stover-heroes-die.jpg"
+coverOriginal: "https://images2.penguinrandomhouse.com/cover/9780345421456"
 coverFit: "contain"
 coverSource: "https://www.penguinrandomhouse.com/books/174355/heroes-die-by-matthew-woodring-stover/"
 coverRegion: "Region unconfirmed"

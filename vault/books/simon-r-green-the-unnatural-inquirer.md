@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7125640-L.jpg?default=false"
+cover: "/covers/simon-r-green-the-unnatural-inquirer.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7125640-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL18277593M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL3578592W"

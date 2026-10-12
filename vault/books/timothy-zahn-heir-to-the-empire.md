@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11107659-L.jpg?default=false"
+cover: "/covers/timothy-zahn-heir-to-the-empire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11107659-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2028412M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL83589W"

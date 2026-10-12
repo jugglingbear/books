@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15213442-L.jpg?default=false"
+cover: "/covers/andrzej-sapkowski-time-of-contempt.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15213442-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46569854M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL2577481W"

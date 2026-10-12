@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14651729-L.jpg?default=false"
+cover: "/covers/stephen-king-the-drawing-of-the-three.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14651729-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL7590796M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL81616W"

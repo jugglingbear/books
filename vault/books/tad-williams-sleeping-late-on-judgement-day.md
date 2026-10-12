@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/a9/3c/b5/a93cb5f7-c0a6-3557-e54b-e57275594088/9780698157699.d.jpg/600x600bb.jpg"
+cover: "/covers/tad-williams-sleeping-late-on-judgement-day.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/a9/3c/b5/a93cb5f7-c0a6-3557-e54b-e57275594088/9780698157699.d.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/sleeping-late-on-judgement-day/id6443395002?uo=4"
 coverRegion: "Region unconfirmed"

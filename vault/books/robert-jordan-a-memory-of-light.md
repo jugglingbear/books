@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658327-L.jpg?default=false"
+cover: "/covers/robert-jordan-a-memory-of-light.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658327-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25420960M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16799133W"

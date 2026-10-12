@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14543419-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-best-served-cold.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14543419-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23871940M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8400949W"

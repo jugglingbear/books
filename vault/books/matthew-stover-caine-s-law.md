@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://images4.penguinrandomhouse.com/cover/9780345532541"
+cover: "/covers/matthew-stover-caine-s-law.jpg"
+coverOriginal: "https://images4.penguinrandomhouse.com/cover/9780345532541"
 coverFit: "contain"
 coverSource: "https://www.penguinrandomhouse.com/books/174356/caines-law-by-matthew-stover/"
 coverRegion: "Region unconfirmed"

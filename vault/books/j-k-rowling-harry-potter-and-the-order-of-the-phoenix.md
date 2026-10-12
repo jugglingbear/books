@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15166468-L.jpg?default=false"
+cover: "/covers/j-k-rowling-harry-potter-and-the-order-of-the-phoenix.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15166468-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23247162M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL82548W"

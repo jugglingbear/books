@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6959711-L.jpg?default=false"
+cover: "/covers/fred-saberhagen-sightblinder-s-story.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6959711-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2409600M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15123144W"

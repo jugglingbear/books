@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14570517-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-defiant.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14570517-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL49600493M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL34341592W"

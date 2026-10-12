@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10492487-L.jpg?default=false"
+cover: "/covers/robin-hobb-assassin-s-quest.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10492487-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL30698249M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2707231W"

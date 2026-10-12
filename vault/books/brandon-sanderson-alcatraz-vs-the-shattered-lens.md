@@ -7,7 +7,8 @@ read: false
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658318-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-alcatraz-vs-the-shattered-lens.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658318-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23929184M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14909011W"

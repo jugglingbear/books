@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14838642-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-dark-one-forgotten.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14838642-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL57507657M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL42387331W"

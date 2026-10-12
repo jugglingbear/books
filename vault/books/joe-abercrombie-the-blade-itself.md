@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6933754-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-the-blade-itself.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6933754-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24966819M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8400950W"

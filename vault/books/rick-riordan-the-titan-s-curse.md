@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14641003-L.jpg?default=false"
+cover: "/covers/rick-riordan-the-titan-s-curse.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14641003-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL52252576M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL492647W"

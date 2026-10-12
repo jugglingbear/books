@@ -9,8 +9,8 @@ formats: ["Audiobook"]
 audioSources: []
 genres: ["Science Fiction"]
 kind: "Book"
-cover: >-
-  https://d28hgpri8am2if.cloudfront.net/book_images/onix/interior_spreads/9781668271100/the-infinite-extent-9781668271100.in03.jpg
+cover: "/covers/dennis-e-taylor-the-infinite-extent.jpg"
+coverOriginal: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/interior_spreads/9781668271100/the-infinite-extent-9781668271100.in03.jpg"
 coverSource: "https://www.simonandschuster.com/books/The-Infinite-Extent/Dennis-E-Taylor/Bobiverse/9781668271100"
 coverRegion: "US"
 source: "https://www.simonandschuster.com/books/The-Infinite-Extent/Dennis-E-Taylor/Bobiverse/9781668271100"

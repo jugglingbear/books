@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10986125-L.jpg?default=false"
+cover: "/covers/orson-scott-card-earthfall.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10986125-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1115928M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49476W"

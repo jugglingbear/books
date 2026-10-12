@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/25/2f/92/252f926a-1db7-c938-3477-8e78d29e8704/9781466853447.jpg/600x600bb.jpg"
+cover: "/covers/cixin-liu-the-three-body-problem.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/25/2f/92/252f926a-1db7-c938-3477-8e78d29e8704/9781466853447.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/the-three-body-problem/id856893409?uo=4"
 coverRegion: "Region unconfirmed"

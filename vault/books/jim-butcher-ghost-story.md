@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8999984-L.jpg?default=false"
+cover: "/covers/jim-butcher-ghost-story.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8999984-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24858073M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15673516W"

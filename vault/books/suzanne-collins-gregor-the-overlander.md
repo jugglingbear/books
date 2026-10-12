@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/83/0e/59/830e59fb-4d01-a467-fc1a-e121b9a73dd2/9780545317931.jpg/600x600bb.jpg"
+cover: "/covers/suzanne-collins-gregor-the-overlander.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/83/0e/59/830e59fb-4d01-a467-fc1a-e121b9a73dd2/9780545317931.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/gregor-the-overlander/id763635877?uo=4"
 coverRegion: "Region unconfirmed"

@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15148486-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-defending-elysium.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15148486-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL36145111M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL26695735W"

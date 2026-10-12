@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Historical Fiction"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication/be/8d/1b/mzi.icgiwntf.jpg/600x600bb.jpg"
+cover: "/covers/orson-scott-card-saints.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication/be/8d/1b/mzi.icgiwntf.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/saints/id389581224?uo=4"
 coverRegion: "Region unconfirmed"

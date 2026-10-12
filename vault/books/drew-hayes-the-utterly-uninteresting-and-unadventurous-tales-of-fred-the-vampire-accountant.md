@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8667882-L.jpg?default=false"
+cover: "/covers/drew-hayes-the-utterly-uninteresting-and-unadventurous-tales-of-fred-the-vampire-accountant.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8667882-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27049244M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19861566W"

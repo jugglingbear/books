@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10864397-L.jpg?default=false"
+cover: "/covers/scott-meyer-spell-or-high-water.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10864397-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32222593M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17613879W"

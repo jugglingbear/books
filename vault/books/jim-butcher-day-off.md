@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-day-off-reviewed.png"
+cover: "/covers/jim-butcher-day-off.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

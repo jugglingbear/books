@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6950992-L.jpg?default=false"
+cover: "/covers/c-s-lewis-the-silver-chair.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6950992-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24934004M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL71078W"

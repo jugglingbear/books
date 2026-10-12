@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13328084-L.jpg?default=false"
+cover: "/covers/robert-jordan-crossroads-of-twilight.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13328084-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24764077M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL7924099W"

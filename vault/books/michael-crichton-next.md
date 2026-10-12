@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Thriller"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12007805-L.jpg?default=false"
+cover: "/covers/michael-crichton-next.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12007805-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL33896834M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL46904W"

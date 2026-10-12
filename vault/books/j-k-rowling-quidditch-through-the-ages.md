@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8273320-L.jpg?default=false"
+cover: "/covers/j-k-rowling-quidditch-through-the-ages.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8273320-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23245390M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8119615W"

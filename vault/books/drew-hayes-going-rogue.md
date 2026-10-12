@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11230180-L.jpg?default=false"
+cover: "/covers/drew-hayes-going-rogue.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11230180-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32590861M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL24576029W"

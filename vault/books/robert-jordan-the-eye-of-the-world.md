@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15239992-L.jpg?default=false"
+cover: "/covers/robert-jordan-the-eye-of-the-world.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15239992-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24934473M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL7924103W"

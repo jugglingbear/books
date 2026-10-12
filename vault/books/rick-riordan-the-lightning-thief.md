@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14640953-L.jpg?default=false"
+cover: "/covers/rick-riordan-the-lightning-thief.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14640953-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL52252551M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL492658W"

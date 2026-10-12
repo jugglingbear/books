@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/369621-L.jpg?default=false"
+cover: "/covers/robin-hobb-assassin-s-apprentice.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/369621-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1103902M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2707183W"

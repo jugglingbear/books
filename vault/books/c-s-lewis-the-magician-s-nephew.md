@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9321345-L.jpg?default=false"
+cover: "/covers/c-s-lewis-the-magician-s-nephew.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9321345-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3318376M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL71042W"

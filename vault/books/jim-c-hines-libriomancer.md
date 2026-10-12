@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11670837-L.jpg?default=false"
+cover: "/covers/jim-c-hines-libriomancer.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11670837-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25935612M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17357738W"

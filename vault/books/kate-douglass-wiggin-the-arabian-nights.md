@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/4655854-L.jpg?default=false"
+cover: "/covers/kate-douglass-wiggin-the-arabian-nights.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/4655854-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1733761M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL19210794W"

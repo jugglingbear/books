@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Collection"
-cover: "https://covers.openlibrary.org/b/id/14543458-L.jpg?default=false"
+cover: "/covers/george-r-r-martin-and-gardner-dozois-rogues.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14543458-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL47043665M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19287425W"

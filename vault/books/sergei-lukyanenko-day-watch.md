@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.publishersweekly.com/cover/9781401360207"
+cover: "/covers/sergei-lukyanenko-day-watch.jpg"
+coverOriginal: "https://www.publishersweekly.com/cover/9781401360207"
 coverFit: "contain"
 coverSource: "https://www.publishersweekly.com/9781401360207"
 coverRegion: "Region unconfirmed"

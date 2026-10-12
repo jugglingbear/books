@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.jimchines.com/wp-content/uploads/2014/03/Red-Hood-Lg-300x483.jpg"
+cover: "/covers/jim-c-hines-red-hood-s-revenge.jpg"
+coverOriginal: "https://www.jimchines.com/wp-content/uploads/2014/03/Red-Hood-Lg-300x483.jpg"
 coverFit: "contain"
 coverSource: "https://www.jimchines.com/project/princesses/"
 coverRegion: "Region unconfirmed"

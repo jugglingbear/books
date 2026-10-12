@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9261556-L.jpg?default=false"
+cover: "/covers/fred-saberhagen-the-third-book-of-swords.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9261556-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL17476094M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL11312814W"

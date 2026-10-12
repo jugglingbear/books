@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8478380-L.jpg?default=false"
+cover: "/covers/kevin-hearne-the-purloined-poodle.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8478380-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26818553M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19362539W"

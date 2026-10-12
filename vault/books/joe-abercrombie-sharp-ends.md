@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Collection"
-cover: "https://covers.openlibrary.org/b/id/15246354-L.jpg?default=false"
+cover: "/covers/joe-abercrombie-sharp-ends.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15246354-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL36314831M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19346566W"

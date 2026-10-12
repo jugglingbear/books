@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6403839-L.jpg?default=false"
+cover: "/covers/simon-r-green-hell-to-pay.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6403839-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24255880M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL3578568W"

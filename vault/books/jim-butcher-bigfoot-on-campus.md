@@ -7,7 +7,7 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "/covers/custom/jim-butcher-bigfoot-on-campus-reviewed.png"
+cover: "/covers/jim-butcher-bigfoot-on-campus.png"
 coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""

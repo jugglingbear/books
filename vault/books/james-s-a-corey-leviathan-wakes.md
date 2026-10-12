@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11295081-L.jpg?default=false"
+cover: "/covers/james-s-a-corey-leviathan-wakes.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11295081-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32667325M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16114008W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15261909-L.jpg?default=false"
+cover: "/covers/philip-pullman-the-subtle-knife.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15261909-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23242790M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL28993W"

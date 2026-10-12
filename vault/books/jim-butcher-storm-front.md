@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/41/71/c2/4171c284-8f2b-27a2-9cf8-18f72ecad29d/9781101128657.d.jpg/600x600bb.jpg"
+cover: "/covers/jim-butcher-storm-front.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/41/71/c2/4171c284-8f2b-27a2-9cf8-18f72ecad29d/9781101128657.d.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/storm-front/id357919682?uo=4"
 coverRegion: "Region unconfirmed"

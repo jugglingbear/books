@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15129757-L.jpg?default=false"
+cover: "/covers/jim-butcher-small-favor.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15129757-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23277960M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL11967339W"

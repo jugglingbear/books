@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10030913-L.jpg?default=false"
+cover: "/covers/peter-v-brett-the-core.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10030913-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL28130496M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19718519W"

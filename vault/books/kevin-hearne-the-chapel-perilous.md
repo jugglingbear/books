@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/0a/95/dd/0a95dd8e-54c1-f444-cefe-f4fb727765bf/0003748647.jpg/600x600bb.jpg"
+cover: "/covers/kevin-hearne-the-chapel-perilous.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/0a/95/dd/0a95dd8e-54c1-f444-cefe-f4fb727765bf/0003748647.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/the-chapel-perilous/id6755734533?uo=4"
 coverRegion: "Region unconfirmed"

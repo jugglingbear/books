@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14885597-L.jpg?default=false"
+cover: "/covers/matthew-stover-blade-of-tyshalle.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14885597-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL18533966M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2727025W"

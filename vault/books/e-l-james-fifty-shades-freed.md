@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15261653-L.jpg?default=false"
+cover: "/covers/e-l-james-fifty-shades-freed.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15261653-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25240706M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16550682W"

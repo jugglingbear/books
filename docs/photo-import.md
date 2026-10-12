@@ -75,12 +75,14 @@ in the completion report; keep unsupported optional fields empty or `null` rathe
 3. Prefer a clean front cover over CD/MP3 packaging or an image with an audiobook border. If only packaging is available,
    use the existing `coverCrop` percentages only when the full title and author remain visible. Use `coverFit: "contain"`
    for square or unusually proportioned artwork; do not crop away its title to fill the portrait frame.
-4. Record a working HTTPS image URL in `cover` and its exact source page in `coverSource`. Confirm the image loads in
+4. Download and verify the image, saving it as `public/covers/<book-id>.<extension>`. Record the local `/covers/` path
+   in `cover`, the original HTTPS image URL in `coverOriginal`, and the exact edition page in `coverSource`.
+   Confirm it loads in
    the rendered site. Set `coverRegion` from edition evidence; use `Region unconfirmed` when uncertain. English text,
    an ISBN prefix, or a US storefront alone does not prove a US print edition.
 5. When no reliable matching cover can be verified, leave `cover` empty and retain the designed fallback. Report the
    specific title and search limitation. Do not silently assign a collection cover to a story. Generate custom art only
-   when explicitly requested; save it in `public/covers/custom/` and set `coverCredit: "Custom AI-generated artwork"`.
+   when explicitly requested; save it in `public/covers/` and set `coverCredit: "Custom AI-generated artwork"`.
    Custom artwork has no official edition source or region.
 6. Before generating custom artwork, verify the individual story's opening premise from author/publisher material,
    consulting reliable secondary summaries only for gaps. Use established settings or restrained symbolic objects.

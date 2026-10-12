@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8750522-L.jpg?default=false"
+cover: "/covers/erin-morgenstern-the-night-circus.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8750522-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25368703M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16086747W"

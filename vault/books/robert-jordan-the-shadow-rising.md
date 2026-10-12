@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15240013-L.jpg?default=false"
+cover: "/covers/robert-jordan-the-shadow-rising.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15240013-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL21261631M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL7924199W"

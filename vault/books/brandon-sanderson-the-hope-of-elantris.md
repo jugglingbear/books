@@ -9,7 +9,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781645419112_1.jpg"
+cover: "/covers/brandon-sanderson-the-hope-of-elantris.jpg"
+coverOriginal: "https://www.graphicaudio.net/media/catalog/product/cache/7ce806cc4796fb4daabf8be971ff5dcb/9/7/9781645419112_1.jpg"
 coverFit: "contain"
 coverSource: "https://www.graphicaudio.net/the-hope-of-elantris.html"
 coverRegion: "Region unconfirmed"

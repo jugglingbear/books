@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10382969-L.jpg?default=false"
+cover: "/covers/e-l-james-fifty-shades-darker.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10382969-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL28483729M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL16550681W"

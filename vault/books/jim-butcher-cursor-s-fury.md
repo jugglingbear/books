@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6448680-L.jpg?default=false"
+cover: "/covers/jim-butcher-cursor-s-fury.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6448680-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24324222M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15191930W"

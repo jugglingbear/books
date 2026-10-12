@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13329154-L.jpg?default=false"
+cover: "/covers/jim-butcher-peace-talks.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13329154-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL34675068M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20863938W"

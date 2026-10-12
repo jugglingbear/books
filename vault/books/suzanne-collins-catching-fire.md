@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15261626-L.jpg?default=false"
+cover: "/covers/suzanne-collins-catching-fire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15261626-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL40281282M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5735360W"

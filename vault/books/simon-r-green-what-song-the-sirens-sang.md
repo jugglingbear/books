@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13827572-L.jpg?default=false"
+cover: "/covers/simon-r-green-what-song-the-sirens-sang.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/13827572-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL38012644M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL27819556W"

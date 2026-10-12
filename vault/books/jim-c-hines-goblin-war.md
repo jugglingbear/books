@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/6415135-L.jpg?default=false"
+cover: "/covers/jim-c-hines-goblin-war.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/6415135-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24266319M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5734656W"

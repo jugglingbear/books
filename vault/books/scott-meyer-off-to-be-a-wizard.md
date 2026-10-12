@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12191766-L.jpg?default=false"
+cover: "/covers/scott-meyer-off-to-be-a-wizard.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12191766-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27238937M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20058930W"

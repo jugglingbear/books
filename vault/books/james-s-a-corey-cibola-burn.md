@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11295044-L.jpg?default=false"
+cover: "/covers/james-s-a-corey-cibola-burn.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11295044-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32667308M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL17454175W"

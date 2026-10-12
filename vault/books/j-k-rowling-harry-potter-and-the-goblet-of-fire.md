@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15259191-L.jpg?default=false"
+cover: "/covers/j-k-rowling-harry-potter-and-the-goblet-of-fire.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15259191-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27330967M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL82560W"

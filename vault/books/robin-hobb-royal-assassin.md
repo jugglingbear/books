@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14093093-L.jpg?default=false"
+cover: "/covers/robin-hobb-royal-assassin.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14093093-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46114937M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL27336080W"

@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14591760-L.jpg?default=false"
+cover: "/covers/j-k-rowling-the-tales-of-beedle-the-bard.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14591760-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26974565M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL13716951W"

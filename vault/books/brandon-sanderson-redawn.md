@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14372989-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-redawn.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14372989-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL48596388M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL36001082W"

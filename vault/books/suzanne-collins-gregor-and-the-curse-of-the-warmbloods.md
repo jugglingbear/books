@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12876341-L.jpg?default=false"
+cover: "/covers/suzanne-collins-gregor-and-the-curse-of-the-warmbloods.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12876341-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL39474844M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL5735361W"

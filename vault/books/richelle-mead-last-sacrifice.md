@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14649487-L.jpg?default=false"
+cover: "/covers/richelle-mead-last-sacrifice.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14649487-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24489539M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL15532299W"

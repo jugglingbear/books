@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Horror", "Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/9324120-L.jpg?default=false"
+cover: "/covers/anne-rice-blood-canticle.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/9324120-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3578902M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL77820W"

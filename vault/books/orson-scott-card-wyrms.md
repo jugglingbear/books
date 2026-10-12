@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/10135415-L.jpg?default=false"
+cover: "/covers/orson-scott-card-wyrms.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/10135415-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2373247M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49675W"

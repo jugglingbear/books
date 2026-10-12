@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Nonfiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8345909-L.jpg?default=false"
+cover: "/covers/bill-bryson-the-mother-tongue.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8345909-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26331430M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL74126W"

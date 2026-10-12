@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://is1-ssl.mzstatic.com/image/thumb/Publication/c1/82/56/mzi.myzpwkwv.jpg/600x600bb.jpg"
+cover: "/covers/fred-saberhagen-woundhealer-s-story.jpg"
+coverOriginal: "https://is1-ssl.mzstatic.com/image/thumb/Publication/c1/82/56/mzi.myzpwkwv.jpg/600x600bb.jpg"
 coverFit: "contain"
 coverSource: "https://books.apple.com/us/book/the-first-book-of-lost-swords-woundhealers-story/id445232269?uo=4"
 coverRegion: "Region unconfirmed"

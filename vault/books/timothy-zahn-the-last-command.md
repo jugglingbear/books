@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12508397-L.jpg?default=false"
+cover: "/covers/timothy-zahn-the-last-command.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12508397-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1738616M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL83577W"

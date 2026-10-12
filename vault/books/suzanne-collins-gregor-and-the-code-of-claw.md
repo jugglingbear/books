@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/8345961-L.jpg?default=false"
+cover: "/covers/suzanne-collins-gregor-and-the-code-of-claw.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/8345961-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL7515500M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL5735344W"

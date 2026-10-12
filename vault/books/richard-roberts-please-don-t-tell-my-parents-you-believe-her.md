@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/11303169-L.jpg?default=false"
+cover: "/covers/richard-roberts-please-don-t-tell-my-parents-you-believe-her.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/11303169-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32676103M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL24627081W"

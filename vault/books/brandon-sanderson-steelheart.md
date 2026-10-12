@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/14658517-L.jpg?default=false"
+cover: "/covers/brandon-sanderson-steelheart.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/14658517-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27540167M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL16807297W"

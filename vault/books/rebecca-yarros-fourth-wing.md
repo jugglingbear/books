@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/15209786-L.jpg?default=false"
+cover: "/covers/rebecca-yarros-fourth-wing.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/15209786-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL53388405M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL29226517W"

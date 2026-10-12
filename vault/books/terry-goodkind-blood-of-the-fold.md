@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/183644-L.jpg?default=false"
+cover: "/covers/terry-goodkind-blood-of-the-fold.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/183644-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL981445M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL2010487W"

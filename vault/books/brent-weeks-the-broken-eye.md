@@ -8,7 +8,8 @@ listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/12824631-L.jpg?default=false"
+cover: "/covers/brent-weeks-the-broken-eye.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/12824631-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27164618M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19984490W"

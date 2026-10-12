@@ -7,7 +7,8 @@ read: null
 listened: true
 genres: ["Fantasy", "Romance"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/7322417-L.jpg?default=false"
+cover: "/covers/p-c-cast-and-kristin-cast-chosen.jpg"
+coverOriginal: "https://covers.openlibrary.org/b/id/7322417-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25651833M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL14957437W"
