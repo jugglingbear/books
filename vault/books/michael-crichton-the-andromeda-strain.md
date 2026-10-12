@@ -3,7 +3,7 @@ title: "The Andromeda Strain"
 author: "Michael Crichton"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 genres: ["Science Fiction", "Thriller"]
 kind: "Book"

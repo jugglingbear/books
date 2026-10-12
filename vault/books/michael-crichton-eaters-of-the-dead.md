@@ -3,7 +3,7 @@ title: "Eaters of the Dead"
 author: "Michael Crichton"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
