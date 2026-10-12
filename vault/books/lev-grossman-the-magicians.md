@@ -3,7 +3,7 @@ title: "The Magicians"
 author: "Lev Grossman"
 series: "The Magicians"
 order: 1.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
