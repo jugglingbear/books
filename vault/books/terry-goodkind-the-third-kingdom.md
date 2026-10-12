@@ -3,7 +3,7 @@ title: "The Third Kingdom"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 14.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14612620-L.jpg?default=false"

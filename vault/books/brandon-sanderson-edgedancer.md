@@ -3,7 +3,7 @@ title: "Edgedancer"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 order: 2.5
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

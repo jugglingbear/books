@@ -13,7 +13,14 @@ test("the import accounts for every track exactly once, including excluded comme
   const ids = new Set(audit.books.map((book) => book.bookId));
   assert.equal(ids.size, audit.bookCount);
   const records = new Set(readdirSync(vault));
-  for (const id of ids) assert.ok(records.has(`${id}.md`), `Missing imported record: ${id}`);
+  const removed = new Set((audit.removedFromCatalog ?? []).map((book) => book.bookId));
+  for (const id of removed) {
+    assert.ok(ids.has(id), `Removal must refer to an imported record: ${id}`);
+    assert.ok(!records.has(`${id}.md`), `Removed record is still in the catalog: ${id}`);
+  }
+  for (const id of ids) {
+    assert.ok(records.has(`${id}.md`) || removed.has(id), `Missing imported record: ${id}`);
+  }
 });
 
 test("alternate narrations are reconciled while the original short version stays distinct", () => {

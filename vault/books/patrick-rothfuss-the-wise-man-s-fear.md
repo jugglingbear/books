@@ -3,7 +3,7 @@ title: "The Wise Man's Fear"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 order: 2.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12518396-L.jpg?default=false"

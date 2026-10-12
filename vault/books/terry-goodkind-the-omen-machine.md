@@ -3,7 +3,7 @@ title: "The Omen Machine"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 13.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10117155-L.jpg?default=false"

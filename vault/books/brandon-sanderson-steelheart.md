@@ -3,7 +3,7 @@ title: "Steelheart"
 author: "Brandon Sanderson"
 series: "The Reckoners"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658517-L.jpg?default=false"

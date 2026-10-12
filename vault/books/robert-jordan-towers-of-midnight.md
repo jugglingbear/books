@@ -3,7 +3,7 @@ title: "Towers of Midnight"
 author: "Robert Jordan and Brandon Sanderson"
 series: "The Wheel of Time"
 order: 13.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15240595-L.jpg?default=false"

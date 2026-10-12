@@ -3,7 +3,7 @@ title: "Secret History, The Eleventh Metal, and Allomancer Jak and the Pits of E
 author: "Brandon Sanderson"
 series: "Mistborn"
 order: 7.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

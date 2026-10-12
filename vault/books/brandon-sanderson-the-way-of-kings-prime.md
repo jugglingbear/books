@@ -3,7 +3,7 @@ title: "The Way of Kings Prime"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

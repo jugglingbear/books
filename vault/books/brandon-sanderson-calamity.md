@@ -3,7 +3,7 @@ title: "Calamity"
 author: "Brandon Sanderson"
 series: "The Reckoners"
 order: 3.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658509-L.jpg?default=false"

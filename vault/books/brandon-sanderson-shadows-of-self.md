@@ -3,7 +3,7 @@ title: "Shadows of Self"
 author: "Brandon Sanderson"
 series: "Mistborn"
 order: 5.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

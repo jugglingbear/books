@@ -3,7 +3,7 @@ title: "A Crown of Swords"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 7.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/182461-L.jpg?default=false"

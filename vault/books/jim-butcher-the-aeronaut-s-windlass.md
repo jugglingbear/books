@@ -3,7 +3,7 @@ title: "The Aeronaut's Windlass"
 author: "Jim Butcher"
 series: "The Cinder Spires"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15116624-L.jpg?default=false"

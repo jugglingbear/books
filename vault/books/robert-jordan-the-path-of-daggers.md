@@ -3,7 +3,7 @@ title: "The Path of Daggers"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 8.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15240014-L.jpg?default=false"

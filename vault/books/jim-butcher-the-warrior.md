@@ -3,7 +3,7 @@ title: "The Warrior"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 10.3
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

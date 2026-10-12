@@ -3,7 +3,7 @@ title: "Words of Radiance"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 order: 2.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

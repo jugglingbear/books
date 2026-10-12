@@ -3,7 +3,7 @@ title: "The Fires of Heaven"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 5.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/11441493-L.jpg?default=false"

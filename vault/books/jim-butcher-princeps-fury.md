@@ -3,7 +3,7 @@ title: "Princeps' Fury"
 author: "Jim Butcher"
 series: "Codex Alera"
 order: 5.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/5728732-L.jpg?default=false"

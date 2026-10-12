@@ -3,7 +3,7 @@ title: "Love Hurts"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 11.1
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15245350-L.jpg?default=false"

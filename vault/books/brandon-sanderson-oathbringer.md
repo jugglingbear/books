@@ -3,7 +3,7 @@ title: "Oathbringer"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 order: 3.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

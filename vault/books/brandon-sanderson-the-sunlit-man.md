@@ -3,7 +3,7 @@ title: "The Sunlit Man"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

@@ -3,7 +3,7 @@ title: "Crossroads of Twilight"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 10.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13328084-L.jpg?default=false"

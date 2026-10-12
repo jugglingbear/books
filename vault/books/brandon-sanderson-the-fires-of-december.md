@@ -3,7 +3,7 @@ title: "The Fires of December"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15248313-L.jpg?default=false"

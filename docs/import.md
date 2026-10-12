@@ -15,7 +15,8 @@ collection. No audio file, embedded tag, ebook, cover sidecar, or archive was op
 
 The [import audit](../data/audiobook-import.json) preserves relative source filenames and their book IDs. These paths
 are not shipped in the website's public output. The audit is an immutable historical baseline for later reconciliation;
-manual edits to book notes are the current source of truth.
+manual edits to book notes are the current source of truth. Explicit later removals are listed in
+`removedFromCatalog` so historical import records do not cause removed books to be reintroduced.
 
 ## Empty folders
 

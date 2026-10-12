@@ -3,7 +3,7 @@ title: "Vignette"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 5.1
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

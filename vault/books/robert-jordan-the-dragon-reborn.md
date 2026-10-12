@@ -3,7 +3,7 @@ title: "The Dragon Reborn"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 3.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/603239-L.jpg?default=false"

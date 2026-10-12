@@ -3,7 +3,7 @@ title: "Severed Souls"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 15.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8452496-L.jpg?default=false"

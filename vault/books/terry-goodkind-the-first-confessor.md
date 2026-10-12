@@ -3,7 +3,7 @@ title: "The First Confessor"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 0.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8580474-L.jpg?default=false"

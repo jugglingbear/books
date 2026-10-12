@@ -3,7 +3,7 @@ title: "Dead Beat"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 7.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/295188-L.jpg?default=false"

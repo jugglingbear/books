@@ -3,7 +3,7 @@ title: "The Shadow Rising"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 4.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15240013-L.jpg?default=false"

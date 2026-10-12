@@ -3,7 +3,7 @@ title: "Naked Empire"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 9.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/524120-L.jpg?default=false"

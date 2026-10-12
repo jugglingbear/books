@@ -3,7 +3,7 @@ title: "Skyward"
 author: "Brandon Sanderson"
 series: "Skyward"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8350457-L.jpg?default=false"

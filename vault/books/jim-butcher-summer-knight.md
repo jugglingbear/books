@@ -3,7 +3,7 @@ title: "Summer Knight"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 4.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15116631-L.jpg?default=false"

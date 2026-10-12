@@ -3,7 +3,7 @@ title: "Confessor"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 12.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/1443109-L.jpg?default=false"

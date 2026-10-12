@@ -3,7 +3,7 @@ title: "Death Masks"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 5.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15212092-L.jpg?default=false"

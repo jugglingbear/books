@@ -3,7 +3,7 @@ title: "Stone of Tears"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 3.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/182448-L.jpg?default=false"

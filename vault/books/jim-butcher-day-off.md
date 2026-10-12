@@ -3,7 +3,7 @@ title: "Day Off"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 10.1
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

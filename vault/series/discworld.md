@@ -1,6 +1,6 @@
 ---
 title: "Discworld"
-author: "Terry Pratchett; Terry Pratchett and Ian Stewart and Jack Cohen"
+author: "Terry Pratchett"
 ---
 
 A flat world carried through space provides the setting for interconnected comic fantasies about very recognizable human

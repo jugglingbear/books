@@ -3,7 +3,7 @@ title: "The Law"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 17.5
-read: null
+read: true
 listened: true
 kind: "Short fiction"
 cover: "https://covers.openlibrary.org/b/id/15245348-L.jpg?default=false"

@@ -3,7 +3,7 @@ title: "Phantom"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 11.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10067367-L.jpg?default=false"

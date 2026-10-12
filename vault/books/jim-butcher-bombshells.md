@@ -3,7 +3,7 @@ title: "Bombshells"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 13.1
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

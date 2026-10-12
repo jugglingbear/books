@@ -3,7 +3,7 @@ title: "Blood of the Fold"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 4.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/183644-L.jpg?default=false"

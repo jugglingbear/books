@@ -3,7 +3,7 @@ title: "Dark One: Forgotten"
 author: "Brandon Sanderson"
 series: "Dark One"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14838642-L.jpg?default=false"

@@ -3,7 +3,7 @@ title: "The Original"
 author: "Brandon Sanderson and Mary Robinette Kowal"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13010551-L.jpg?default=false"

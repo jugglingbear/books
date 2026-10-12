@@ -3,7 +3,7 @@ title: "A Memory of Light"
 author: "Robert Jordan and Brandon Sanderson"
 series: "The Wheel of Time"
 order: 14.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658327-L.jpg?default=false"

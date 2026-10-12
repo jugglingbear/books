@@ -3,7 +3,7 @@ title: "The Alloy of Law"
 author: "Brandon Sanderson"
 series: "Mistborn"
 order: 4.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

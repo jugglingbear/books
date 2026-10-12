@@ -3,7 +3,7 @@ title: "Dragonsteel Prime"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14839210-L.jpg?default=false"

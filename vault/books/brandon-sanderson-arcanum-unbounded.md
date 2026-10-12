@@ -3,7 +3,7 @@ title: "Arcanum Unbounded"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 kind: "Collection"
 cover: "https://covers.openlibrary.org/b/id/14658368-L.jpg?default=false"

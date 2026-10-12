@@ -3,7 +3,7 @@ title: "Academ's Fury"
 author: "Jim Butcher"
 series: "Codex Alera"
 order: 2.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/284258-L.jpg?default=false"

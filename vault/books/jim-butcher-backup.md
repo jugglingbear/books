@@ -3,7 +3,7 @@ title: "Backup"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 10.2
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

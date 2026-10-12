@@ -3,7 +3,7 @@ title: "The Pillars of Creation"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 8.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

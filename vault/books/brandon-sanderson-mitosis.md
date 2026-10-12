@@ -3,7 +3,7 @@ title: "Mitosis"
 author: "Brandon Sanderson"
 series: "The Reckoners"
 order: 1.5
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15148800-L.jpg?default=false"

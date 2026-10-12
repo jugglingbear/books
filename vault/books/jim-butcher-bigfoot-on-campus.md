@@ -3,7 +3,7 @@ title: "Bigfoot on Campus"
 author: "Jim Butcher"
 series: "The Dresden Files"
 order: 11.9
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: ""

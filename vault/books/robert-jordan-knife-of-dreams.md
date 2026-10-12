@@ -3,7 +3,7 @@ title: "Knife of Dreams"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 11.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/183300-L.jpg?default=false"

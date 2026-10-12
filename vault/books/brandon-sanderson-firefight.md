@@ -3,7 +3,7 @@ title: "Firefight"
 author: "Brandon Sanderson"
 series: "The Reckoners"
 order: 2.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658422-L.jpg?default=false"

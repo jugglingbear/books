@@ -3,7 +3,7 @@ title: "Wizard's First Rule"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 2.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/182447-L.jpg?default=false"

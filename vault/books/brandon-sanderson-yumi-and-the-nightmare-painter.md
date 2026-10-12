@@ -3,7 +3,7 @@ title: "Yumi and the Nightmare Painter"
 author: "Brandon Sanderson"
 series: ""
 order: null
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

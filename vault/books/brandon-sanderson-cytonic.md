@@ -3,7 +3,7 @@ title: "Cytonic"
 author: "Brandon Sanderson"
 series: "Skyward"
 order: 3.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13234535-L.jpg?default=false"

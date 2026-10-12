@@ -3,7 +3,7 @@ title: "Furies of Calderon"
 author: "Jim Butcher"
 series: "Codex Alera"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/284189-L.jpg?default=false"

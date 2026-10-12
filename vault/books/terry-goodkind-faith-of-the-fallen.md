@@ -3,7 +3,7 @@ title: "Faith of the Fallen"
 author: "Terry Goodkind"
 series: "Sword of Truth"
 order: 7.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/183022-L.jpg?default=false"

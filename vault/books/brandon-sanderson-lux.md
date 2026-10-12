@@ -3,7 +3,7 @@ title: "Lux"
 author: "Brandon Sanderson and Steven Michael Bohls"
 series: "The Reckoners"
 order: 4.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14836403-L.jpg?default=false"

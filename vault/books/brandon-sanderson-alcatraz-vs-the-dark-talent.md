@@ -3,7 +3,7 @@ title: "Alcatraz vs the Dark Talent"
 author: "Brandon Sanderson"
 series: "Alcatraz vs the Evil Librarians"
 order: 5.0
-read: null
+read: false
 listened: true
 kind: "Book"
 cover: ""

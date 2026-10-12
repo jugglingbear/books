@@ -3,7 +3,7 @@ title: "Winter's Heart"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 9.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15240561-L.jpg?default=false"

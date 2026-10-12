@@ -3,7 +3,7 @@ title: "Defending Elysium"
 author: "Brandon Sanderson"
 series: "Skyward"
 order: 0.5
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15148486-L.jpg?default=false"

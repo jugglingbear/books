@@ -3,7 +3,7 @@ title: "The Name of the Wind"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13346215-L.jpg?default=false"

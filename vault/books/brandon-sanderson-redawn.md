@@ -3,7 +3,7 @@ title: "Redawn"
 author: "Brandon Sanderson and Janci Patterson"
 series: "Skyward"
 order: 2.2
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14372989-L.jpg?default=false"

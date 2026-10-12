@@ -3,7 +3,7 @@ title: "White Sand, Volume 2"
 author: "Brandon Sanderson"
 series: "White Sand"
 order: 2
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 kind: "Book"

@@ -3,7 +3,7 @@ title: "The Eye of the World"
 author: "Robert Jordan"
 series: "The Wheel of Time"
 order: 1.0
-read: null
+read: true
 listened: true
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15239992-L.jpg?default=false"
