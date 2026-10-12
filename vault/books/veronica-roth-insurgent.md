@@ -7,8 +7,8 @@ read: null
 listened: true
 genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
-cover: "https://covers.openlibrary.org/b/id/13326741-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL35331108M"
+cover: "https://www.indigo.ca/cdn/shop/files/1_bbd0fb0c-e5f2-4f4c-8036-72d11be21ba4.jpg?v=1763685679"
+coverSource: "https://www.indigo.ca/products/insurgent-3"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16325201W"
 year: null
