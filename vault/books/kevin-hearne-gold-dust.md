@@ -3,7 +3,7 @@ title: "Gold Dust"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 4.7
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

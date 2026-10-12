@@ -3,7 +3,7 @@ title: "The Naughtiest Cherub"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 8.8
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

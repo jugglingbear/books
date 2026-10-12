@@ -3,7 +3,7 @@ title: "The Chapel Perilous"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 4.8
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

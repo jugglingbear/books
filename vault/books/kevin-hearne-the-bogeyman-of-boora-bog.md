@@ -3,7 +3,7 @@ title: "The Bogeyman of Boora Bog"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 8.1
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

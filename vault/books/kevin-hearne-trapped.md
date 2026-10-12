@@ -3,7 +3,7 @@ title: "Trapped"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 5.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

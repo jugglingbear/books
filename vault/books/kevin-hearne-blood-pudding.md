@@ -3,7 +3,7 @@ title: "Blood Pudding"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 8.6
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

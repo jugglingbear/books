@@ -3,7 +3,7 @@ title: "The Demon Barker of Wheat Street"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 4.6
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

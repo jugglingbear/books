@@ -3,7 +3,7 @@ title: "Clan Rathskeller"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 0.5
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

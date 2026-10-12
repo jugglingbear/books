@@ -3,7 +3,7 @@ title: "A Prelude to War"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 7.5
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

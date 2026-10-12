@@ -3,7 +3,7 @@ title: "Goddess at the Crossroads"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 4.2
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

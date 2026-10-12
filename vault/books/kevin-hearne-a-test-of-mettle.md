@@ -3,7 +3,7 @@ title: "A Test of Mettle"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 3.5
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

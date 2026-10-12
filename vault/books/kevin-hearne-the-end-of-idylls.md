@@ -3,7 +3,7 @@ title: "The End of Idylls"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 8.9
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

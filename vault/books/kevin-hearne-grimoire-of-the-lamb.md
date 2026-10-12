@@ -3,7 +3,7 @@ title: "Grimoire of the Lamb"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 0.4
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

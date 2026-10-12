@@ -3,7 +3,7 @@ title: "Hunted"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 6.0
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

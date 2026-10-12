@@ -3,7 +3,7 @@ title: "Kaibab Unbound"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 0.6
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"

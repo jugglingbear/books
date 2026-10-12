@@ -3,7 +3,7 @@ title: "Cuddle Dungeon"
 author: "Kevin Hearne"
 series: "The Iron Druid Chronicles"
 order: 8.2
-read: null
+read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
