@@ -1,0 +1,18 @@
+---
+title: "The Final Empire"
+author: "Brandon Sanderson"
+series: "Mistborn"
+order: 1.0
+read: null
+listened: true
+audioSources: ["GraphicAudio"]
+kind: "Book"
+cover: ""
+coverSource: ""
+coverRegion: ""
+source: "https://openlibrary.org/works/OL5738148W"
+year: null
+descriptionStatus: "reviewed"
+---
+
+A street thief joins a daring crew whose ambitions reach far beyond robbery in an empire ruled by an immortal tyrant.

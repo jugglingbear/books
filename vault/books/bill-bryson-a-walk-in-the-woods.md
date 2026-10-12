@@ -1,0 +1,18 @@
+---
+title: "A Walk in the Woods"
+author: "Bill Bryson"
+series: ""
+order: null
+read: null
+listened: true
+kind: "Book"
+cover: "https://covers.openlibrary.org/b/id/6574169-L.jpg?default=false"
+coverSource: "https://openlibrary.org/books/OL24223222M"
+coverRegion: "US"
+source: "https://openlibrary.org/works/OL74123W"
+year: null
+descriptionStatus: "reviewed"
+---
+
+An attempt to hike the Appalachian Trail becomes a comic exploration of friendship, wilderness, and American
+conservation.

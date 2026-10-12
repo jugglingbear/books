@@ -1,0 +1,17 @@
+---
+title: "Shadows in Flight"
+author: "Orson Scott Card"
+series: "Enderverse"
+order: 16.0
+read: null
+listened: true
+kind: "Book"
+cover: "https://covers.openlibrary.org/b/id/12451670-L.jpg?default=false"
+coverSource: "https://openlibrary.org/books/OL25087063M"
+coverRegion: "US"
+source: "https://openlibrary.org/works/OL16239881W"
+year: null
+descriptionStatus: "reviewed"
+---
+
+An interstellar journey places family relationships and unusual abilities against the challenges of space exploration.
