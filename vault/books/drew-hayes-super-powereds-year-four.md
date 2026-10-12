@@ -5,6 +5,7 @@ series: "Super Powereds"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8669629-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27051766M"

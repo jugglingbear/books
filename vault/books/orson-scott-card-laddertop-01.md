@@ -5,6 +5,7 @@ series: "Laddertop"
 order: null
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

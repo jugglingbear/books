@@ -5,6 +5,7 @@ series: "Super Powereds"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: ""
 coverSource: ""

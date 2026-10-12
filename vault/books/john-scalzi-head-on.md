@@ -5,6 +5,7 @@ series: "Lock In"
 order: 2.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10678356-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26949280M"

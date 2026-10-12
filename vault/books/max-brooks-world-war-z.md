@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Horror"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10655817-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31980521M"

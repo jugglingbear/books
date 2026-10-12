@@ -5,6 +5,7 @@ series: "Bobiverse"
 order: 4.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10666914-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31846674M"

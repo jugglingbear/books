@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Nonfiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6807121-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24753374M"

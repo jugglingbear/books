@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction", "Literary Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12727446-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31860818M"

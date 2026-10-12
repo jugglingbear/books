@@ -5,6 +5,7 @@ series: "Dark One"
 order: 1.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14838642-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL57507657M"

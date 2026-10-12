@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14508414-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL29409545M"

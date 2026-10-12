@@ -33,6 +33,7 @@ order: 1
 read: null
 listened: true
 audioSources: []
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""
@@ -49,6 +50,7 @@ descriptionStatus: "reviewed"
 - Imported audiobooks are listened, per the owner's explicit statement. Do not infer reading from ebook sidecar files.
 - `audioSources` lists known Audible and/or GraphicAudio editions; empty or omitted means unconfirmed.
 - Preserve multiple edition sources when merging narrations. Never infer Audible from the absence of GraphicAudio.
+- `genres` is a nonempty list of broad editorial categories; use existing labels and allow multiple genres.
 - `series` must exactly match a series note's title; use an empty string for a standalone work.
 - `order` is a display-order hint, not a claim that the local collection includes every published volume.
 - Keep short fiction, anthologies, adaptations, and genuinely different versions distinguishable.

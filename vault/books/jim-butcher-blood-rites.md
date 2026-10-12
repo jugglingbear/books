@@ -5,6 +5,7 @@ series: "The Dresden Files"
 order: 6.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6387078-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24225702M"

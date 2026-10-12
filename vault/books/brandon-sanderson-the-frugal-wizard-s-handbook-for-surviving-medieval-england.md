@@ -5,6 +5,7 @@ series: ""
 order: null
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14558172-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL46057198M"

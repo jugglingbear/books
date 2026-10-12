@@ -5,6 +5,7 @@ series: "Princess"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

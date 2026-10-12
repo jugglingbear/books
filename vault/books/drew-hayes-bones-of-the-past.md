@@ -5,6 +5,7 @@ series: "Villain's Code"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12394434-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35701013M"

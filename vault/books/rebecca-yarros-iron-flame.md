@@ -6,6 +6,7 @@ order: 2.0
 read: null
 listened: true
 audioSources: ["GraphicAudio"]
+genres: ["Fantasy", "Romance"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15169924-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL61306022M"

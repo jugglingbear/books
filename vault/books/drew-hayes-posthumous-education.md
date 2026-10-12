@@ -5,6 +5,7 @@ series: "Fred, The Vampire Accountant"
 order: 8.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "Pathfinder"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7099191-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25231155M"

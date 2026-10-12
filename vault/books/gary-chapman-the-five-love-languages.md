@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Nonfiction", "Self-Help"]
 kind: "Book"
 cover: ""
 coverSource: ""

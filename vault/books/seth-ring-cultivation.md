@@ -5,6 +5,7 @@ series: "Battle Mage Farmer"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy", "LitRPG"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15238882-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL62314548M"

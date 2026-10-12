@@ -5,6 +5,7 @@ series: "Sword of Truth"
 order: 8.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

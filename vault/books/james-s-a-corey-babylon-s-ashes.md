@@ -5,6 +5,7 @@ series: "The Expanse"
 order: 6.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/11295150-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32667347M"

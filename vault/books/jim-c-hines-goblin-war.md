@@ -5,6 +5,7 @@ series: "Goblin Trilogy"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6415135-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24266319M"

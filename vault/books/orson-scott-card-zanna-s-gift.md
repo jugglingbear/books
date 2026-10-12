@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Historical Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8452707-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26797352M"

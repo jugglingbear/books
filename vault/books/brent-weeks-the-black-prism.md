@@ -6,6 +6,7 @@ order: 1.0
 read: null
 listened: true
 audioSources: ["GraphicAudio"]
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/9126892-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27687310M"

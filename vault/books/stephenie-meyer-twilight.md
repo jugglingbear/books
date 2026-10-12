@@ -5,6 +5,7 @@ series: "Twilight"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy", "Romance"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15264380-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24644542M"

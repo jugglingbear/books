@@ -5,6 +5,7 @@ series: "The Fitz and the Fool"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8667051-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27048353M"

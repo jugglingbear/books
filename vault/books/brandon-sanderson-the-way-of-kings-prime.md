@@ -5,6 +5,7 @@ series: ""
 order: null
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

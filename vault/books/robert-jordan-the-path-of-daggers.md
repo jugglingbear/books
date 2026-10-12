@@ -5,6 +5,7 @@ series: "The Wheel of Time"
 order: 8.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15240014-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23242551M"

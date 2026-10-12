@@ -5,6 +5,7 @@ series: "Fred, The Vampire Accountant"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12387451-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35685810M"

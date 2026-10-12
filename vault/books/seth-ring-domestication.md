@@ -5,6 +5,7 @@ series: "Battle Mage Farmer"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy", "LitRPG"]
 kind: "Book"
 cover: ""
 coverSource: ""

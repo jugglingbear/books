@@ -5,6 +5,7 @@ series: "Mithermages"
 order: null
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6400300-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24252578M"

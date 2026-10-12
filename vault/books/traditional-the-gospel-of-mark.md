@@ -6,6 +6,7 @@ order: null
 read: null
 listened: true
 audioSources: ["GraphicAudio"]
+genres: ["Religion"]
 kind: "Book"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "Old Man's War"
 order: 5.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12525091-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27146365M"

@@ -5,6 +5,7 @@ series: "Enderverse"
 order: null
 read: null
 listened: true
+genres: ["Nonfiction"]
 kind: "Short fiction"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "The Broken Empire"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15174405-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL49315865M"

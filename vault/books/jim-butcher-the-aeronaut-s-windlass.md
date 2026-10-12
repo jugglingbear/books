@@ -5,6 +5,7 @@ series: "The Cinder Spires"
 order: 1.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15116624-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27185872M"

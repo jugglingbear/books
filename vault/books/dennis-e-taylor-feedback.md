@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Short fiction"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "Books of Swords"
 order: 11.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7022274-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL1431743M"

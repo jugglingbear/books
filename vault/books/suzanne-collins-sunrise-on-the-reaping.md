@@ -5,6 +5,7 @@ series: "The Hunger Games"
 order: 0.02
 read: null
 listened: true
+genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14847912-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL57572489M"

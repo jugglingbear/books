@@ -5,6 +5,7 @@ series: "Alcatraz vs the Evil Librarians"
 order: 3.0
 read: false
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658079-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL22695812M"

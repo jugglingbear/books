@@ -5,6 +5,7 @@ series: "Alcatraz vs the Evil Librarians"
 order: 5.0
 read: false
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

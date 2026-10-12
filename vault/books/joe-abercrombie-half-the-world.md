@@ -5,6 +5,7 @@ series: "Shattered Sea"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14543442-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26872359M"

@@ -5,6 +5,7 @@ series: "Vampire Chronicles"
 order: 9.0
 read: null
 listened: true
+genres: ["Horror", "Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10703229-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23246837M"

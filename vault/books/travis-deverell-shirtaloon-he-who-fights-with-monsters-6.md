@@ -5,6 +5,7 @@ series: "He Who Fights With Monsters"
 order: 6.0
 read: null
 listened: true
+genres: ["Fantasy", "LitRPG"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12819135-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL38606467M"

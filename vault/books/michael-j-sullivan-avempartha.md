@@ -5,6 +5,7 @@ series: "The Riyria Revelations"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7643148-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26056136M"

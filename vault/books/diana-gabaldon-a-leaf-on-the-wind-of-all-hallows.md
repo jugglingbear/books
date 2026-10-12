@@ -5,6 +5,7 @@ series: "Outlander"
 order: 0.02
 read: null
 listened: true
+genres: ["Historical Fiction", "Romance", "Fantasy"]
 kind: "Short fiction"
 cover: "https://covers.openlibrary.org/b/id/13856751-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL47321269M"

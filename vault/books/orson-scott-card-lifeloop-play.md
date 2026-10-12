@@ -5,6 +5,7 @@ series: "Posing as People"
 order: 2.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

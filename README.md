@@ -38,7 +38,8 @@ make serve-local
 ```
 
 The site serves at [the local Books URL](http://127.0.0.1:4321/books/). Search title, author, or series; combine the
-filters, switch reading/listening status, and share the resulting query URL. The `/` keyboard shortcut focuses search.
+filters (including genre), switch reading/listening status, and share the resulting query URL.
+The `/` keyboard shortcut focuses search.
 Without JavaScript, all book links remain available, but filtering and pagination require JavaScript.
 
 ```bash
@@ -66,6 +67,13 @@ workflow; its deployment step publishes to the `github-pages` environment. The f
 adds the live-site banner seen in the Quotes screenshot. No Jekyll setup or custom domain is needed.
 
 The Astro base path is `/books/`. Do not copy `/quotes/` into links or configuration.
+
+## Genres and sorting
+
+Book records contain editable `genres` lists. These are broad editorial shelf categories, and a title can have
+multiple genres. Genre selection combines with the other filters and is preserved in the search URL.
+The collection defaults to title A–Z, including leading articles; author sorting uses the displayed author credit.
+Series pages default to series order. The three hero books are fixed featured selections.
 
 ## Covers and descriptions
 

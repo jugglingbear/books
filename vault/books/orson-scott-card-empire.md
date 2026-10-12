@@ -5,6 +5,7 @@ series: "Empire"
 order: 1.0
 read: null
 listened: true
+genres: ["Thriller", "Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

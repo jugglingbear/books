@@ -5,6 +5,7 @@ series: "Women of Genesis"
 order: 2.0
 read: null
 listened: true
+genres: ["Historical Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10653392-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3939127M"

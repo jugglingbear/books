@@ -5,6 +5,7 @@ series: "Lock In"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

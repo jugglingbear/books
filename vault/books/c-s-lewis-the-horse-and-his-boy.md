@@ -5,6 +5,7 @@ series: "The Chronicles of Narnia"
 order: 5.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15246940-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24747112M"

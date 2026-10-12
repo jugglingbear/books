@@ -5,6 +5,7 @@ series: "The Iron Druid Chronicles"
 order: 0.4
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

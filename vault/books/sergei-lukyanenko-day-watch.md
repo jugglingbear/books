@@ -5,6 +5,7 @@ series: "Night Watch"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

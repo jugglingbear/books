@@ -5,6 +5,7 @@ series: "The Tales of Alvin Maker"
 order: 6.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Short fiction"
 cover: ""
 coverSource: ""

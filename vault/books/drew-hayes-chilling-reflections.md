@@ -5,6 +5,7 @@ series: "Villain's Code"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: ""
 coverSource: ""

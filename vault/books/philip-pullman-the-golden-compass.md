@@ -5,6 +5,7 @@ series: "His Dark Materials"
 order: 1
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

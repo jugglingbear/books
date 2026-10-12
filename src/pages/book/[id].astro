@@ -21,6 +21,7 @@ const { Content } = await render(book);
       {collection && <p class="detail-series"><a href={seriesUrl(collection)}>{collection.data.title} ↗</a></p>}
       <Status read={book.data.read} listened={book.data.listened}/>
       <AudioSources sources={book.data.audioSources}/>
+      <p class="genre-tags">{book.data.genres.map((genre) => <a href={`${base}/?genre=${encodeURIComponent(genre)}`}>{genre}</a>)}</p>
       <div class="synopsis"><span class="eyebrow">ABOUT THIS BOOK · SPOILER-FREE</span><div class="prose"><Content/></div></div>
       <div class="reading-record"><h2>On my shelf</h2><p><strong>Listening</strong><span>{book.data.listened ? "Listened" : "Not recorded"}</span></p><p><strong>Reading</strong><span>{book.data.read === true ? "Read" : book.data.read === false ? "Not read" : "Not recorded yet"}</span></p></div>
       {(book.data.source || book.data.coverSource) && <p class="source-note">{book.data.source && <a href={book.data.source}>Book reference ↗</a>}{book.data.coverSource && <a href={book.data.coverSource}>Cover edition ↗</a>}{book.data.coverRegion === "US" && <span>US edition cover</span>}</p>}

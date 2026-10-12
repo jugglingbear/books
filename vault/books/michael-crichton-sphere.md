@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction", "Thriller"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12884213-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL39480261M"

@@ -5,6 +5,7 @@ series: "Magic 2.0"
 order: 4
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10864405-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32222677M"

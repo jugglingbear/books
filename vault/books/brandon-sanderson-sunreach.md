@@ -5,6 +5,7 @@ series: "Skyward"
 order: 2.1
 read: true
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12818741-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL35709763M"

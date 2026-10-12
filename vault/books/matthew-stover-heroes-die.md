@@ -5,6 +5,7 @@ series: "Acts of Caine"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

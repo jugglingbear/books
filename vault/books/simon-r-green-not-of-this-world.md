@@ -5,6 +5,7 @@ series: "Gideon Sable"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13794694-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL40317116M"

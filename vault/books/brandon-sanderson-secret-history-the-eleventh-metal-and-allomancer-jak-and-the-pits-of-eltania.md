@@ -6,6 +6,7 @@ order: 7.0
 read: true
 listened: true
 audioSources: ["GraphicAudio"]
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "Percy Jackson & the Olympians"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14641003-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL52252576M"

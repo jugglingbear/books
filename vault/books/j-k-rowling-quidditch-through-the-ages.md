@@ -5,6 +5,7 @@ series: "Harry Potter"
 order: null
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8273320-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23245390M"

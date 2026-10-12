@@ -5,6 +5,7 @@ series: "Vampire Academy"
 order: 6
 read: null
 listened: true
+genres: ["Fantasy", "Romance"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14649487-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24489539M"

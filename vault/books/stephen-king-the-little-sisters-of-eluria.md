@@ -5,6 +5,7 @@ series: "The Dark Tower"
 order: 0.5
 read: null
 listened: true
+genres: ["Fantasy", "Horror"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7029831-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25200120M"

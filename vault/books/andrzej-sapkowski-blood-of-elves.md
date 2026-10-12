@@ -5,6 +5,7 @@ series: "The Witcher"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12485175-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24255147M"

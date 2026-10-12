@@ -5,6 +5,7 @@ series: "Magic Ex Libris"
 order: 2
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7485038-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25971348M"

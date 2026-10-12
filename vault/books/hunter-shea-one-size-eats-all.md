@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Horror"]
 kind: "Collection"
 cover: ""
 coverSource: ""

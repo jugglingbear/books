@@ -5,6 +5,7 @@ series: "The Rithmatist"
 order: 1.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658159-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL53424270M"

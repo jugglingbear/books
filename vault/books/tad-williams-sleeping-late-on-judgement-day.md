@@ -5,6 +5,7 @@ series: "Bobby Dollar"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

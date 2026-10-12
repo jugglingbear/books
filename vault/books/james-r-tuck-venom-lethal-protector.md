@@ -6,6 +6,7 @@ order: null
 read: null
 listened: true
 audioSources: ["GraphicAudio"]
+genres: ["Science Fiction", "Superheroes"]
 kind: "Book"
 cover: ""
 coverSource: ""

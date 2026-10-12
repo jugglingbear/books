@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Historical Fiction", "Adventure"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10653174-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27231026M"

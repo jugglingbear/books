@@ -5,6 +5,7 @@ series: "Playing Gods"
 order: 4.0
 read: null
 listened: true
+genres: ["Science Fiction", "Thriller"]
 kind: "Book"
 cover: ""
 coverSource: ""

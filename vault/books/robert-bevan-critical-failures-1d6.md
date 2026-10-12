@@ -5,6 +5,7 @@ series: "Caverns and Creatures"
 order: null
 read: null
 listened: true
+genres: ["Fantasy", "LitRPG"]
 kind: "Collection"
 cover: ""
 coverSource: ""

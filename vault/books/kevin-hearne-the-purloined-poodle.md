@@ -5,6 +5,7 @@ series: "The Iron Druid Chronicles"
 order: 8.4
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8478380-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26818553M"

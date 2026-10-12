@@ -5,6 +5,7 @@ series: "Bobby Dollar"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10398433-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL29564178M"

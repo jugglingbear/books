@@ -5,6 +5,7 @@ series: "Percy Jackson & the Olympians"
 order: 5.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

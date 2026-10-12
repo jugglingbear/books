@@ -5,6 +5,7 @@ series: "Nightside"
 order: 8.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7125640-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL18277593M"

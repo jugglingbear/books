@@ -5,6 +5,7 @@ series: "Gentlemen Bastards"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7761732-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26119450M"

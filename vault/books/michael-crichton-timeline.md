@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction", "Thriller"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/226040-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL43240M"

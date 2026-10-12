@@ -5,6 +5,7 @@ series: "The Dark Tower"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy", "Horror"]
 kind: "Book"
 cover: ""
 coverSource: ""

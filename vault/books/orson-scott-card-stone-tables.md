@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Historical Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10696266-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL32029784M"

@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Fantasy", "Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/9305181-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27928761M"

@@ -5,6 +5,7 @@ series: "The Thrawn Trilogy"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/11107659-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL2028412M"

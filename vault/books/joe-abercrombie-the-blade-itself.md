@@ -5,6 +5,7 @@ series: "The First Law"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6933754-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24966819M"

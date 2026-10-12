@@ -5,6 +5,7 @@ series: "Please Don't Tell My Parents"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: ""
 coverSource: ""

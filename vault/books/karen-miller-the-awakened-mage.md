@@ -5,6 +5,7 @@ series: "Kingmaker, Kingbreaker"
 order: 2
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/1174922-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL9701427M"

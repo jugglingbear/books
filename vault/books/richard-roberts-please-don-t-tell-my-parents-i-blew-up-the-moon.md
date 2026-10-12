@@ -5,6 +5,7 @@ series: "Please Don't Tell My Parents"
 order: 2.0
 read: null
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13612011-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL44535956M"

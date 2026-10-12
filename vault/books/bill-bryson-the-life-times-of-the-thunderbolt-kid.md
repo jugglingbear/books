@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Nonfiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12722660-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26341223M"

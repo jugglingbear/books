@@ -5,6 +5,7 @@ series: "Empire"
 order: 2.0
 read: null
 listened: true
+genres: ["Thriller", "Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/9315052-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23678008M"

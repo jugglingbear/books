@@ -5,6 +5,7 @@ series: "Spells, Swords & Stealth"
 order: 5.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

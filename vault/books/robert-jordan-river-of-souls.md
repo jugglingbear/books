@@ -5,6 +5,7 @@ series: "The Wheel of Time"
 order: 14.02
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

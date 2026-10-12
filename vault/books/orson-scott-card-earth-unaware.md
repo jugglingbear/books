@@ -5,6 +5,7 @@ series: "Enderverse"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/9317144-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL25270578M"

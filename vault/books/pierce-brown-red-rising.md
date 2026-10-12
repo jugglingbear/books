@@ -5,6 +5,7 @@ series: "Red Rising"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

@@ -5,6 +5,7 @@ series: "The Riyria Revelations"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

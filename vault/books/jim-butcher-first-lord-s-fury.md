@@ -5,6 +5,7 @@ series: "Codex Alera"
 order: 6.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/6308474-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24073864M"

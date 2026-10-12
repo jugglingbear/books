@@ -5,6 +5,7 @@ series: "The Dresden Files"
 order: 9.2
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

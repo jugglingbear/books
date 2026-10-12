@@ -5,6 +5,7 @@ series: "Remembrance of Earth’s Past"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: ""
 coverSource: ""

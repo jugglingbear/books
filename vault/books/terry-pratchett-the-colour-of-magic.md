@@ -5,6 +5,7 @@ series: "Discworld"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/38430-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL3423907M"

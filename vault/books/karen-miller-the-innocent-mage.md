@@ -5,6 +5,7 @@ series: "Kingmaker, Kingbreaker"
 order: 1
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: ""
 coverSource: ""

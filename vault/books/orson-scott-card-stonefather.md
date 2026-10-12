@@ -5,6 +5,7 @@ series: "Mithermages"
 order: null
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10653397-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL31976491M"

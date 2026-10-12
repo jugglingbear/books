@@ -5,6 +5,7 @@ series: "Fifty Shades"
 order: 1.01
 read: null
 listened: true
+genres: ["Romance"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15163096-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL61147291M"

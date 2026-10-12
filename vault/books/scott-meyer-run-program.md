@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/11949312-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL33301585M"

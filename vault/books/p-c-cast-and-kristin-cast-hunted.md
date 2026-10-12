@@ -5,6 +5,7 @@ series: "House of Night"
 order: 5.0
 read: null
 listened: true
+genres: ["Fantasy", "Romance"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/13107092-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23058992M"

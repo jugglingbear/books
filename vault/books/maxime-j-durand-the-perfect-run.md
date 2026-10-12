@@ -5,6 +5,7 @@ series: ""
 order: null
 read: null
 listened: true
+genres: ["Science Fiction", "Superheroes"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14811808-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL53582651M"

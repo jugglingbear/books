@@ -5,6 +5,7 @@ series: "Spells, Swords & Stealth"
 order: 4.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8668793-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27050583M"

@@ -5,6 +5,7 @@ series: "Divergent"
 order: 1.0
 read: null
 listened: true
+genres: ["Science Fiction", "Dystopian"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/7129729-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL24914469M"

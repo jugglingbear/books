@@ -5,6 +5,7 @@ series: "His Dark Materials"
 order: 2
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/15261909-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL23242790M"

@@ -5,6 +5,7 @@ series: "Caverns and Creatures"
 order: 1.0
 read: null
 listened: true
+genres: ["Fantasy", "LitRPG"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12507686-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL36508835M"

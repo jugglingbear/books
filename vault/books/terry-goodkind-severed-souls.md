@@ -5,6 +5,7 @@ series: "Sword of Truth"
 order: 15.0
 read: true
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/8452496-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL26797209M"

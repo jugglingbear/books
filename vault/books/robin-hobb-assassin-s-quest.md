@@ -5,6 +5,7 @@ series: "Farseer"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/10492487-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL30698249M"

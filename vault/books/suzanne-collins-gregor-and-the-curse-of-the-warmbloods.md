@@ -5,6 +5,7 @@ series: "The Underland Chronicles"
 order: 3.0
 read: null
 listened: true
+genres: ["Fantasy"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/12876341-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL39474844M"

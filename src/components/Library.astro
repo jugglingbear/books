@@ -5,6 +5,7 @@ import type { Book } from "../lib/books";
 interface Props { books: Book[]; showFilters?: boolean; }
 const { books, showFilters = true } = Astro.props;
 const authors = [...new Set(books.map((book) => book.data.author))].sort();
+const genres = [...new Set(books.flatMap((book) => book.data.genres))].sort();
 const series = [...new Set(books.map((book) => book.data.series).filter(Boolean))].sort();
 ---
 <section class="library" id="library" data-library>
@@ -12,12 +13,13 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
   <form class="search-tools" role="search" onsubmit="return false">
     <label class="search-box"><Icon name="search"/><span class="sr-only">Search by title, author, or series</span><input type="search" name="q" placeholder="Find a book, author, or series…" autocomplete="off"/><kbd aria-hidden="true">/</kbd></label>
     {showFilters && <><label class="filter-select"><span class="sr-only">Filter by author</span><select name="author"><option value="">All authors</option>{authors.map((name) => <option>{name}</option>)}</select></label><label class="filter-select"><span class="sr-only">Filter by series</span><select name="series"><option value="">All series</option><option value="__standalone">Standalone</option>{series.map((name) => <option>{name}</option>)}</select></label></>}
+    <label class="filter-select"><span class="sr-only">Filter by genre</span><select name="genre"><option value="">All genres</option>{genres.map((name) => <option>{name}</option>)}</select></label>
     <label class="filter-select"><span class="sr-only">Sort books</span><select name="sort"><option value="title">Title, A–Z</option><option value="author">Author, A–Z</option>{!showFilters && <option value="order" selected>Series order</option>}</select></label>
   </form>
   <div class="filter-row"><div class="status-filters" role="group" aria-label="Filter by reading format"><button type="button" data-status="all" aria-pressed="true">All books</button><button type="button" data-status="listened" aria-pressed="false"><Icon name="headphones"/>Listened</button><button type="button" data-status="read" aria-pressed="false"><Icon name="book"/>Read</button><button type="button" data-status="both" aria-pressed="false">Both</button></div><button type="button" class="clear-filters" data-clear>Reset filters</button></div>
   <p class="sr-only" role="status" aria-live="polite" data-announcement></p>
   <div class="book-grid">{books.map((book) => <BookCard book={book}/>)}</div>
-  <div class="empty-state" hidden><Icon name="book"/><h3>No books on this shelf yet.</h3><p>Try another search or reset your filters. Reading history hasn’t been filled in yet.</p><button type="button" data-reset>Show all books</button></div>
+  <div class="empty-state" hidden><Icon name="book"/><h3>No books on this shelf yet.</h3><p>Try another search or reset your filters.</p><button type="button" data-reset>Show all books</button></div>
   <div class="pagination" hidden><button type="button" data-prev>← Previous</button><span data-page></span><button type="button" data-next>Next →</button></div>
   <noscript><p class="notice">All titles are shown below. Enable JavaScript to search and filter, or use your browser’s Find command.</p></noscript>
 </section>
@@ -31,6 +33,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
     const search = form.elements.namedItem("q") as HTMLInputElement;
     const author = form.elements.namedItem("author") as HTMLSelectElement | null;
     const series = form.elements.namedItem("series") as HTMLSelectElement | null;
+    const genre = form.elements.namedItem("genre") as HTMLSelectElement;
     const sort = form.elements.namedItem("sort") as HTMLSelectElement;
     const pagination = root.querySelector<HTMLElement>(".pagination")!;
     const previous = root.querySelector<HTMLButtonElement>("[data-prev]")!;
@@ -41,6 +44,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
     let status = "all";
     function restore() {
       const params = new URLSearchParams(location.search);
+      genre.value = params.get("genre") || "";
       search.value = params.get("q") || "";
       if (author) author.value = params.get("author") || "";
       if (series) series.value = params.get("series") || "";
@@ -51,9 +55,11 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
     function update(writeUrl = true) {
       const matching = cards.filter((card) => {
         const d = card.dataset;
-        const text = `${d.title} ${d.author} ${d.series}`;
+        const genres: string[] = JSON.parse(d.genres || "[]");
+        const text = `${d.title} ${d.author} ${d.series} ${genres.join(" ")}`;
         return matchesQuery(text, search.value) && (!author?.value || matchesQuery(d.author || "", author.value))
           && (!series?.value || (series.value === "__standalone" ? !d.series : series.value === d.series))
+          && (!genre.value || genres.includes(genre.value))
           && matchesStatus(d.read === "true", d.listened === "true", status);
       });
       matching.sort((a, b) => sort.value === "order" ? originalOrder.get(a)! - originalOrder.get(b)!
@@ -76,6 +82,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
         const params = new URLSearchParams();
         if (search.value) params.set("q", search.value);
         if (author?.value) params.set("author", author.value);
+        if (genre.value) params.set("genre", genre.value);
         if (series?.value) params.set("series", series.value);
         if (status !== "all") params.set("status", status);
         if (sort.value !== "title") params.set("sort", sort.value);

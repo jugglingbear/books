@@ -5,6 +5,7 @@ series: "The Reckoners"
 order: 3.0
 read: true
 listened: true
+genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "https://covers.openlibrary.org/b/id/14658509-L.jpg?default=false"
 coverSource: "https://openlibrary.org/books/OL27096923M"
