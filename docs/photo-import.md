@@ -79,7 +79,9 @@ in the completion report; keep unsupported optional fields empty or `null` rathe
    the rendered site. Set `coverRegion` from edition evidence; use `Region unconfirmed` when uncertain. English text,
    an ISBN prefix, or a US storefront alone does not prove a US print edition.
 5. When no reliable matching cover can be verified, leave `cover` empty and retain the designed fallback. Report the
-   specific title and search limitation. Do not fabricate cover art or silently assign a collection cover to a story.
+   specific title and search limitation. Do not silently assign a collection cover to a story. Generate custom art only
+   when explicitly requested; save it in `public/covers/custom/` and set `coverCredit: "Custom AI-generated artwork"`.
+   Custom artwork has no official edition source or region.
 
 ## Validate and finish
 

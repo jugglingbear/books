@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
+cover: "/covers/custom/jim-butcher-restoration-of-faith.png"
+coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
 source: ""

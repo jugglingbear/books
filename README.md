@@ -101,6 +101,8 @@ counts and filtering. Verify membership using author/publisher references; never
 Cover URLs point to public image services and have an exact source link where available. US editions are preferred
 when their publication location supports that designation. Missing or failed images have a typographic fallback.
 Use `coverFit: "contain"` for square audiobook artwork or other covers whose full image should stay visible.
+Owner-requested custom artwork lives in `public/covers/custom/`, with `/covers/custom/filename.png` in `cover`.
+Set `coverCredit: "Custom AI-generated artwork"`; detail pages display this credit. Leave edition fields empty.
 Descriptions are original, short, and focused on setup and themes rather than plot outcomes.
 
 The catalog and build do not make metadata API requests. Visitors fetch only the cover images and optional web fonts;
