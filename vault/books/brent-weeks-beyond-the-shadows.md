@@ -3,7 +3,7 @@ title: "Beyond the Shadows"
 author: "Brent Weeks"
 series: "Night Angel"
 order: 3.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]

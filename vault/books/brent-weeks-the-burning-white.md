@@ -3,7 +3,7 @@ title: "The Burning White"
 author: "Brent Weeks"
 series: "Lightbringer"
 order: 5.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]

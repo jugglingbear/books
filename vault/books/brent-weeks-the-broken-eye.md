@@ -3,7 +3,7 @@ title: "The Broken Eye"
 author: "Brent Weeks"
 series: "Lightbringer"
 order: 3.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]

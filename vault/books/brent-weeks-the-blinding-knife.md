@@ -3,7 +3,7 @@ title: "The Blinding Knife"
 author: "Brent Weeks"
 series: "Lightbringer"
 order: 2.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]

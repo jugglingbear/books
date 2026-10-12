@@ -3,7 +3,7 @@ title: "The Blood Mirror"
 author: "Brent Weeks"
 series: "Lightbringer"
 order: 4.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]

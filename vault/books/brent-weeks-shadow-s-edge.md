@@ -3,7 +3,7 @@ title: "Shadow's Edge"
 author: "Brent Weeks"
 series: "Night Angel"
 order: 2.0
-read: null
+read: true
 listened: true
 audioSources: ["GraphicAudio"]
 genres: ["Fantasy"]
