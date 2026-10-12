@@ -13,6 +13,7 @@ const books = defineCollection({
     order: z.number().nullable().default(null),
     read: z.boolean().nullable().default(null),
     listened: z.boolean().default(false),
+    formats: z.array(z.enum(["Print", "Ebook", "Audiobook"])).default([]),
     audioSources: z.array(z.enum(["Audible", "GraphicAudio"])).default([]),
     cover: z.url().or(z.literal("")).default(""),
     coverFit: z.enum(["cover", "contain"]).default("cover"),

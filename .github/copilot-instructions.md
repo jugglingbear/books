@@ -51,6 +51,8 @@ descriptionStatus: "reviewed"
 - Reading and listening are independent. `read: true` and `listened: true` displays both badges.
 - The initial Dropbox audiobook inventory is listened, per the owner's explicit statement. This does not extend to
   future photo additions. Do not infer reading from ebook sidecar files.
+- Optional `formats` records confirmed holdings: `Print`, `Ebook`, and/or `Audiobook`. Ownership does not imply
+  completed reading or listening. Preserve existing formats when adding another edition.
 - `audioSources` retains known Audible and/or GraphicAudio editions as metadata; it is not displayed on the site.
   Empty or omitted means unconfirmed.
 - Preserve multiple edition sources when merging narrations. Never infer Audible from the absence of GraphicAudio.

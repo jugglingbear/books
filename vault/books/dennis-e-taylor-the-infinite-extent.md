@@ -5,6 +5,7 @@ series: "Bobiverse"
 order: 6
 read: false
 listened: false
+formats: ["Audiobook"]
 audioSources: []
 genres: ["Science Fiction"]
 kind: "Book"
