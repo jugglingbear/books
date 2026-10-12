@@ -1,6 +1,7 @@
 ---
 title: "Rhythm of War"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "The Stormlight Archive"
 order: 4.0
 read: true

@@ -1,6 +1,7 @@
 ---
 title: "The Way of Kings"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "The Stormlight Archive"
 order: 1.0
 read: true

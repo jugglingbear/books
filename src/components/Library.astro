@@ -5,6 +5,7 @@ import Icon from "./Icon.astro";
 import type { Book } from "../lib/books";
 interface Props { books: Book[]; showFilters?: boolean; }
 const { books, showFilters = true } = Astro.props;
+const universes = [...new Set(books.map((book) => book.data.universe).filter(Boolean))].sort(compareTitles);
 const authors = [...new Set(books.map((book) => book.data.author))].sort();
 const genres = [...new Set(books.flatMap((book) => book.data.genres))].sort();
 const series = [...new Set(books.map((book) => book.data.series).filter(Boolean))].sort(compareTitles);
@@ -12,8 +13,8 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
 <section class="library" id="library" data-library>
   <div class="library-heading"><div><span class="eyebrow">THE COLLECTION</span><h2>A shelf for every story.</h2></div><p><span data-count>{books.length}</span> titles on the shelf</p></div>
   <form class="search-tools" role="search" onsubmit="return false">
-    <label class="search-box"><Icon name="search"/><span class="sr-only">Search by title, author, or series</span><input type="search" name="q" placeholder="Find a book, author, or series…" autocomplete="off"/><kbd aria-hidden="true">/</kbd></label>
-    {showFilters && <><label class="filter-select"><span class="sr-only">Filter by author</span><select name="author"><option value="">All authors</option>{authors.map((name) => <option>{name}</option>)}</select></label><label class="filter-select"><span class="sr-only">Filter by series</span><select name="series"><option value="">All series</option><option value="__standalone">Standalone</option>{series.map((name) => <option>{name}</option>)}</select></label></>}
+    <label class="search-box"><Icon name="search"/><span class="sr-only">Search by title, author, series, or universe</span><input type="search" name="q" placeholder="Find a book, author, series, or universe…" autocomplete="off"/><kbd aria-hidden="true">/</kbd></label>
+    {showFilters && <><label class="filter-select"><span class="sr-only">Filter by author</span><select name="author"><option value="">All authors</option>{authors.map((name) => <option>{name}</option>)}</select></label><label class="filter-select"><span class="sr-only">Filter by series or universe</span><select name="series"><option value="">Series & universes</option><option value="__standalone">Standalone</option><optgroup label="Shared universes">{universes.map((name) => <option value={`universe:${name}`}>{name}</option>)}</optgroup><optgroup label="Series">{series.map((name) => <option>{name}</option>)}</optgroup></select></label></>}
     <label class="filter-select"><span class="sr-only">Filter by genre</span><select name="genre"><option value="">All genres</option>{genres.map((name) => <option>{name}</option>)}</select></label>
     <label class="filter-select"><span class="sr-only">Sort books</span><select name="sort"><option value="title">Title, A–Z</option><option value="author">Author, A–Z</option>{!showFilters && <option value="order" selected>Series order</option>}</select></label>
   </form>
@@ -25,7 +26,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
   <noscript><p class="notice">All titles are shown below. Enable JavaScript to search and filter, or use your browser’s Find command.</p></noscript>
 </section>
 <script>
-  import { compareTitles, matchesQuery, matchesStatus } from "../lib/catalog.mjs";
+  import { compareTitles, matchesQuery, matchesShelf, matchesStatus } from "../lib/catalog.mjs";
   const root = document.querySelector<HTMLElement>("[data-library]");
   if (root) {
     const cards = [...root.querySelectorAll<HTMLElement>("[data-book]")];
@@ -48,7 +49,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       genre.value = params.get("genre") || "";
       search.value = params.get("q") || "";
       if (author) author.value = params.get("author") || "";
-      if (series) series.value = params.get("series") || "";
+      if (series) series.value = params.has("universe") ? `universe:${params.get("universe")}` : params.get("series") || "";
       status = ["all", "read", "listened", "both"].includes(params.get("status") || "") ? params.get("status")! : "all";
       if (params.has("sort") && [...sort.options].some((o) => o.value === params.get("sort"))) sort.value = params.get("sort")!;
       page = Math.max(1, Number(params.get("page")) || 1);
@@ -57,9 +58,9 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       const matching = cards.filter((card) => {
         const d = card.dataset;
         const genres: string[] = JSON.parse(d.genres || "[]");
-        const text = `${d.title} ${d.author} ${d.series} ${genres.join(" ")}`;
+        const text = `${d.title} ${d.author} ${d.series} ${d.universe} ${genres.join(" ")}`;
         return matchesQuery(text, search.value) && (!author?.value || matchesQuery(d.author || "", author.value))
-          && (!series?.value || (series.value === "__standalone" ? !d.series : series.value === d.series))
+          && matchesShelf(d.series || "", d.universe || "", series?.value || "")
           && (!genre.value || genres.includes(genre.value))
           && matchesStatus(d.read === "true", d.listened === "true", status);
       });
@@ -84,7 +85,8 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
         if (search.value) params.set("q", search.value);
         if (author?.value) params.set("author", author.value);
         if (genre.value) params.set("genre", genre.value);
-        if (series?.value) params.set("series", series.value);
+        if (series?.value.startsWith("universe:")) params.set("universe", series.value.slice("universe:".length));
+        else if (series?.value) params.set("series", series.value);
         if (status !== "all") params.set("status", status);
         if (sort.value !== "title") params.set("sort", sort.value);
         if (page > 1) params.set("page", String(page));

@@ -1,6 +1,7 @@
 ---
 title: "Yumi and the Nightmare Painter"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: ""
 order: null
 read: true

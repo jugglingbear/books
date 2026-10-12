@@ -31,3 +31,10 @@ export function compareTitles(left, right) {
   return key(left).localeCompare(key(right), "en", { numeric: true, sensitivity: "base" })
     || left.localeCompare(right, "en", { numeric: true });
 }
+
+/** Universe membership is independent of series membership, including standalone works. */
+export function matchesShelf(series, universe, selection) {
+  if (!selection) return true;
+  if (selection.startsWith("universe:")) return universe === selection.slice("universe:".length);
+  return selection === "__standalone" ? !series : series === selection;
+}

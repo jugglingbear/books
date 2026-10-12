@@ -1,6 +1,7 @@
 ---
 title: "The Emperor's Soul"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: ""
 order: null
 read: true

@@ -7,6 +7,7 @@ series pages. Built with Astro and published to [Books on GitHub Pages](https://
 
 - `vault/books/*.md`: one editable Markdown record per distinct work.
 - `vault/series/*.md`: one paragraph introducing a series or associated collection.
+- `vault/universes/*.md`: shared-universe introductions and separately identified related drafts.
 - `data/audiobook-import.json`: the filenames-only provenance of the initial audiobook import.
 
 The Markdown body is the description. YAML frontmatter holds the title, author credit, series, order hint, independent
@@ -44,8 +45,8 @@ make install
 make serve-local
 ```
 
-The site serves at [the local Books URL](http://127.0.0.1:4321/books/). Search title, author, or series; combine the
-filters (including genre), switch reading/listening status, and share the resulting query URL.
+The site serves at [the local Books URL](http://127.0.0.1:4321/books/). Search title, author, series, or universe;
+combine the filters (including genre), switch reading/listening status, and share the resulting query URL.
 The `/` keyboard shortcut focuses search.
 Without JavaScript, all book links remain available, but filtering and pagination require JavaScript.
 
@@ -82,6 +83,17 @@ multiple genres. Genre selection combines with the other filters and is preserve
 Book and series titles sort A–Z ignoring leading “A,” “An,” and “The,” with numeric volume ordering.
 Displayed titles stay unchanged; author sorting uses the displayed author credit.
 Series pages default to series order. The three hero books are fixed featured selections.
+
+## Shared universes
+
+An optional `universe: "The Cosmere"` field groups a book across series without changing its existing `series` or ID.
+The **Series & universes** browse page and grouped dropdown link these shelves. Universe pages show only cataloged
+works, grouped by series, standalones/short fiction, and collections; counts describe records, not unique stories.
+Search for a universe name or share a filter such as `?universe=The%20Cosmere`.
+
+Each universe note has `title`, `author`, a spoiler-free paragraph, optional labeled `sources`, and a `relatedBooks`
+list of existing IDs for non-canon drafts. Related drafts appear separately and are excluded from canonical universe
+counts and filtering. Verify membership using author/publisher references; never infer it solely from author credit.
 
 ## Covers and descriptions
 

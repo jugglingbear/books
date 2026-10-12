@@ -1,6 +1,7 @@
 ---
 title: "Shadows of Self"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "Mistborn"
 order: 5.0
 read: true

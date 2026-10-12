@@ -1,6 +1,7 @@
 ---
 title: "The Final Empire"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "Mistborn"
 order: 1.0
 read: true

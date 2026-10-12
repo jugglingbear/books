@@ -1,6 +1,7 @@
 ---
 title: "Oathbringer"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "The Stormlight Archive"
 order: 3.0
 read: true

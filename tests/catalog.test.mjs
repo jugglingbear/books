@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { compareTitles, matchesQuery, matchesStatus, statusLabel } from "../src/lib/catalog.mjs";
+import { compareTitles, matchesQuery, matchesShelf, matchesStatus, statusLabel } from "../src/lib/catalog.mjs";
 
 test("search combines title, author and series words and ignores punctuation", () => {
   const text = "The Wise Man’s Fear Patrick Rothfuss The Kingkiller Chronicle";
@@ -30,4 +30,17 @@ test("library sorting ignores only leading articles and keeps numeric volume ord
   assert.ok(compareTitles("  tHe Apple", "Banana") < 0);
   assert.ok(compareTitles("A", "Apple") < 0);
   assert.ok(compareTitles("A Tale", "The Tale") < 0);
+});
+
+test("universe filtering includes series and standalones without changing series filters", () => {
+  assert.equal(matchesShelf("Mistborn", "The Cosmere", "universe:The Cosmere"), true);
+  assert.equal(matchesShelf("", "The Cosmere", "universe:The Cosmere"), true);
+  assert.equal(matchesShelf("Skyward", "", "universe:The Cosmere"), false);
+  assert.equal(matchesShelf("", "", "universe:The Cosmere"), false);
+  assert.equal(matchesShelf("Mistborn", "The Cosmere", "Mistborn"), true);
+  assert.equal(matchesShelf("Mistborn", "The Cosmere", "The Stormlight Archive"), false);
+  assert.equal(matchesShelf("", "The Cosmere", "__standalone"), true);
+  assert.equal(matchesShelf("Mistborn", "The Cosmere", "__standalone"), false);
+  assert.equal(matchesShelf("Skyward", "", ""), true);
+  assert.equal(matchesQuery("Warbreaker Brandon Sanderson The Cosmere", "cosmere warbreaker"), true);
 });

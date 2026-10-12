@@ -1,6 +1,7 @@
 ---
 title: "The Bands of Mourning"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "Mistborn"
 order: 6.0
 read: true

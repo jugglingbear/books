@@ -1,6 +1,7 @@
 ---
 title: "Edgedancer"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "The Stormlight Archive"
 order: 2.5
 read: true

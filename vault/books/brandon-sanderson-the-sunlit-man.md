@@ -1,6 +1,7 @@
 ---
 title: "The Sunlit Man"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: ""
 order: null
 read: true

@@ -1,6 +1,7 @@
 ---
 title: "White Sand, Volume 3"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "White Sand"
 order: 3
 read: true

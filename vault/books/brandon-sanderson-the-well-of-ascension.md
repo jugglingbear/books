@@ -1,6 +1,7 @@
 ---
 title: "The Well of Ascension"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "Mistborn"
 order: 2.0
 read: true

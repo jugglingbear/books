@@ -5,11 +5,13 @@ import Cover from "../../components/Cover.astro";
 import AudioSources from "../../components/AudioSources.astro";
 import Status from "../../components/Status.astro";
 import BookCard from "../../components/BookCard.astro";
-import { catalog, inSeries, seriesUrl, base } from "../../lib/books";
+import { catalog, inSeries, seriesUrl, universeUrl, base } from "../../lib/books";
 export async function getStaticPaths() { const { books } = await catalog(); return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
 const { book } = Astro.props;
-const { books, series } = await catalog();
+const { books, series, universes } = await catalog();
 const collection = series.find((item) => item.data.title === book.data.series);
+const universe = universes.find((item) => item.data.title === book.data.universe);
+const relatedUniverse = universes.find((item) => item.data.relatedBooks.includes(book.id));
 const related = collection ? inSeries(books, collection.data.title).filter((item) => item.id !== book.id).slice(0, 6) : [];
 const { Content } = await render(book);
 ---
@@ -19,6 +21,8 @@ const { Content } = await render(book);
       <span class="eyebrow">{book.data.kind}{book.data.year ? ` · ${book.data.year}` : ""}</span>
       <h1>{book.data.title}</h1><a class="detail-author" href={`${base}/?author=${encodeURIComponent(book.data.author)}`}>{book.data.author}</a>
       {collection && <p class="detail-series"><a href={seriesUrl(collection)}>{collection.data.title} ↗</a></p>}
+      {universe && <p class="detail-series"><a href={universeUrl(universe)}>Shared universe · {universe.data.title} ↗</a></p>}
+      {relatedUniverse && <p class="detail-series"><a href={universeUrl(relatedUniverse)}>Related draft (non-canon) · {relatedUniverse.data.title} ↗</a></p>}
       <Status read={book.data.read} listened={book.data.listened}/>
       <AudioSources sources={book.data.audioSources}/>
       <p class="genre-tags">{book.data.genres.map((genre) => <a href={`${base}/?genre=${encodeURIComponent(genre)}`}>{genre}</a>)}</p>

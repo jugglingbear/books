@@ -189,3 +189,18 @@ body { background: radial-gradient(ellipse at top, #fff9e9, transparent 65%), va
 @media (max-width: 1150px) { .search-tools { grid-template-columns: repeat(4, minmax(0, 1fr)); }.search-tools .search-box { grid-column: 1 / -1; }.filter-select { height: 45px; }.book-grid { padding-inline: 12px; }.book-card { padding-inline: 10px; }.book-cover-link::after { left: -10px; right: -10px; } }
 @media (max-width: 600px) { .search-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }.book-grid { margin-inline: -9px; border-width: 10px; border-top-width: 30px; border-bottom-width: 18px; padding: 30px 6px 14px; gap: 20px 0; }.book-grid::before { font-size: 8px; letter-spacing: .14em; top: -23px; }.book-card { padding: 0 8px 12px; }.book-cover-link::after { left: -8px; right: -8px; }.book-meta { padding: 10px 7px; }.book-card h3 { font-size: 14px; }.book-meta .author { font-size: 10px; }.book-meta .audio-source { font-size: 9px; }.book-meta .status { font-size: 8px; padding: 5px; } }
 @media (prefers-reduced-motion: reduce) { .book-cover-link .cover { transition: none; } }
+
+/* Shared universes reuse the existing shelves without duplicating catalog records. */
+.universe-page { padding-bottom: 60px; }
+.universe-shelf { padding-top: 32px; scroll-margin-top: 24px; }
+.universe-shelf .library-heading { align-items: center; gap: 20px; }
+.universe-jump { height: auto; flex-wrap: wrap; gap: 12px 24px; padding-block: 24px; }
+.universe-jump a { border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.universe-card { border-color: #9c7953; }
+@media (max-width: 600px) {
+  .header-inner { gap: 12px; }
+  .header-inner nav { gap: 12px; }
+  .header-inner nav a { max-width: 78px; }
+  .universe-shelf .library-heading { display: block; }
+  .universe-shelf .text-link { margin-top: 12px; }
+}

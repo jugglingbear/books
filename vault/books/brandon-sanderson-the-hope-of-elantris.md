@@ -1,6 +1,7 @@
 ---
 title: "The Hope of Elantris"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: ""
 order: null
 read: true

@@ -13,6 +13,7 @@ Before generating or modifying files, read the relevant specialized guide:
 vault/
   books/    One Markdown note per work
   series/   One Markdown introduction per series or associated collection
+  universes/ Shared-universe introductions and related draft references
 data/
   audiobook-import.json    Initial filenames-only provenance
 src/                       Astro pages, components, styles, and search
@@ -70,6 +71,17 @@ descriptionStatus: "reviewed"
 
 Each `vault/series/*.md` has `title` and `author` in YAML frontmatter and a single spoiler-free paragraph as its body.
 The site derives each series' book list from book records. Update introductions in place and preserve stable IDs.
+
+## Shared Universes
+
+Use optional book `universe` values matching a `vault/universes/` title exactly. Preserve the actual `series`, order,
+status, cover, and stable ID. Verify membership from official author/publisher sources; not every book by an author
+shares a universe. Add only requested/library works, not an entire bibliography.
+
+Universe notes have `title`, `author`, an original spoiler-free paragraph, optional `sources` (label/URL pairs), and
+optional `relatedBooks` (existing book IDs). Reserve related books for non-canon drafts: do not also tag those records
+as canonical members. Grouping and canonical counts derive from book records; collections remain single records.
+Keep cross-book connections spoiler-free. The build validates universe references and related-book membership.
 
 ## Import and Reconciliation
 

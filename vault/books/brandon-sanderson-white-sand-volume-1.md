@@ -1,6 +1,7 @@
 ---
 title: "White Sand, Volume 1"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "White Sand"
 order: 1
 read: true

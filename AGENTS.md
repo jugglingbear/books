@@ -9,7 +9,7 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 ## Project Overview
 
 - **What this is:** A personal library of books read and audiobooks listened to, published on GitHub Pages.
-- **Source of truth:** Markdown notes with YAML frontmatter in `vault/books/` and `vault/series/`.
+- **Source of truth:** Markdown notes with YAML frontmatter in `vault/books/`, `vault/series/`, and `vault/universes/`.
 - **Primary languages:** Markdown and YAML for the catalog; Astro, TypeScript, JavaScript, and CSS for the site.
 - **Package/build tooling:** Astro and pnpm, matching the Quotes repository; GitHub Actions deploys the site.
 - **Validation:** `make check` runs Markdown lint, search/status tests, import validation, Astro checks, and a build.
@@ -18,6 +18,7 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 ## Repository Layout and Workflows
 
 - `vault/books/` contains one editable record per distinct work; the Markdown body is its spoiler-free description.
+- `vault/universes/` introduces shared settings; book `universe` fields preserve their independent series membership.
 - `vault/series/` contains one single-paragraph introduction per series or associated collection.
 - `data/audiobook-import.json` records the initial filenames-only import and maps audio tracks to book IDs.
 - `src/` contains the static Astro UI and browser-side search.

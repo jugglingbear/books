@@ -1,6 +1,7 @@
 ---
 title: "Words of Radiance"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: "The Stormlight Archive"
 order: 2.0
 read: true

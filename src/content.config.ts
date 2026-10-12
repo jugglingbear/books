@@ -9,6 +9,7 @@ const books = defineCollection({
     author: z.string().min(1),
     genres: z.array(z.string().min(1)).min(1),
     series: z.string().default(""),
+    universe: z.string().default(""),
     order: z.number().nullable().default(null),
     read: z.boolean().nullable().default(null),
     listened: z.boolean().default(false),
@@ -33,4 +34,13 @@ const series = defineCollection({
   loader: glob({ pattern: "*.md", base: "./vault/series" }),
   schema: z.object({ title: z.string().min(1), author: z.string().min(1) }),
 });
-export const collections = { books, series };
+const universes = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./vault/universes" }),
+  schema: z.object({
+    title: z.string().min(1),
+    author: z.string().min(1),
+    relatedBooks: z.array(z.string().min(1)).default([]),
+    sources: z.array(z.object({ label: z.string().min(1), url: z.url() })).default([]),
+  }),
+});
+export const collections = { books, series, universes };

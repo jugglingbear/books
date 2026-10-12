@@ -1,6 +1,7 @@
 ---
 title: "The Fires of December"
 author: "Brandon Sanderson"
+universe: "The Cosmere"
 series: ""
 order: null
 read: true

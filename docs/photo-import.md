@@ -49,6 +49,7 @@ Populate every new record using the fields below; preserve verified manual metad
 | --- | --- |
 | `title`, `author` | Verify the work's title and author credit, including coauthors where applicable. |
 | `series`, `order` | Match an existing series title exactly, or create its series note. Verify the volume/order hint; use `""` and `null` for a standalone work, and `null` for uncertain order. |
+| `universe` | Optional shared setting, verified from author/publisher references and matched to a universe note. Preserve the actual series; never infer membership from the author alone. |
 | `genres` | Use one or more existing broad genre labels, supported by the work's subject and references. |
 | `kind` | Use the established label for a book, short story, collection, or other identified work type. |
 | `read`, `listened`, `audioSources` | Apply the status and edition rules above. |
