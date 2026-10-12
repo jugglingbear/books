@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { compareTitles, matchesQuery, matchesShelf, matchesStatus, statusLabel } from "../src/lib/catalog.mjs";
+import { compareTitles, matchesQuery, matchesShelf, matchesStatus, shelfGenres, statusLabel } from "../src/lib/catalog.mjs";
 
 test("search combines title, author and series words and ignores punctuation", () => {
   const text = "The Wise Man’s Fear Patrick Rothfuss The Kingkiller Chronicle";
@@ -43,4 +43,18 @@ test("universe filtering includes series and standalones without changing series
   assert.equal(matchesShelf("Mistborn", "The Cosmere", "__standalone"), false);
   assert.equal(matchesShelf("Skyward", "", ""), true);
   assert.equal(matchesQuery("Warbreaker Brandon Sanderson The Cosmere", "cosmere warbreaker"), true);
+});
+
+test("changing to Cosmere excludes stale Dystopian genre while retaining compatible genres", () => {
+  const books = [
+    { series: "Divergent", universe: "", genres: ["Dystopian", "Science Fiction"] },
+    { series: "Mistborn", universe: "The Cosmere", genres: ["Fantasy"] },
+    { series: "", universe: "The Cosmere", genres: ["Fantasy", "Science Fiction"] },
+  ];
+  assert.equal(shelfGenres(books, "Divergent").has("Dystopian"), true);
+  const cosmere = shelfGenres(books, "universe:The Cosmere");
+  assert.equal(cosmere.has("Dystopian"), false);
+  assert.equal(cosmere.has("Fantasy"), true);
+  assert.equal(cosmere.has("Science Fiction"), true);
+  assert.equal(shelfGenres(books, "").has("Dystopian"), true);
 });

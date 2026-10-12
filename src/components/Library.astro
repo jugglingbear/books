@@ -19,17 +19,24 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
     <label class="filter-select"><span class="sr-only">Sort books</span><select name="sort"><option value="title">Title, A–Z</option><option value="author">Author, A–Z</option>{!showFilters && <option value="order" selected>Series order</option>}</select></label>
   </form>
   <div class="filter-row"><div class="status-filters" role="group" aria-label="Filter by reading format"><button type="button" data-status="all" aria-pressed="true">All books</button><button type="button" data-status="listened" aria-pressed="false"><Icon name="headphones"/>Listened</button><button type="button" data-status="read" aria-pressed="false"><Icon name="book"/>Read</button><button type="button" data-status="both" aria-pressed="false">Both</button></div><button type="button" class="clear-filters" data-clear>Reset filters</button></div>
+  <p class="notice" data-filter-notice role="status" hidden></p>
   <p class="sr-only" role="status" aria-live="polite" data-announcement></p>
   <div class="book-grid">{books.map((book) => <BookCard book={book}/>)}</div>
-  <div class="empty-state" hidden><Icon name="book"/><h3>No books on this shelf yet.</h3><p>Try another search or reset your filters.</p><button type="button" data-reset>Show all books</button></div>
+  <div class="empty-state" hidden><Icon name="book"/><h3>No books match these filters.</h3><p>Try another search or reset your filters.</p><button type="button" data-reset>Show all books</button></div>
   <div class="pagination" hidden><button type="button" data-prev>← Previous</button><span data-page></span><button type="button" data-next>Next →</button></div>
   <noscript><p class="notice">All titles are shown below. Enable JavaScript to search and filter, or use your browser’s Find command.</p></noscript>
 </section>
 <script>
-  import { compareTitles, matchesQuery, matchesShelf, matchesStatus } from "../lib/catalog.mjs";
+  import { compareTitles, matchesQuery, matchesShelf, matchesStatus, shelfGenres } from "../lib/catalog.mjs";
   const root = document.querySelector<HTMLElement>("[data-library]");
   if (root) {
     const cards = [...root.querySelectorAll<HTMLElement>("[data-book]")];
+    const shelfMetadata = cards.map((card) => ({
+      series: card.dataset.series || "",
+      universe: card.dataset.universe || "",
+      genres: JSON.parse(card.dataset.genres || "[]") as string[],
+    }));
+    const filterNotice = root.querySelector<HTMLElement>("[data-filter-notice]")!;
     const originalOrder = new Map(cards.map((card, index) => [card, index]));
     const form = root.querySelector<HTMLFormElement>("form")!;
     const search = form.elements.namedItem("q") as HTMLInputElement;
@@ -55,6 +62,17 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       page = Math.max(1, Number(params.get("page")) || 1);
     }
     function update(writeUrl = true) {
+      const availableGenres = shelfGenres(shelfMetadata, series?.value || "");
+      const incompatibleGenre = genre.value && !availableGenres.has(genre.value);
+      filterNotice.hidden = !incompatibleGenre;
+      if (incompatibleGenre) {
+        filterNotice.textContent = `Cleared “${genre.value}”: this shelf has no books in that genre.`;
+        genre.value = "";
+        page = 1;
+      }
+      [...genre.options].forEach((option) => {
+        option.disabled = Boolean(option.value) && !availableGenres.has(option.value);
+      });
       const matching = cards.filter((card) => {
         const d = card.dataset;
         const genres: string[] = JSON.parse(d.genres || "[]");
@@ -80,7 +98,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       next.disabled = page === pages;
       root!.querySelector("[data-page]")!.textContent = `${page} / ${pages}`;
       statusButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.status === status)));
-      if (writeUrl) {
+      if (writeUrl || incompatibleGenre) {
         const params = new URLSearchParams();
         if (search.value) params.set("q", search.value);
         if (author?.value) params.set("author", author.value);

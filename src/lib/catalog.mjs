@@ -38,3 +38,9 @@ export function matchesShelf(series, universe, selection) {
   if (selection.startsWith("universe:")) return universe === selection.slice("universe:".length);
   return selection === "__standalone" ? !series : series === selection;
 }
+
+/** Only offer genres represented on the selected series or universe shelf. */
+export function shelfGenres(books, selection) {
+  return new Set(books.filter((book) => matchesShelf(book.series, book.universe, selection))
+    .flatMap((book) => book.genres));
+}
