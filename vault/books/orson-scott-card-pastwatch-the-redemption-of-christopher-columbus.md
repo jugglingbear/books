@@ -3,7 +3,7 @@ title: "Pastwatch: The Redemption of Christopher Columbus"
 author: "Orson Scott Card"
 series: "Pastwatch"
 order: null
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
