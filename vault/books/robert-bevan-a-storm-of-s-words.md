@@ -7,9 +7,9 @@ read: null
 listened: true
 genres: ["Fantasy", "LitRPG"]
 kind: "Book"
-cover: ""
-coverSource: ""
-coverRegion: ""
+cover: "https://images.squarespace-cdn.com/content/v1/52c8e848e4b06ad2e570480f/1d3bb77c-8918-45b2-9d3d-0acdad6cacf6/cf3+cover.png?format=500w"
+coverSource: "https://www.caverns-and-creatures.com/ebooks/"
+coverRegion: "Region unconfirmed"
 source: ""
 year: null
 descriptionStatus: "reviewed"
