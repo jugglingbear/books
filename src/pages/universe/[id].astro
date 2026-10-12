@@ -17,7 +17,7 @@ groups.push({ title: "Collections", url: "", books: items.filter((book) => !book
 const related = books.filter((book) => universe.data.relatedBooks.includes(book.id));
 const { Content } = await render(universe);
 ---
-<Layout title={`${universe.data.title} · Books`} active="series">
+<Layout title={`${universe.data.title} · The Library`} active="series">
   <div class="wrap universe-page">
     <header class="series-hero">
       <a class="back-link" href={`${base}/series/`}>← Series & universes</a>

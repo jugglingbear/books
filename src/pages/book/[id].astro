@@ -14,7 +14,7 @@ const relatedUniverse = universes.find((item) => item.data.relatedBooks.includes
 const related = collection ? inSeries(books, collection.data.title).filter((item) => item.id !== book.id).slice(0, 6) : [];
 const { Content } = await render(book);
 ---
-<Layout title={`${book.data.title} · Books`}>
+<Layout title={`${book.data.title} · The Library`}>
   <div class="wrap detail-wrap"><a class="back-link" href={`${base}/`}>← Back to the library</a>
     <div class="book-detail"><div class="detail-cover"><Cover book={book} eager/></div><div class="detail-copy">
       <span class="eyebrow">{book.data.kind}{book.data.year ? ` · ${book.data.year}` : ""}</span>
