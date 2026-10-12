@@ -146,3 +146,46 @@ h2 { font-size: 36px; line-height: 1.12; letter-spacing: -.4px; margin-bottom: 0
 .audio-source-mark { display: inline-grid; place-items: center; min-width: 19px; height: 19px; padding-inline: 2px; border: 1px solid currentColor; border-radius: 4px; font-size: 9px; font-weight: 800; }
 .detail-copy > .audio-sources { margin-top: 12px; }
 .detail-copy .audio-source { font-size: 12px; }
+
+/* Layered grain and molded edges keep the bookcase responsive without a fixed background image. */
+:root { --paper: #f3ecdc; --wood: #382016; --brass: #d8b574; }
+body { background: radial-gradient(ellipse at top, #fff9e9, transparent 65%), var(--paper); }
+.site-header { background: #faf4e7; border-bottom: 3px double #b69b6c; }
+.hero-books::before { inset: auto -12px 17px; height: 20px; background: linear-gradient(#ac7746, #58321d 35%, #996039 45%, #321b12); box-shadow: 0 12px 16px #39211535; border-radius: 3px; }
+.hero-caption { bottom: -12px; }
+.search-tools { display: grid; grid-template-columns: minmax(220px, 2fr) repeat(4, minmax(100px, 1fr)); }
+.filter-select { min-width: 0; max-width: none; }
+.filter-select select { background: #fcf8ee; min-width: 0; }
+.book-grid {
+  position: relative;
+  isolation: isolate;
+  padding: 44px 24px 24px;
+  gap: 28px 0;
+  border: 18px solid #704627;
+  border-top-width: 32px;
+  border-bottom-width: 26px;
+  border-radius: 7px 7px 3px 3px;
+  background: repeating-linear-gradient(91deg, #ffffff03 0 1px, #00000006 2px 4px, transparent 5px 16px), linear-gradient(90deg, #24150f, #4a2f20 25%, #332015 65%, #24150f);
+  box-shadow: inset 0 12px 22px #0008, inset 8px 0 14px #0005, inset -8px 0 14px #0005, 0 2px 0 #d2a367, 0 7px 0 #452817, 0 12px 0 #99673e, 0 23px 30px #39211130;
+  border-image: linear-gradient(90deg, #3e2417, #9b683e 4%, #58341f 8%, #ab7848 12%, #674023 18%, #704627 82%, #ab7848 88%, #58341f 92%, #9b683e 96%, #3e2417) 18;
+}
+.book-grid::before { content: "❧     THE PRIVATE LIBRARY     ❧"; position: absolute; inset: -28px 0 auto; color: #f3d397; text-shadow: 0 1px 2px #24130a; font-family: Georgia, serif; letter-spacing: .25em; font-size: 10px; text-align: center; }
+.book-grid::after { content: ""; position: absolute; inset: 6px; border: 1px solid #c49a5738; pointer-events: none; z-index: -1; }
+.book-card { padding: 0 14px 18px; }
+.book-cover-link { position: relative; margin-bottom: 27px; }
+.book-cover-link::after { content: ""; position: absolute; height: 20px; left: -14px; right: -14px; bottom: -20px; background: linear-gradient(#bd8b52 0 2px, #8c5934 3px 7px, #4b2918 8px 11px, #a47142 12px 14px, #56331d 15px); box-shadow: 0 9px 12px #0009; }
+.book-cover-link:hover { transform: none; }
+.book-cover-link .cover { transition: transform .2s; box-shadow: 6px 4px 12px #0007; }
+.book-cover-link:hover .cover { transform: translateY(-5px); }
+.book-meta { color: #f3e5c8; padding: 12px 9px; border: 1px solid #d8b57430; border-radius: 3px; background: #21130db3; }
+.book-meta .series-label { color: #dfbc80; }
+.book-meta .author { color: #d2bfa4; }
+.book-meta .status { background: #dce6ce; border-color: #a9bb91; }
+.book-meta .status.both { background: #ecdbb7; }
+.genre-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+.genre-tags a { font-size: 11px; padding: 5px 9px; border: 1px solid #c2ac82; border-radius: 20px; }
+.genre-tags a:hover { background: #e8dcc3; }
+.series-covers { background: repeating-linear-gradient(91deg, #ffffff04 0 2px, transparent 3px 14px), #3e281c; border-bottom: 12px ridge #986439; }
+@media (max-width: 1150px) { .search-tools { grid-template-columns: repeat(4, minmax(0, 1fr)); }.search-tools .search-box { grid-column: 1 / -1; }.filter-select { height: 45px; }.book-grid { padding-inline: 12px; }.book-card { padding-inline: 10px; }.book-cover-link::after { left: -10px; right: -10px; } }
+@media (max-width: 600px) { .search-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }.book-grid { margin-inline: -9px; border-width: 10px; border-top-width: 30px; border-bottom-width: 18px; padding: 30px 6px 14px; gap: 20px 0; }.book-grid::before { font-size: 8px; letter-spacing: .14em; top: -23px; }.book-card { padding: 0 8px 12px; }.book-cover-link::after { left: -8px; right: -8px; }.book-meta { padding: 10px 7px; }.book-card h3 { font-size: 14px; }.book-meta .author { font-size: 10px; }.book-meta .audio-source { font-size: 9px; }.book-meta .status { font-size: 8px; padding: 5px; } }
+@media (prefers-reduced-motion: reduce) { .book-cover-link .cover { transition: none; } }
