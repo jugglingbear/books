@@ -72,7 +72,8 @@ The Astro base path is `/books/`. Do not copy `/quotes/` into links or configura
 
 Book records contain editable `genres` lists. These are broad editorial shelf categories, and a title can have
 multiple genres. Genre selection combines with the other filters and is preserved in the search URL.
-The collection defaults to title A–Z, including leading articles; author sorting uses the displayed author credit.
+Book and series titles sort A–Z ignoring leading “A,” “An,” and “The,” with numeric volume ordering.
+Displayed titles stay unchanged; author sorting uses the displayed author credit.
 Series pages default to series order. The three hero books are fixed featured selections.
 
 ## Covers and descriptions

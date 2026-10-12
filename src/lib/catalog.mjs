@@ -24,3 +24,10 @@ export function matchesStatus(read, listened, filter) {
   if (filter === "both") return read === true && listened === true;
   return true;
 }
+
+/** Alphabetize titles without leading English articles, retaining numeric volume order. */
+export function compareTitles(left, right) {
+  const key = (title) => title.trim().replace(/^(?:a|an|the)\s+/i, "");
+  return key(left).localeCompare(key(right), "en", { numeric: true, sensitivity: "base" })
+    || left.localeCompare(right, "en", { numeric: true });
+}

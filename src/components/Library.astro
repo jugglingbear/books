@@ -1,4 +1,5 @@
 ---
+import { compareTitles } from "../lib/catalog.mjs";
 import BookCard from "./BookCard.astro";
 import Icon from "./Icon.astro";
 import type { Book } from "../lib/books";
@@ -6,7 +7,7 @@ interface Props { books: Book[]; showFilters?: boolean; }
 const { books, showFilters = true } = Astro.props;
 const authors = [...new Set(books.map((book) => book.data.author))].sort();
 const genres = [...new Set(books.flatMap((book) => book.data.genres))].sort();
-const series = [...new Set(books.map((book) => book.data.series).filter(Boolean))].sort();
+const series = [...new Set(books.map((book) => book.data.series).filter(Boolean))].sort(compareTitles);
 ---
 <section class="library" id="library" data-library>
   <div class="library-heading"><div><span class="eyebrow">THE COLLECTION</span><h2>A shelf for every story.</h2></div><p><span data-count>{books.length}</span> titles on the shelf</p></div>
@@ -24,7 +25,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
   <noscript><p class="notice">All titles are shown below. Enable JavaScript to search and filter, or use your browser’s Find command.</p></noscript>
 </section>
 <script>
-  import { matchesQuery, matchesStatus } from "../lib/catalog.mjs";
+  import { compareTitles, matchesQuery, matchesStatus } from "../lib/catalog.mjs";
   const root = document.querySelector<HTMLElement>("[data-library]");
   if (root) {
     const cards = [...root.querySelectorAll<HTMLElement>("[data-book]")];
@@ -64,7 +65,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       });
       matching.sort((a, b) => sort.value === "order" ? originalOrder.get(a)! - originalOrder.get(b)!
         : (sort.value === "author" ? a.dataset.author!.localeCompare(b.dataset.author!) : 0)
-          || a.dataset.title!.localeCompare(b.dataset.title!, "en", { numeric: true }));
+          || compareTitles(a.dataset.title!, b.dataset.title!));
       const pages = Math.max(1, Math.ceil(matching.length / pageSize));
       page = Math.min(Math.floor(page), pages);
       cards.forEach((card) => { card.hidden = true; });
