@@ -16060,6 +16060,238 @@
   ],
   "removedFromCatalog": [
     {
+      "bookId": "stephen-king-11-22-63",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-bag-of-bones",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-black-house",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-blaze",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-blockade-billy",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-carrie",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-cell",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-christine",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-cujo",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-cycle-of-the-werewolf",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-danse-macabre",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-desperation",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-different-seasons",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-dolores-claiborne",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-dreamcatcher",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-duma-key",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-everything-s-eventual",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-faithful",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-firestarter",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-four-past-midnight",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-from-a-buick-8",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-full-dark-no-stars",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-gerald-s-game",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-hearts-in-atlantis",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-insomnia",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-it",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-just-after-sunset",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-lisey-s-story",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-misery",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-morality",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-needful-things",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-night-shift",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-nightmares-dreamscapes",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-on-writing",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-pet-sematary",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-rage",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-roadwork",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-rose-madder",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-salem-s-lot",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-skeleton-crew",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-storm-of-the-century",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-colorado-kid",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-dark-half",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-dead-zone",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-eyes-of-the-dragon",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-girl-who-loved-tom-gordon",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-green-mile",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-long-walk",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-regulators",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-running-man",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-shining",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-stand",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-talisman",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-the-tommyknockers",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-thinner",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-throttle",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-under-the-dome",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
+      "bookId": "stephen-king-ur",
+      "reason": "Owner requested removal of books from Stephen King/Various."
+    },
+    {
       "bookId": "terry-pratchett-a-hat-full-of-sky",
       "reason": "Owner requested removal of Terry Pratchett except The Colour of Magic."
     },
