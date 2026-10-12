@@ -3,7 +3,7 @@ title: "Shadow of the Giant"
 author: "Orson Scott Card"
 series: "Enderverse"
 order: 13.0
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"

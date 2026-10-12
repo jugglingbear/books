@@ -3,7 +3,7 @@ title: "Xenocide"
 author: "Orson Scott Card"
 series: "Enderverse"
 order: 18.0
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"

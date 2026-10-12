@@ -3,7 +3,7 @@ title: "Shadows in Flight"
 author: "Orson Scott Card"
 series: "Enderverse"
 order: 16.0
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"

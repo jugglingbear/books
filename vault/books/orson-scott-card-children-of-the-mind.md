@@ -3,7 +3,7 @@ title: "Children of the Mind"
 author: "Orson Scott Card"
 series: "Enderverse"
 order: 19.0
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"

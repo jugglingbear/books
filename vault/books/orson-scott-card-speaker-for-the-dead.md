@@ -3,7 +3,7 @@ title: "Speaker for the Dead"
 author: "Orson Scott Card"
 series: "Enderverse"
 order: 17.0
-read: null
+read: true
 listened: true
 genres: ["Science Fiction"]
 kind: "Book"
