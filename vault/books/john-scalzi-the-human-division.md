@@ -8,7 +8,7 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/john-scalzi-the-human-division.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/12525091-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765333513.jpg"
 coverSource: "https://openlibrary.org/books/OL27146365M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL19966149W"

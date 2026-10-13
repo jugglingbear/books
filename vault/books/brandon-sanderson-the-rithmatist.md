@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/brandon-sanderson-the-rithmatist.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14658159-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765320322.jpg"
 coverSource: "https://openlibrary.org/books/OL53424270M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17081561W"

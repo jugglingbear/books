@@ -8,7 +8,7 @@ listened: true
 genres: ["Historical Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-rachel-leah.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/10653394-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/1570089965.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL31976490M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL49659W"

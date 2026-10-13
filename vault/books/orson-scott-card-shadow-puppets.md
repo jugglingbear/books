@@ -8,7 +8,7 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-shadow-puppets.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9317154-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765300171.jpg"
 coverSource: "https://openlibrary.org/books/OL3657555M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49569W"

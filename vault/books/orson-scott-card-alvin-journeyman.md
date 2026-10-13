@@ -8,8 +8,8 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/orson-scott-card-alvin-journeyman.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/6382372-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL790244M"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765393593.jpg"
+coverSource: "https://us.macmillan.com/books/9780765393593/alvinjourneyman/"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49440W"
 year: null

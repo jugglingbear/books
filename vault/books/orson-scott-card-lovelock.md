@@ -8,8 +8,8 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-lovelock.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/7131768-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL1077405M"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780312877514.jpg"
+coverSource: "https://us.macmillan.com/books/9780312877514/lovelock/"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49627W"
 year: null

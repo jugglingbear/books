@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/c-s-lewis-the-last-battle.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9184808-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/0064405036.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL24956514M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL71124W"

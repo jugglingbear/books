@@ -8,7 +8,7 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-earth-awakens.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/10653379-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765329066.jpg"
 coverSource: "https://openlibrary.org/books/OL31976477M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL17448424W"

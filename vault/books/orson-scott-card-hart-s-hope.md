@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/orson-scott-card-hart-s-hope.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9315061-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765306784.jpg"
 coverSource: "https://openlibrary.org/books/OL3682332M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49677W"

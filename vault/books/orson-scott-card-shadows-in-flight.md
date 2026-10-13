@@ -8,7 +8,7 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-shadows-in-flight.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/12451670-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765332004.jpg"
 coverSource: "https://openlibrary.org/books/OL25087063M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16239881W"

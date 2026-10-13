@@ -8,7 +8,7 @@ listened: true
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-the-swarm.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/12857113-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765375636.jpg"
 coverSource: "https://openlibrary.org/books/OL27296294M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20032927W"

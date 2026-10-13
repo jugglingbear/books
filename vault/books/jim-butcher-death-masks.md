@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/jim-butcher-death-masks.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/15212092-L.jpg?default=false"
+coverOriginal: "https://images.penguinrandomhouse.com/cover/9780451459404"
 coverSource: "https://openlibrary.org/books/OL3385676M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL5685114W"

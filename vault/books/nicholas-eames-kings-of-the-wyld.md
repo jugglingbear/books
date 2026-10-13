@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/nicholas-eames-kings-of-the-wyld.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9252364-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/0316362476.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL27232681M"
 coverRegion: "Region unconfirmed"
 source: "https://openlibrary.org/works/OL20052661W"

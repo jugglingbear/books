@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/jim-butcher-white-night.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9461331-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/0451461401.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL17889732M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL11967337W"

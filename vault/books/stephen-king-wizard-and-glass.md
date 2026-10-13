@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
 cover: "/covers/stephen-king-wizard-and-glass.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14652980-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/9781501143557.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL26791021M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL81615W"

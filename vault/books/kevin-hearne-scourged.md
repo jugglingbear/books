@@ -8,9 +8,9 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/kevin-hearne-scourged.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/8824581-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL27361489M"
-coverRegion: "Region unconfirmed"
+coverOriginal: "https://images.penguinrandomhouse.com/cover/9780593359716"
+coverSource: "https://www.penguinrandomhouse.com/books/231626/scourged-by-kevin-hearne/paperback/"
+coverRegion: "US"
 source: "https://openlibrary.org/works/OL19740639W"
 year: null
 descriptionStatus: "reviewed"

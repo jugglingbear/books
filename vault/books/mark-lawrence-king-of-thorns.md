@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/mark-lawrence-king-of-thorns.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9258582-L.jpg?default=false"
+coverOriginal: "https://images.penguinrandomhouse.com/cover/9781937007478"
 coverSource: "https://openlibrary.org/books/OL25260285M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL22708025W"

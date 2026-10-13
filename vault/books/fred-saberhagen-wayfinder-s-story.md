@@ -8,8 +8,8 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/fred-saberhagen-wayfinder-s-story.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/7989511-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL1700509M"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/0812505751.01.LZZZZZZZ.jpg"
+coverSource: "https://www.amazon.com/dp/0812505751"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15123153W"
 year: null

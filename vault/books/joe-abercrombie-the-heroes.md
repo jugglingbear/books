@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/joe-abercrombie-the-heroes.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14543400-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/0316044989.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL24384315M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL15414617W"

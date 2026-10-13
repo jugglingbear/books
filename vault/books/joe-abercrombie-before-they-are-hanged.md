@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy"]
 kind: "Book"
 cover: "/covers/joe-abercrombie-before-they-are-hanged.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14543399-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/1591026415.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL23106653M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL8400946W"

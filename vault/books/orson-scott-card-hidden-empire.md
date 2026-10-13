@@ -8,7 +8,7 @@ listened: true
 genres: ["Thriller", "Science Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-hidden-empire.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/9315052-L.jpg?default=false"
+coverOriginal: "https://mpd-biblio-covers.imgix.net/9780765320049.jpg"
 coverSource: "https://openlibrary.org/books/OL23678008M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL49517W"

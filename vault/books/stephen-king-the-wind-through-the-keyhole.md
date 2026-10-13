@@ -8,7 +8,7 @@ listened: true
 genres: ["Fantasy", "Horror"]
 kind: "Book"
 cover: "/covers/stephen-king-the-wind-through-the-keyhole.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14651946-L.jpg?default=false"
+coverOriginal: "https://images-na.ssl-images-amazon.com/images/P/1451658907.01.LZZZZZZZ.jpg"
 coverSource: "https://openlibrary.org/books/OL25162605M"
 coverRegion: "US"
 source: "https://openlibrary.org/works/OL16451416W"
