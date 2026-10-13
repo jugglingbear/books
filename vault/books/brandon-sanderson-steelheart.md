@@ -8,9 +8,9 @@ listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "/covers/brandon-sanderson-steelheart.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14658517-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL27540167M"
-coverRegion: "Region unconfirmed"
+coverOriginal: "https://images.penguinrandomhouse.com/cover/9780385743563"
+coverSource: "https://penguinrandomhouselibrary.com/book/?isbn=9780385743563"
+coverRegion: "US"
 source: "https://openlibrary.org/works/OL16807297W"
 year: null
 descriptionStatus: "reviewed"
