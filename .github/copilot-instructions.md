@@ -48,7 +48,7 @@ descriptionStatus: "reviewed"
 - Keep stable filenames: existing IDs are used in URLs and the import audit.
 - `read: null` means historical reading status was not recorded; preserve it when enriching an existing record.
 - New photo additions use `read: false` unless the owner says read; follow [photo import](../docs/photo-import.md).
-- Reading and listening are independent. `read: true` and `listened: true` displays both badges.
+- Reading and listening are independent. `read: true` and `listened: true` activates both status icons.
 - Optional `queued: true` explicitly adds a book to the owner's TODO list, independent of completion history.
   Preserve queue membership during enrichment. Do not infer it from unread status or clear it without an owner request.
 - The initial Dropbox audiobook inventory is listened, per the owner's explicit statement. This does not extend to

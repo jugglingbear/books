@@ -1,11 +1,10 @@
 ---
 import Icon from "./Icon.astro";
-import { statusLabel } from "../lib/catalog.mjs";
 interface Props { read: boolean | null; listened: boolean; queued?: boolean; }
 const { read, listened, queued = false } = Astro.props;
 ---
-<span class:list={["status", { both: read && listened }]}>
-  {read && <Icon name="book" />}{listened && <Icon name="headphones" />}
-  {statusLabel(read, listened)}
+<span class="status-icons">
+  <span class:list={["status-icon", { "is-active": read === true }]} role="img" aria-label={read === true ? "Read" : "Not marked as read"} title={read === true ? "Read" : "Not marked as read"}><Icon name="book" /></span>
+  <span class:list={["status-icon", { "is-active": listened }]} role="img" aria-label={listened ? "Listened" : "Not listened"} title={listened ? "Listened" : "Not listened"}><Icon name="headphones" /></span>
+  <span class:list={["status-icon", { "is-active": queued }]} role="img" aria-label={queued ? "In queue" : "Not in queue"} title={queued ? "In queue" : "Not in queue"}><Icon name="queue" /></span>
 </span>
-{queued && <span class="status">In queue</span>}

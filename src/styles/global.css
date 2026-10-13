@@ -89,9 +89,10 @@ h2 { font-size: 36px; line-height: 1.12; letter-spacing: -.4px; margin-bottom: 0
 .book-card h3 { font-family: Georgia, serif; font-size: 15px; line-height: 1.35; font-weight: 400; margin-bottom: 6px; }
 .book-card h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .author { font-size: 10px; line-height: 1.6; color: var(--muted); margin-bottom: 11px; }
-.status { display: inline-flex; align-items: center; gap: 5px; font-size: 9px; line-height: 1; padding: 6px 8px; border: 1px solid #dbe3d3; background: #eaf0e3; color: #436246; border-radius: 3px; }
-.status svg { width: 11px; height: 11px; }
-.status.both { background: #efe8d8; border-color: #e5d8b8; color: #755d2d; }
+.status-icons { display: inline-flex; align-items: center; gap: 7px; }
+.status-icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 5px; background: #eee; color: #6b6b6b; }
+.status-icon.is-active { background: #e4f2e2; color: #287337; }
+.status-icon svg { width: 18px; height: 18px; }
 .pagination { display: flex; align-items: center; justify-content: center; gap: 28px; margin-top: 50px; font-size: 12px; }
 .pagination button, .empty-state button { background: transparent; border: 1px solid #c9cfc1; padding: 11px 18px; border-radius: 4px; }
 .empty-state { text-align: center; padding: 80px 20px; background: #edeee4; border-radius: 6px; }
@@ -108,7 +109,7 @@ h2 { font-size: 36px; line-height: 1.12; letter-spacing: -.4px; margin-bottom: 0
 .detail-copy h1 { font-size: 58px; margin-top: 12px; }
 .detail-author { display: inline-block; font-size: 19px; line-height: 1.5; color: var(--muted); margin-bottom: 16px; }
 .detail-series { font-size: 13px; margin-top: 0; margin-bottom: 22px; color: var(--rust); }
-.detail-copy > .status { font-size: 12px; padding: 9px 12px; }
+.detail-copy > .status-icons .status-icon { width: 34px; height: 34px; }
 .synopsis { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--line); }
 .synopsis .eyebrow { color: var(--rust); margin-bottom: 16px; font-size: 9px; }
 .prose { font-size: 16px; line-height: 1.9; color: #505d51; }
@@ -178,14 +179,12 @@ body { background: radial-gradient(ellipse at top, #fff9e9, transparent 65%), va
 .book-meta { color: #f3e5c8; padding: 12px 9px; border: 1px solid #d8b57430; border-radius: 3px; background: #21130db3; }
 .book-meta .series-label { color: #dfbc80; }
 .book-meta .author { color: #d2bfa4; }
-.book-meta .status { background: #dce6ce; border-color: #a9bb91; }
-.book-meta .status.both { background: #ecdbb7; }
 .genre-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
 .genre-tags a { font-size: 11px; padding: 5px 9px; border: 1px solid #c2ac82; border-radius: 20px; }
 .genre-tags a:hover { background: #e8dcc3; }
 .series-covers { background: repeating-linear-gradient(91deg, #ffffff04 0 2px, transparent 3px 14px), #3e281c; border-bottom: 12px ridge #986439; }
 @media (max-width: 1150px) { .search-tools { grid-template-columns: repeat(4, minmax(0, 1fr)); }.search-tools .search-box { grid-column: 1 / -1; }.filter-select { height: 45px; }.book-grid { padding-inline: 12px; }.book-card { padding-inline: 10px; }.book-cover-link::after { left: -10px; right: -10px; } }
-@media (max-width: 600px) { .search-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }.book-grid { margin-inline: -9px; border-width: 10px; border-top-width: 30px; border-bottom-width: 18px; padding: 30px 6px 14px; gap: 20px 0; }.book-grid::before { font-size: 8px; letter-spacing: .14em; top: -23px; }.book-card { padding: 0 8px 12px; }.book-cover-link::after { left: -8px; right: -8px; }.book-meta { padding: 10px 7px; }.book-card h3 { font-size: 14px; }.book-meta .author { font-size: 10px; }.book-meta .audio-source { font-size: 9px; }.book-meta .status { font-size: 8px; padding: 5px; } }
+@media (max-width: 600px) { .search-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }.book-grid { margin-inline: -9px; border-width: 10px; border-top-width: 30px; border-bottom-width: 18px; padding: 30px 6px 14px; gap: 20px 0; }.book-grid::before { font-size: 8px; letter-spacing: .14em; top: -23px; }.book-card { padding: 0 8px 12px; }.book-cover-link::after { left: -8px; right: -8px; }.book-meta { padding: 10px 7px; }.book-card h3 { font-size: 14px; }.book-meta .author { font-size: 10px; }.book-meta .audio-source { font-size: 9px; } }
 @media (prefers-reduced-motion: reduce) { .book-cover-link .cover { transition: none; } }
 
 /* Shared universes reuse the existing shelves without duplicating catalog records. */

@@ -19,19 +19,22 @@ listened: true
 ```
 
 `null` means reading history has not been recorded. Set `read: true` when a book has been read; leave `listened: true`
-to show both badges. Set an explicit `false` only when that status is known. The public site is a view of the committed
+to activate both icons. Set an explicit `false` only when that status is known. The public site is a view of the committed
 catalog; visitors cannot change the owner's reading history. New photo imports default to unread (`read: false`) and
 not listened (`listened: false`) unless confirmed otherwise, while preserving any existing recorded history.
 
 Known audiobook edition sources are retained as optional catalog metadata in `audioSources`, but are not displayed
-on the site. Reading and listening badges remain independent of the edition source. Existing source metadata is
+on the site. Reading and listening icons remain independent of the edition source. Existing source metadata is
 preserved so the display can be restored later if desired.
 
 Set `queued: true` to put a book on the TODO list. The **Queue** navigation link and collection filter show these
-books, and each queued book displays an **In queue** badge. Queue membership is independent of reading/listening
+books, and each queued book has a green queue icon. Queue membership is independent of reading/listening
 history: it can also track a planned reread. Set `queued: false` or remove the field when the task is finished.
 Ask the assistant to add or remove queue entries; changes are saved in the catalog and published with the site.
 The public website does not edit the owner's queue.
+
+Every book displays three status icons: a book for read, headphones for listened, and a list for queued.
+Each icon is green when its status is true and gray otherwise, with accessible labels and hover text.
 
 See [catalog guidance](.github/copilot-instructions.md) and the [import notes](docs/import.md) before adding records.
 
