@@ -3,8 +3,10 @@ title: "Sarah"
 author: "Orson Scott Card"
 series: "Women of Genesis"
 order: 1.0
-read: null
-listened: true
+read: false
+listened: false
+queued: true
+formats: ["Audiobook"]
 genres: ["Historical Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-sarah.jpg"

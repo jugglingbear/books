@@ -32,6 +32,16 @@ test("library sorting ignores only leading articles and keeps numeric volume ord
   assert.ok(compareTitles("A Tale", "The Tale") < 0);
 });
 
+test("queue membership is explicit and independent of completion history", () => {
+  assert.equal(matchesStatus(false, false, "queue", true), true);
+  assert.equal(matchesStatus(true, true, "queue", true), true);
+  assert.equal(matchesStatus(false, false, "queue"), false);
+  assert.equal(matchesStatus(false, false, "read", true), false);
+  assert.equal(matchesStatus(false, false, "listened", true), false);
+  assert.equal(statusLabel(false, false), "Not read or listened");
+  assert.equal(statusLabel(null, false), "Not recorded");
+});
+
 test("universe filtering includes series and standalones without changing series filters", () => {
   assert.equal(matchesShelf("Mistborn", "The Cosmere", "universe:The Cosmere"), true);
   assert.equal(matchesShelf("", "The Cosmere", "universe:The Cosmere"), true);

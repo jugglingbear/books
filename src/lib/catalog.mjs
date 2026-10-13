@@ -15,10 +15,12 @@ export function statusLabel(read, listened) {
   if (read === true && listened) return "Read & listened";
   if (read === true) return "Read";
   if (listened) return "Listened";
+  if (read === false) return "Not read or listened";
   return "Not recorded";
 }
 
-export function matchesStatus(read, listened, filter) {
+export function matchesStatus(read, listened, filter, queued = false) {
+  if (filter === "queue") return queued;
   if (filter === "read") return read === true;
   if (filter === "listened") return listened === true;
   if (filter === "both") return read === true && listened === true;

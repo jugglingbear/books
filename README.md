@@ -27,6 +27,12 @@ Known audiobook edition sources are retained as optional catalog metadata in `au
 on the site. Reading and listening badges remain independent of the edition source. Existing source metadata is
 preserved so the display can be restored later if desired.
 
+Set `queued: true` to put a book on the TODO list. The **Queue** navigation link and collection filter show these
+books, and each queued book displays an **In queue** badge. Queue membership is independent of reading/listening
+history: it can also track a planned reread. Set `queued: false` or remove the field when the task is finished.
+Ask the assistant to add or remove queue entries; changes are saved in the catalog and published with the site.
+The public website does not edit the owner's queue.
+
 See [catalog guidance](.github/copilot-instructions.md) and the [import notes](docs/import.md) before adding records.
 
 ## Add books from photos

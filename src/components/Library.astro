@@ -18,7 +18,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
     <label class="filter-select"><span class="sr-only">Filter by genre</span><select name="genre"><option value="">All genres</option>{genres.map((name) => <option>{name}</option>)}</select></label>
     <label class="filter-select"><span class="sr-only">Sort books</span><select name="sort"><option value="title">Title, A–Z</option><option value="author">Author, A–Z</option>{!showFilters && <option value="order" selected>Series order</option>}</select></label>
   </form>
-  <div class="filter-row"><div class="status-filters" role="group" aria-label="Filter by reading format"><button type="button" data-status="all" aria-pressed="true">All books</button><button type="button" data-status="listened" aria-pressed="false"><Icon name="headphones"/>Listened</button><button type="button" data-status="read" aria-pressed="false"><Icon name="book"/>Read</button><button type="button" data-status="both" aria-pressed="false">Both</button></div><button type="button" class="clear-filters" data-clear>Reset filters</button></div>
+  <div class="filter-row"><div class="status-filters" role="group" aria-label="Filter by reading status or queue"><button type="button" data-status="all" aria-pressed="true">All books</button><button type="button" data-status="listened" aria-pressed="false"><Icon name="headphones"/>Listened</button><button type="button" data-status="read" aria-pressed="false"><Icon name="book"/>Read</button><button type="button" data-status="both" aria-pressed="false">Both</button><button type="button" data-status="queue" aria-pressed="false">Queue</button></div><button type="button" class="clear-filters" data-clear>Reset filters</button></div>
   <p class="notice" data-filter-notice role="status" hidden></p>
   <p class="sr-only" role="status" aria-live="polite" data-announcement></p>
   <div class="book-grid">{books.map((book) => <BookCard book={book}/>)}</div>
@@ -57,7 +57,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
       search.value = params.get("q") || "";
       if (author) author.value = params.get("author") || "";
       if (series) series.value = params.has("universe") ? `universe:${params.get("universe")}` : params.get("series") || "";
-      status = ["all", "read", "listened", "both"].includes(params.get("status") || "") ? params.get("status")! : "all";
+      status = ["all", "read", "listened", "both", "queue"].includes(params.get("status") || "") ? params.get("status")! : "all";
       if (params.has("sort") && [...sort.options].some((o) => o.value === params.get("sort"))) sort.value = params.get("sort")!;
       page = Math.max(1, Number(params.get("page")) || 1);
     }
@@ -80,7 +80,7 @@ const series = [...new Set(books.map((book) => book.data.series).filter(Boolean)
         return matchesQuery(text, search.value) && (!author?.value || matchesQuery(d.author || "", author.value))
           && matchesShelf(d.series || "", d.universe || "", series?.value || "")
           && (!genre.value || genres.includes(genre.value))
-          && matchesStatus(d.read === "true", d.listened === "true", status);
+          && matchesStatus(d.read === "true", d.listened === "true", status, d.queued === "true");
       });
       matching.sort((a, b) => sort.value === "order" ? originalOrder.get(a)! - originalOrder.get(b)!
         : (sort.value === "author" ? a.dataset.author!.localeCompare(b.dataset.author!) : 0)

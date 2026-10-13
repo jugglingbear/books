@@ -3,8 +3,10 @@ title: "Rachel & Leah"
 author: "Orson Scott Card"
 series: "Women of Genesis"
 order: 3.0
-read: null
-listened: true
+read: false
+listened: false
+queued: true
+formats: ["Audiobook"]
 genres: ["Historical Fiction"]
 kind: "Book"
 cover: "/covers/orson-scott-card-rachel-leah.jpg"

@@ -16,7 +16,7 @@ const { title = "The Library · A personal collection", description = "A persona
     <a href="#main" class="skip-link">Skip to content</a>
     <header class="site-header"><div class="header-inner">
       <a class="brand" href={`${base}/`}><span class="brand-icon"><Icon name="book"/></span>The Library</a>
-      <nav aria-label="Main navigation"><a href={`${base}/`} aria-current={active === "books" ? "page" : undefined}>Collection</a><a href={`${base}/series/`} aria-current={active === "series" ? "page" : undefined}>Series & universes</a><a href={`${base}/about/`} aria-current={active === "about" ? "page" : undefined}>About</a></nav>
+      <nav aria-label="Main navigation"><a href={`${base}/`} aria-current={active === "books" ? "page" : undefined}>Collection</a><a href={`${base}/?status=queue#library`}>Queue</a><a href={`${base}/series/`} aria-current={active === "series" ? "page" : undefined}>Series & universes</a><a href={`${base}/about/`} aria-current={active === "about" ? "page" : undefined}>About</a></nav>
       <span class="header-note">A PERSONAL COLLECTION</span>
     </div></header>
     <main id="main"><slot/></main>
