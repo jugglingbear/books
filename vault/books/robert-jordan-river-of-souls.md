@@ -7,7 +7,8 @@ read: true
 listened: true
 genres: ["Fantasy"]
 kind: "Book"
-cover: ""
+cover: "/covers/robert-jordan-river-of-souls.png"
+coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
 source: ""
