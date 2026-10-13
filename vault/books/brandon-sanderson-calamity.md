@@ -8,9 +8,9 @@ listened: true
 genres: ["Fantasy", "Superheroes"]
 kind: "Book"
 cover: "/covers/brandon-sanderson-calamity.jpg"
-coverOriginal: "https://covers.openlibrary.org/b/id/14658509-L.jpg?default=false"
-coverSource: "https://openlibrary.org/books/OL27096923M"
-coverRegion: "Region unconfirmed"
+coverOriginal: "https://images.penguinrandomhouse.com/cover/9780385743600"
+coverSource: "https://penguinrandomhouselibrary.com/book/?isbn=9780385743600"
+coverRegion: "US"
 source: "https://openlibrary.org/works/OL17615005W"
 year: null
 descriptionStatus: "reviewed"
