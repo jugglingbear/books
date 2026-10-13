@@ -4,7 +4,9 @@ author: "Orson Scott Card"
 series: "Pastwatch"
 order: 1.0
 read: null
-listened: true
+listened: false
+queued: true
+formats: ["Audiobook"]
 genres: ["Science Fiction"]
 kind: "Short fiction"
 cover: ""
