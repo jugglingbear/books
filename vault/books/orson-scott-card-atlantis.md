@@ -9,7 +9,8 @@ queued: true
 formats: ["Audiobook"]
 genres: ["Science Fiction"]
 kind: "Short fiction"
-cover: ""
+cover: "/covers/orson-scott-card-atlantis.png"
+coverCredit: "Custom AI-generated artwork"
 coverSource: ""
 coverRegion: ""
 source: ""
