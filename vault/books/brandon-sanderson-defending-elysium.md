@@ -3,8 +3,8 @@ title: "Defending Elysium"
 author: "Brandon Sanderson"
 series: "Skyward"
 order: 0.5
-read: true
-listened: true
+read: false
+listened: false
 genres: ["Science Fiction"]
 kind: "Book"
 cover: "/covers/brandon-sanderson-defending-elysium.jpg"
